@@ -24,7 +24,7 @@ public class LinearRegressionML {
 
     private String trainingFileName;
     private String testingFileName;
-    private String predictFileName;
+    private String predictingFileName;
     private int classIndex;
     private Classifier classifier;
     
@@ -40,7 +40,7 @@ public class LinearRegressionML {
     public LinearRegressionML(String trainingFileName, String testingFileName, String predictFileName, int classIndex) {
         this.trainingFileName = trainingFileName;
         this.testingFileName = testingFileName;
-        this.predictFileName = predictFileName;
+        this.predictingFileName = predictFileName;
         this.classIndex = classIndex;
     }
     
@@ -76,7 +76,7 @@ public class LinearRegressionML {
         
         Instance predictionDataSet;
         double answerValue = 0;        
-        Instances predictDataSets = getDataSet(this.predictFileName);
+        Instances predictDataSets = getDataSet(this.predictingFileName);
         for (int i = 0; i < predictDataSets.numInstances(); i++){ 
             try {
                 predictionDataSet = predictDataSets.instance(i);
@@ -91,7 +91,7 @@ public class LinearRegressionML {
         
         try {
             String ans = "";
-            Instance predictDataSet = getDataSet(this.predictFileName).instance(0);
+            Instance predictDataSet = getDataSet(this.predictingFileName).instance(0);
             predictDataSet.setValue(0, attr);
             
             double value = this.classifier.classifyInstance(predictDataSet);
@@ -104,12 +104,12 @@ public class LinearRegressionML {
     }
 
 
-    public String getPredictFileName() {
-        return predictFileName;
+    public String getPredictingFileName() {
+        return predictingFileName;
     }
 
-    public void setPredictFileName(String predictFileName) {
-        this.predictFileName = predictFileName;
+    public void setPredictingFileName(String predictingFileName) {
+        this.predictingFileName = predictingFileName;
     }
 
     public String getTrainingFileName() {
