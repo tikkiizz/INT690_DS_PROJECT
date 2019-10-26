@@ -5,11 +5,16 @@
  */
 package trafficvolume;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.LinearRegression;
+import weka.core.Attribute;
+import weka.core.DenseInstance;
+import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.SerializationHelper;
@@ -58,33 +63,60 @@ public class LinearRegressionML {
 
     public void predictDataSet(String predictingFileName, int classIndex){
         
-        Instance predictionDataSet;
-        double answerValue = 0;        
-        Instances predictDataSets = Utils.getDataSet(predictingFileName, classIndex);
-        for (int i = 0; i < predictDataSets.numInstances(); i++){ 
+        Instance instance;
+        int answerValue;        
+        Instances predictingDataSet = Utils.getDataSet(predictingFileName, classIndex);
+        for (int i = 0; i < predictingDataSet.numInstances(); i++){ 
             try {
-                predictionDataSet = predictDataSets.instance(i);
-                answerValue = this.classifier.classifyInstance(predictionDataSet);
+                instance = predictingDataSet.instance(i);
+                answerValue = (int)this.classifier.classifyInstance(instance);
+                printAttribute(instance);
+                System.out.println(instance.attribute(classIndex).name() + ": " + answerValue);
             } catch (Exception ex) {
                 Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
     
-    public String predictOneInstance(String predictingFileName, int classIndex, String attr){
+    public double predictOneInstance(String predictingFileName, int classIndex, ArrayList<HashMap<String, Object>> list){
         
         try {
-            String ans = "";
-            Instance predictDataSet = Utils.getDataSet(predictingFileName, classIndex).instance(0);
-            predictDataSet.setValue(0, attr);
+            Instance instance = Utils.getDataSet(predictingFileName, classIndex).instance(0);
+            for (int i = 0; i < list.size(); i++) {
+                HashMap<String, Object> map = list.get(i);
+                String type = (String)map.get("type");
+                if(type.equals("String")){
+                    instance.setValue(i, (String)map.get("value"));
+                }
+                else{
+                    instance.setValue(i, (double)map.get("value"));
+                }
+            }
+            double answerValue = (int)this.classifier.classifyInstance(instance);
+            printAttribute(instance);
             
-            double value = this.classifier.classifyInstance(predictDataSet);
-            return ans;
+            return answerValue;
             
         } catch (Exception ex) {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return "";
+        return 0.0;
+    }
+    
+    public void printAttribute(Instance ins){
+        if(ins.numAttributes() == 0){
+            return;
+        }
+        for (int i = 0; i < ins.numAttributes(); i++) {
+            Attribute attr = ins.attribute(i);
+            if(i==0){
+                System.out.print(attr.name() + ": " + ins.toString(i));
+            }
+            else{
+                System.out.print(", " + attr.name() + ": " + ins.toString(i));
+            }
+        }
+        System.out.println("");
     }
 
     public Classifier getClassifier() {
