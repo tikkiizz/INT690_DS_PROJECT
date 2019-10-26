@@ -12,18 +12,18 @@ package trafficvolume;
 public class Main {
     
     public static void main(String[] args) {
-        String trainingFile = "";
-        String testingFile = "";
+        String trainingFile = "train_80p100_38556.arff";
+        String testingFile = "test_20p100_9638.arff";
         String predictingFile = "";
-        int clsIdx = 1;
+        int clsIdx = 7;
+        String modelFileName = "traffic_volume.model";
+        
         LinearRegressionML lr = new LinearRegressionML();
-//        lr.setClassIndex(clsIdx);
-//        lr.setTrainingFileName(trainingFile);
-//        lr.setTestingFileName(testingFile);
 //        lr.setPredictingFileName(predictingFile);
-//        lr.process();
-        UiApplication app = new UiApplication();
-        app.setVisible(true);
+        lr.trainAndTest(trainingFile, testingFile, clsIdx);
+        lr.saveModel(modelFileName);
+//        UiApplication app = new UiApplication();
+//        app.setVisible(true);
     }
     
 }

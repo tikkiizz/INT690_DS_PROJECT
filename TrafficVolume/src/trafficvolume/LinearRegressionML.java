@@ -5,8 +5,6 @@
  */
 package trafficvolume;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import weka.classifiers.Classifier;
@@ -14,54 +12,55 @@ import weka.classifiers.Evaluation;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.Instance;
 import weka.core.Instances;
-import weka.core.converters.ArffLoader;
+import weka.core.SerializationHelper;
 
 /**
  *
  * @author user
  */
 public class LinearRegressionML {
-
-    private String trainingFileName;
-    private String testingFileName;
-    private String predictingFileName;
-    private int classIndex;
+    
     private Classifier classifier;
     
     public LinearRegressionML() {
     }
-
-    public LinearRegressionML(String trainingFileName, String testingFileName, int classIndex) {
-        this.trainingFileName = trainingFileName;
-        this.testingFileName = testingFileName;
-        this.classIndex = classIndex;
-    }
-
-    public LinearRegressionML(String trainingFileName, String testingFileName, String predictFileName, int classIndex) {
-        this.trainingFileName = trainingFileName;
-        this.testingFileName = testingFileName;
-        this.predictingFileName = predictFileName;
-        this.classIndex = classIndex;
-    }
     
-    public void process(){
+    public void trainAndTest(String trainingFileName, String testingFileName, int classIndex){
         try {
-            Instances trainingDataSet =  Utils.getDataSet(this.trainingFileName, this.classIndex);
-            Instances testingDataSet = Utils.getDataSet(this.testingFileName, this.classIndex);
+            Instances trainingDataSet =  Utils.getDataSet(trainingFileName, classIndex);
+            Instances testingDataSet = Utils.getDataSet(testingFileName, classIndex);
             this.classifier = new LinearRegression();
             this.classifier.buildClassifier(trainingDataSet);
             Evaluation eval = new Evaluation(trainingDataSet);
             eval.evaluateModel(this.classifier, testingDataSet);
+            System.out.println(this.classifier);
+            System.out.println(eval.toSummaryString());
+        } catch (Exception ex) {
+            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public void saveModel(String filename){
+        try {
+            SerializationHelper.write(filename, this.classifier);
+        } catch (Exception ex) {
+            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public void loadModel(String filename){
+        try {
+            this.classifier = (LinearRegression) SerializationHelper.read(filename);
         } catch (Exception ex) {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    public void predictDataSet(){
+    public void predictDataSet(String predictingFileName, int classIndex){
         
         Instance predictionDataSet;
         double answerValue = 0;        
-        Instances predictDataSets = Utils.getDataSet(this.predictingFileName, this.classIndex);
+        Instances predictDataSets = Utils.getDataSet(predictingFileName, classIndex);
         for (int i = 0; i < predictDataSets.numInstances(); i++){ 
             try {
                 predictionDataSet = predictDataSets.instance(i);
@@ -72,11 +71,11 @@ public class LinearRegressionML {
         }
     }
     
-    public String predictOneInstance(String attr){
+    public String predictOneInstance(String predictingFileName, int classIndex, String attr){
         
         try {
             String ans = "";
-            Instance predictDataSet = Utils.getDataSet(this.predictingFileName, this.classIndex).instance(0);
+            Instance predictDataSet = Utils.getDataSet(predictingFileName, classIndex).instance(0);
             predictDataSet.setValue(0, attr);
             
             double value = this.classifier.classifyInstance(predictDataSet);
@@ -86,39 +85,6 @@ public class LinearRegressionML {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
         return "";
-    }
-
-
-    public String getPredictingFileName() {
-        return predictingFileName;
-    }
-
-    public void setPredictingFileName(String predictingFileName) {
-        this.predictingFileName = predictingFileName;
-    }
-
-    public String getTrainingFileName() {
-        return trainingFileName;
-    }
-
-    public void setTrainingFileName(String trainingFileName) {
-        this.trainingFileName = trainingFileName;
-    }
-
-    public String getTestingFileName() {
-        return testingFileName;
-    }
-
-    public void setTestingFileName(String testingFileName) {
-        this.testingFileName = testingFileName;
-    }
-
-    public int getClassIndex() {
-        return classIndex;
-    }
-
-    public void setClassIndex(int classIndex) {
-        this.classIndex = classIndex;
     }
 
     public Classifier getClassifier() {
