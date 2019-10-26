@@ -44,29 +44,14 @@ public class LinearRegressionML {
         this.classIndex = classIndex;
     }
     
-    
-    public Instances getDataSet(String filename){
-        try {
-            ArffLoader loader = new ArffLoader();
-            loader.setFile(new File(filename));
-            Instances dataSet = loader.getDataSet();
-            dataSet.setClassIndex(this.classIndex);
-            return dataSet;
-            
-        } catch (IOException ex) {
-            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return null;
-    }
-    
     public void process(){
         try {
-            Instances trainingDataSet = getDataSet(this.trainingFileName);
-            Instances testingDataSet = getDataSet(this.testingFileName);
+            Instances trainingDataSet =  Utils.getDataSet(this.trainingFileName, this.classIndex);
+            Instances testingDataSet = Utils.getDataSet(this.testingFileName, this.classIndex);
             this.classifier = new LinearRegression();
             this.classifier.buildClassifier(trainingDataSet);
             Evaluation eval = new Evaluation(trainingDataSet);
-            eval.evaluateModel(classifier, testingDataSet);
+            eval.evaluateModel(this.classifier, testingDataSet);
         } catch (Exception ex) {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -76,7 +61,7 @@ public class LinearRegressionML {
         
         Instance predictionDataSet;
         double answerValue = 0;        
-        Instances predictDataSets = getDataSet(this.predictingFileName);
+        Instances predictDataSets = Utils.getDataSet(this.predictingFileName, this.classIndex);
         for (int i = 0; i < predictDataSets.numInstances(); i++){ 
             try {
                 predictionDataSet = predictDataSets.instance(i);
@@ -91,7 +76,7 @@ public class LinearRegressionML {
         
         try {
             String ans = "";
-            Instance predictDataSet = getDataSet(this.predictingFileName).instance(0);
+            Instance predictDataSet = Utils.getDataSet(this.predictingFileName, this.classIndex).instance(0);
             predictDataSet.setValue(0, attr);
             
             double value = this.classifier.classifyInstance(predictDataSet);
