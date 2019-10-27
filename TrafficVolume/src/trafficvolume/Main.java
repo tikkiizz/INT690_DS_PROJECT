@@ -24,12 +24,12 @@ public class Main {
         
         LinearRegressionML lr = new LinearRegressionML();
         
-        lr.loadModel(modelFileName);
-//        lr.trainAndTest(trainingFile, testingFile, clsIdx);
+//        lr.loadModel(modelFileName);
+        lr.trainAndTest(trainingFile, testingFile, clsIdx);
 //        lr.saveModel(modelFileName);
         
-//        UiApplication app = new UiApplication();
-//        app.setVisible(true);
+        UiApplication app = new UiApplication();
+        app.setVisible(true);
 
         lr.predictDataSet(predictingFile, clsIdx);
         HashMap<String, Object> holidayMap = new HashMap<>();
