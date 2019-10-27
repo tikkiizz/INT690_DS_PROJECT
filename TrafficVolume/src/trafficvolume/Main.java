@@ -24,46 +24,46 @@ public class Main {
         
         LinearRegressionML lr = new LinearRegressionML();
         
-//        lr.loadModel(modelFileName);
-        lr.trainAndTest(trainingFile, testingFile, clsIdx);
+        lr.loadModel(modelFileName);
+//        lr.trainAndTest(trainingFile, testingFile, clsIdx);
 //        lr.saveModel(modelFileName);
         
-        UiApplication app = new UiApplication();
+        UiApplication app = new UiApplication(lr, clsIdx);
         app.setVisible(true);
 
         lr.predictDataSet(predictingFile, clsIdx);
-        HashMap<String, Object> holidayMap = new HashMap<>();
         String holiday = "None";
+        HashMap<String, Object> holidayMap = new HashMap<>();
         holidayMap.put("value", holiday);
         holidayMap.put("type", "String");
         
-        HashMap<String, Object> tempMap = new HashMap<>();
         double temp = 287.58;
+        HashMap<String, Object> tempMap = new HashMap<>();
         tempMap.put("value", temp);
         tempMap.put("type", "double");
         
-        HashMap<String, Object> rainMap = new HashMap<>();
         double rain1Hr = 0.0;
+        HashMap<String, Object> rainMap = new HashMap<>();
         rainMap.put("value", rain1Hr);
         rainMap.put("type", "double");
         
-        HashMap<String, Object> snowMap = new HashMap<>();
         double snow1Hr = 0.0;
+        HashMap<String, Object> snowMap = new HashMap<>();
         snowMap.put("value", snow1Hr);
         snowMap.put("type", "double");
         
-        HashMap<String, Object> cloudMap = new HashMap<>();
         double cloudsAll = 50.0;
+        HashMap<String, Object> cloudMap = new HashMap<>();
         cloudMap.put("value", cloudsAll);
         cloudMap.put("type", "double");
         
+        String weatherDescription = "overcast clouds";
         HashMap<String, Object> weatherDescMap = new HashMap<>();
-        String weatherDescription = "overcast clouds"; 
         weatherDescMap.put("value", weatherDescription);
         weatherDescMap.put("type", "String");
         
-        HashMap<String, Object> dayTimeMap = new HashMap<>();
         String dayTime = "Monday 12:00";
+        HashMap<String, Object> dayTimeMap = new HashMap<>();
         dayTimeMap.put("value", dayTime);
         dayTimeMap.put("type", "String");
         

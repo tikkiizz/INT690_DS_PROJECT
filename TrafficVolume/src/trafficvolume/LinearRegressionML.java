@@ -13,8 +13,6 @@ import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.Attribute;
-import weka.core.DenseInstance;
-import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.SerializationHelper;
@@ -70,7 +68,7 @@ public class LinearRegressionML {
             try {
                 instance = predictingDataSet.instance(i);
                 answerValue = (int)this.classifier.classifyInstance(instance);
-                printAttribute(instance);
+                Utils.printAttribute(instance);
                 System.out.println(instance.attribute(classIndex).name() + ": " + answerValue);
             } catch (Exception ex) {
                 Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
@@ -93,7 +91,7 @@ public class LinearRegressionML {
                 }
             }
             double answerValue = (int)this.classifier.classifyInstance(instance);
-            printAttribute(instance);
+            Utils.printAttribute(instance);
             
             return answerValue;
             
@@ -101,22 +99,6 @@ public class LinearRegressionML {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
         return 0.0;
-    }
-    
-    public void printAttribute(Instance ins){
-        if(ins.numAttributes() == 0){
-            return;
-        }
-        for (int i = 0; i < ins.numAttributes(); i++) {
-            Attribute attr = ins.attribute(i);
-            if(i==0){
-                System.out.print(attr.name() + ": " + ins.toString(i));
-            }
-            else{
-                System.out.print(", " + attr.name() + ": " + ins.toString(i));
-            }
-        }
-        System.out.println("");
     }
 
     public Classifier getClassifier() {

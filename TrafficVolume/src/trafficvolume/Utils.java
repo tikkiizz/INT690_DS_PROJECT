@@ -9,6 +9,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import weka.core.Attribute;
+import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 
@@ -29,5 +31,21 @@ public class Utils {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
-    }   
+    }
+    
+    public static void printAttribute(Instance ins){
+        if(ins.numAttributes() == 0){
+            return;
+        }
+        for (int i = 0; i < ins.numAttributes(); i++) {
+            Attribute attr = ins.attribute(i);
+            if(i==0){
+                System.out.print(attr.name() + ": " + ins.toString(i));
+            }
+            else{
+                System.out.print(", " + attr.name() + ": " + ins.toString(i));
+            }
+        }
+        System.out.println("");
+    }
 }
