@@ -23,13 +23,417 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel8" min="-2" pref="250" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="329" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                                      <Component id="holidayCB" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dayTimeCB" max="32767" attributes="0"/>
+                                          <Component id="weatherDescCB" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rainTF" max="32767" attributes="0"/>
+                          <Component id="tempTF" pref="259" max="32767" attributes="0"/>
+                          <Component id="snowTF" alignment="0" max="32767" attributes="0"/>
+                          <Component id="cloudTF" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="predictTxtArea" min="-2" pref="252" max="-2" attributes="0"/>
+                          <Component id="predictBtn" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel8" min="-2" pref="43" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tempTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="holidayCB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rainTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="weatherDescCB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="snowTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dayTimeCB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cloudTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="predictBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="predictTxtArea" min="-2" pref="49" max="-2" attributes="0"/>
+              <EmptySpace pref="122" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Temperature: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rain Amount (mm): "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Snow Amount (mm): "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Holiday: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clouds Percent (mm): "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Weather Description: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Day Time: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tempTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tempTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rainTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="snowTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cloudTF">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="holidayCB">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="9">
+            <StringItem index="0" value="None"/>
+            <StringItem index="1" value="Columbus Day"/>
+            <StringItem index="2" value="Labor Day"/>
+            <StringItem index="3" value="Washingtons Birthday"/>
+            <StringItem index="4" value="Independence Day"/>
+            <StringItem index="5" value="Christmas Day"/>
+            <StringItem index="6" value="Thanksgiving Day"/>
+            <StringItem index="7" value="Memorial Day"/>
+            <StringItem index="8" value="Veterans Day"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="weatherDescCB">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="33">
+            <StringItem index="0" value="light rain"/>
+            <StringItem index="1" value="sky is clear"/>
+            <StringItem index="2" value="mist"/>
+            <StringItem index="3" value="overcast clouds"/>
+            <StringItem index="4" value="scattered clouds"/>
+            <StringItem index="5" value="fog"/>
+            <StringItem index="6" value="drizzle"/>
+            <StringItem index="7" value="thunderstorm"/>
+            <StringItem index="8" value="moderate rain"/>
+            <StringItem index="9" value="broken clouds"/>
+            <StringItem index="10" value="light snow"/>
+            <StringItem index="11" value="light intensity drizzle"/>
+            <StringItem index="12" value="few clouds"/>
+            <StringItem index="13" value="proximity thunderstorm"/>
+            <StringItem index="14" value="Sky is Clear"/>
+            <StringItem index="15" value="haze"/>
+            <StringItem index="16" value="heavy snow"/>
+            <StringItem index="17" value="proximity shower rain"/>
+            <StringItem index="18" value="very heavy rain"/>
+            <StringItem index="19" value="heavy intensity rain"/>
+            <StringItem index="20" value="heavy intensity drizzle"/>
+            <StringItem index="21" value="snow"/>
+            <StringItem index="22" value="smoke"/>
+            <StringItem index="23" value="thunderstorm with light rain"/>
+            <StringItem index="24" value="proximity thunderstorm with rain"/>
+            <StringItem index="25" value="thunderstorm with rain"/>
+            <StringItem index="26" value="light shower snow"/>
+            <StringItem index="27" value="SQUALLS"/>
+            <StringItem index="28" value="thunderstorm with heavy rain"/>
+            <StringItem index="29" value="light intensity shower rain"/>
+            <StringItem index="30" value="proximity thunderstorm with drizzle"/>
+            <StringItem index="31" value="thunderstorm with light drizzle"/>
+            <StringItem index="32" value="shower snow"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="dayTimeCB">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="168">
+            <StringItem index="0" value="Monday 4:00"/>
+            <StringItem index="1" value="Saturday 13:00"/>
+            <StringItem index="2" value="Friday 4:00"/>
+            <StringItem index="3" value="Saturday 20:00"/>
+            <StringItem index="4" value="Monday 12:00"/>
+            <StringItem index="5" value="Friday 3:00"/>
+            <StringItem index="6" value="Saturday 0:00"/>
+            <StringItem index="7" value="Thursday 4:00"/>
+            <StringItem index="8" value="Wednesday 8:00"/>
+            <StringItem index="9" value="Thursday 5:00"/>
+            <StringItem index="10" value="Thursday 17:00"/>
+            <StringItem index="11" value="Friday 9:00"/>
+            <StringItem index="12" value="Wednesday 4:00"/>
+            <StringItem index="13" value="Thursday 16:00"/>
+            <StringItem index="14" value="Monday 20:00"/>
+            <StringItem index="15" value="Friday 15:00"/>
+            <StringItem index="16" value="Sunday 15:00"/>
+            <StringItem index="17" value="Saturday 2:00"/>
+            <StringItem index="18" value="Thursday 11:00"/>
+            <StringItem index="19" value="Wednesday 21:00"/>
+            <StringItem index="20" value="Wednesday 16:00"/>
+            <StringItem index="21" value="Sunday 16:00"/>
+            <StringItem index="22" value="Wednesday 22:00"/>
+            <StringItem index="23" value="Tuesday 4:00"/>
+            <StringItem index="24" value="Sunday 6:00"/>
+            <StringItem index="25" value="Monday 9:00"/>
+            <StringItem index="26" value="Monday 2:00"/>
+            <StringItem index="27" value="Saturday 10:00"/>
+            <StringItem index="28" value="Sunday 8:00"/>
+            <StringItem index="29" value="Friday 0:00"/>
+            <StringItem index="30" value="Friday 21:00"/>
+            <StringItem index="31" value="Sunday 3:00"/>
+            <StringItem index="32" value="Monday 3:00"/>
+            <StringItem index="33" value="Saturday 23:00"/>
+            <StringItem index="34" value="Wednesday 7:00"/>
+            <StringItem index="35" value="Friday 23:00"/>
+            <StringItem index="36" value="Tuesday 22:00"/>
+            <StringItem index="37" value="Thursday 18:00"/>
+            <StringItem index="38" value="Monday 11:00"/>
+            <StringItem index="39" value="Saturday 5:00"/>
+            <StringItem index="40" value="Sunday 17:00"/>
+            <StringItem index="41" value="Saturday 6:00"/>
+            <StringItem index="42" value="Thursday 1:00"/>
+            <StringItem index="43" value="Tuesday 8:00"/>
+            <StringItem index="44" value="Wednesday 17:00"/>
+            <StringItem index="45" value="Tuesday 23:00"/>
+            <StringItem index="46" value="Friday 2:00"/>
+            <StringItem index="47" value="Wednesday 0:00"/>
+            <StringItem index="48" value="Saturday 7:00"/>
+            <StringItem index="49" value="Sunday 10:00"/>
+            <StringItem index="50" value="Thursday 0:00"/>
+            <StringItem index="51" value="Friday 11:00"/>
+            <StringItem index="52" value="Friday 12:00"/>
+            <StringItem index="53" value="Thursday 23:00"/>
+            <StringItem index="54" value="Tuesday 11:00"/>
+            <StringItem index="55" value="Tuesday 19:00"/>
+            <StringItem index="56" value="Wednesday 9:00"/>
+            <StringItem index="57" value="Wednesday 18:00"/>
+            <StringItem index="58" value="Tuesday 20:00"/>
+            <StringItem index="59" value="Saturday 11:00"/>
+            <StringItem index="60" value="Monday 14:00"/>
+            <StringItem index="61" value="Friday 6:00"/>
+            <StringItem index="62" value="Tuesday 16:00"/>
+            <StringItem index="63" value="Sunday 19:00"/>
+            <StringItem index="64" value="Saturday 12:00"/>
+            <StringItem index="65" value="Sunday 21:00"/>
+            <StringItem index="66" value="Wednesday 6:00"/>
+            <StringItem index="67" value="Monday 0:00"/>
+            <StringItem index="68" value="Tuesday 9:00"/>
+            <StringItem index="69" value="Monday 22:00"/>
+            <StringItem index="70" value="Thursday 13:00"/>
+            <StringItem index="71" value="Friday 18:00"/>
+            <StringItem index="72" value="Thursday 15:00"/>
+            <StringItem index="73" value="Wednesday 5:00"/>
+            <StringItem index="74" value="Friday 5:00"/>
+            <StringItem index="75" value="Thursday 7:00"/>
+            <StringItem index="76" value="Tuesday 17:00"/>
+            <StringItem index="77" value="Friday 17:00"/>
+            <StringItem index="78" value="Thursday 8:00"/>
+            <StringItem index="79" value="Sunday 7:00"/>
+            <StringItem index="80" value="Tuesday 5:00"/>
+            <StringItem index="81" value="Sunday 11:00"/>
+            <StringItem index="82" value="Friday 8:00"/>
+            <StringItem index="83" value="Friday 19:00"/>
+            <StringItem index="84" value="Friday 7:00"/>
+            <StringItem index="85" value="Saturday 21:00"/>
+            <StringItem index="86" value="Saturday 9:00"/>
+            <StringItem index="87" value="Saturday 15:00"/>
+            <StringItem index="88" value="Thursday 19:00"/>
+            <StringItem index="89" value="Sunday 12:00"/>
+            <StringItem index="90" value="Sunday 4:00"/>
+            <StringItem index="91" value="Tuesday 14:00"/>
+            <StringItem index="92" value="Tuesday 2:00"/>
+            <StringItem index="93" value="Monday 7:00"/>
+            <StringItem index="94" value="Tuesday 7:00"/>
+            <StringItem index="95" value="Thursday 22:00"/>
+            <StringItem index="96" value="Thursday 2:00"/>
+            <StringItem index="97" value="Tuesday 0:00"/>
+            <StringItem index="98" value="Saturday 14:00"/>
+            <StringItem index="99" value="Wednesday 1:00"/>
+            <StringItem index="100" value="Sunday 14:00"/>
+            <StringItem index="101" value="Wednesday 23:00"/>
+            <StringItem index="102" value="Wednesday 20:00"/>
+            <StringItem index="103" value="Friday 20:00"/>
+            <StringItem index="104" value="Tuesday 21:00"/>
+            <StringItem index="105" value="Tuesday 12:00"/>
+            <StringItem index="106" value="Thursday 12:00"/>
+            <StringItem index="107" value="Monday 13:00"/>
+            <StringItem index="108" value="Thursday 6:00"/>
+            <StringItem index="109" value="Sunday 20:00"/>
+            <StringItem index="110" value="Sunday 2:00"/>
+            <StringItem index="111" value="Wednesday 13:00"/>
+            <StringItem index="112" value="Sunday 22:00"/>
+            <StringItem index="113" value="Sunday 13:00"/>
+            <StringItem index="114" value="Wednesday 11:00"/>
+            <StringItem index="115" value="Monday 10:00"/>
+            <StringItem index="116" value="Sunday 9:00"/>
+            <StringItem index="117" value="Tuesday 1:00"/>
+            <StringItem index="118" value="Saturday 17:00"/>
+            <StringItem index="119" value="Saturday 18:00"/>
+            <StringItem index="120" value="Wednesday 3:00"/>
+            <StringItem index="121" value="Tuesday 15:00"/>
+            <StringItem index="122" value="Thursday 10:00"/>
+            <StringItem index="123" value="Monday 21:00"/>
+            <StringItem index="124" value="Friday 14:00"/>
+            <StringItem index="125" value="Sunday 5:00"/>
+            <StringItem index="126" value="Friday 13:00"/>
+            <StringItem index="127" value="Monday 19:00"/>
+            <StringItem index="128" value="Wednesday 19:00"/>
+            <StringItem index="129" value="Monday 5:00"/>
+            <StringItem index="130" value="Tuesday 6:00"/>
+            <StringItem index="131" value="Saturday 8:00"/>
+            <StringItem index="132" value="Monday 8:00"/>
+            <StringItem index="133" value="Sunday 18:00"/>
+            <StringItem index="134" value="Saturday 19:00"/>
+            <StringItem index="135" value="Thursday 3:00"/>
+            <StringItem index="136" value="Tuesday 18:00"/>
+            <StringItem index="137" value="Tuesday 13:00"/>
+            <StringItem index="138" value="Thursday 14:00"/>
+            <StringItem index="139" value="Friday 10:00"/>
+            <StringItem index="140" value="Monday 16:00"/>
+            <StringItem index="141" value="Saturday 16:00"/>
+            <StringItem index="142" value="Wednesday 15:00"/>
+            <StringItem index="143" value="Saturday 22:00"/>
+            <StringItem index="144" value="Monday 6:00"/>
+            <StringItem index="145" value="Monday 17:00"/>
+            <StringItem index="146" value="Wednesday 2:00"/>
+            <StringItem index="147" value="Thursday 21:00"/>
+            <StringItem index="148" value="Saturday 4:00"/>
+            <StringItem index="149" value="Monday 1:00"/>
+            <StringItem index="150" value="Wednesday 10:00"/>
+            <StringItem index="151" value="Tuesday 10:00"/>
+            <StringItem index="152" value="Friday 22:00"/>
+            <StringItem index="153" value="Saturday 1:00"/>
+            <StringItem index="154" value="Friday 1:00"/>
+            <StringItem index="155" value="Friday 16:00"/>
+            <StringItem index="156" value="Monday 23:00"/>
+            <StringItem index="157" value="Sunday 23:00"/>
+            <StringItem index="158" value="Wednesday 12:00"/>
+            <StringItem index="159" value="Sunday 1:00"/>
+            <StringItem index="160" value="Thursday 9:00"/>
+            <StringItem index="161" value="Tuesday 3:00"/>
+            <StringItem index="162" value="Sunday 0:00"/>
+            <StringItem index="163" value="Saturday 3:00"/>
+            <StringItem index="164" value="Wednesday 14:00"/>
+            <StringItem index="165" value="Monday 15:00"/>
+            <StringItem index="166" value="Thursday 20:00"/>
+            <StringItem index="167" value="Monday 18:00"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="predictBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Predict"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="predictBtnMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="predictTxtArea">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Traffic Volume Application 1.0"/>
+      </Properties>
+    </Component>
+  </SubComponents>
 </Form>
