@@ -19,14 +19,18 @@ public class Main {
         String trainingFile = "train_80p100_38556.arff";
         String testingFile = "test_20p100_9638.arff";
         String predictingFile = "predict.arff";
-        int clsIdx = 1;
-        String modelFileName = "traffic_volume.model";
+        int clsIdx = 7;
+        String modelFileName = "traffic_volume_nn.model";
         
-        LinearRegressionML lr = new LinearRegressionML();
+//        LinearRegressionML lr = new LinearRegressionML();
+        NeuralNetworkML nn = new NeuralNetworkML();
         
 //        lr.loadModel(modelFileName);
-        lr.trainAndTest(trainingFile, testingFile, clsIdx);
-        lr.saveModel(modelFileName);
+//        lr.trainAndTest(trainingFile, testingFile, clsIdx);
+//        lr.saveModel(modelFileName);
+        
+        nn.trainAndTest(trainingFile, testingFile, clsIdx);
+        nn.saveModel(modelFileName);
         
 //        UiApplication app = new UiApplication(lr, clsIdx);
 //        app.setVisible(true);
