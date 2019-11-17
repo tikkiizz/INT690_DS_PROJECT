@@ -1,0 +1,17 @@
+run:
+
+Linear Regression Model
+
+traffic_volume =
+
+    -45.3275 * rain_1h +
+   3266.8579
+
+Correlation coefficient                  0.0206
+Mean absolute error                   1750.4224
+Root mean squared error               1995.5011
+Relative absolute error                 99.9865 %
+Root relative squared error             99.9792 %
+Total Number of Instances             9638     
+
+BUILD SUCCESSFUL (total time: 1 second)
