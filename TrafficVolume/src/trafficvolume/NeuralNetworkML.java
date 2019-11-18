@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.MultilayerPerceptron;
+import weka.core.Debug.Random;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.SerializationHelper;
@@ -31,17 +32,19 @@ public class NeuralNetworkML {
             Instances trainingDataSet =  Utils.getDataSet(trainingFileName, classIndex);
             Instances testingDataSet = Utils.getDataSet(testingFileName, classIndex);
             this.classifier = new MultilayerPerceptron();
-            this.classifier.setLearningRate(0.97);
-            this.classifier.setMomentum(0.2);
-            this.classifier.setTrainingTime(10000);
-            this.classifier.setHiddenLayers("46");
+            
+            this.classifier.setLearningRate(0.5);
+            this.classifier.setMomentum(0.5);
+            this.classifier.setTrainingTime(100);
+            this.classifier.setHiddenLayers("4,2");
             this.classifier.buildClassifier(trainingDataSet);
             Evaluation eval = new Evaluation(trainingDataSet);
+            //eval.crossValidateModel(this.classifier, trainingDataSet, 10, new Random(1));
             eval.evaluateModel(this.classifier, testingDataSet);
             System.out.println(this.classifier);
             System.out.println(eval.toSummaryString());
 //            System.out.println(eval.correct());
-//            System.out.println(eval.errorRate());
+            System.out.println(eval.errorRate());
 //            System.out.println(eval.correlationCoefficient());
 //            System.out.println(eval.totalCost());
         } catch (Exception ex) {
