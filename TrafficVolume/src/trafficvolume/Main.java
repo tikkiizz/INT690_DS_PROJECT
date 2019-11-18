@@ -32,8 +32,8 @@ public class Main {
         nn.trainAndTest(trainingFile, testingFile, clsIdx);
         nn.saveModel(modelFileName);
         
-//        UiApplication app = new UiApplication(lr, clsIdx);
-//        app.setVisible(true);
+        UiApplication app = new UiApplication(nn, clsIdx);
+        app.setVisible(true);
 //
 //        lr.predictDataSet(predictingFile, clsIdx);
 //        String holiday = "None";

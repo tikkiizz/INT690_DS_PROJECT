@@ -33,10 +33,10 @@ public class NeuralNetworkML {
             Instances testingDataSet = Utils.getDataSet(testingFileName, classIndex);
             this.classifier = new MultilayerPerceptron();
             
-            this.classifier.setLearningRate(0.5);
-            this.classifier.setMomentum(0.5);
+            //this.classifier.setLearningRate(0.3);
+            //this.classifier.setMomentum(0.2);
             this.classifier.setTrainingTime(100);
-            this.classifier.setHiddenLayers("4,2");
+            //this.classifier.setHiddenLayers("3");
             this.classifier.buildClassifier(trainingDataSet);
             Evaluation eval = new Evaluation(trainingDataSet);
             //eval.crossValidateModel(this.classifier, trainingDataSet, 10, new Random(1));
