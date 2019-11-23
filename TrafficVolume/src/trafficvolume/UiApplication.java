@@ -278,7 +278,7 @@ public class UiApplication extends javax.swing.JFrame {
         getContentPane().add(timeCB);
         timeCB.setBounds(180, 330, 60, 21);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("D:\\2562-1\\INT690\\Project\\INT690_DS_PROJECT\\TrafficVolume\\background2.jpg")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/trafficvolume/background.jpg"))); // NOI18N
         jLabel11.setText("jLabel11");
         getContentPane().add(jLabel11);
         jLabel11.setBounds(0, 0, 700, 530);
