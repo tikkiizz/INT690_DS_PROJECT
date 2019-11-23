@@ -44,10 +44,6 @@ public class NeuralNetworkML {
             eval.evaluateModel(this.classifier, testingDataSet);
             System.out.println(this.classifier);
             System.out.println(eval.toSummaryString());
-//            System.out.println(eval.correct());
-            System.out.println(eval.errorRate());
-//            System.out.println(eval.correlationCoefficient());
-//            System.out.println(eval.totalCost());
         } catch (Exception ex) {
             Logger.getLogger(NeuralNetworkML.class.getName()).log(Level.SEVERE, null, ex);
         }

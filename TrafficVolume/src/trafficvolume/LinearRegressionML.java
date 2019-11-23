@@ -24,6 +24,7 @@ import weka.core.SerializationHelper;
 public class LinearRegressionML {
     
     private Classifier classifier;
+    private Instance instance;
     
     public LinearRegressionML() {
     }
@@ -38,10 +39,6 @@ public class LinearRegressionML {
             eval.evaluateModel(this.classifier, testingDataSet);
             System.out.println(this.classifier);
             System.out.println(eval.toSummaryString());
-//            System.out.println(eval.correct());
-//            System.out.println(eval.errorRate());
-//            System.out.println(eval.correlationCoefficient());
-//            System.out.println(eval.totalCost());
         } catch (Exception ex) {
             Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -83,19 +80,21 @@ public class LinearRegressionML {
     public double predictOneInstance(String predictingFileName, int classIndex, ArrayList<HashMap<String, Object>> list){
         
         try {
-            Instance instance = Utils.getDataSet(predictingFileName, classIndex).instance(0);
+            if(this.instance == null){
+                this.instance = Utils.getDataSet(predictingFileName, classIndex).instance(0);
+            }
             for (int i = 0; i < list.size(); i++) {
                 HashMap<String, Object> map = list.get(i);
                 String type = (String)map.get("type");
                 if(type.equals("String")){
-                    instance.setValue(i, (String)map.get("value"));
+                    this.instance.setValue(i, (String)map.get("value"));
                 }
                 else{
-                    instance.setValue(i, (double)map.get("value"));
+                    this.instance.setValue(i, (double)map.get("value"));
                 }
             }
-            double answerValue = (int)this.classifier.classifyInstance(instance);
-            Utils.printAttribute(instance);
+            double answerValue = (int)this.classifier.classifyInstance(this.instance);
+            Utils.printAttribute(this.instance);
             
             return answerValue;
             

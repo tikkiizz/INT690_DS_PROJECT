@@ -14,24 +14,39 @@ import java.awt.Dimension;
 public class Main {
     
     public static void main(String[] args) {
-        String trainingFile = "train_80p100_38556.arff";
-        String testingFile = "test_20p100_9638.arff";
-        String predictingFile = "predict.arff";
+        String trainingFile = "train_80p100_38555_convert_holiday_and_daytime.arff";
+        String testingFile = "test_20p100_9638_convert_holiday_and_daytime.arff";
+//        String predictingFile = "predict.arff";
         int clsIdx = 7;
-        String modelFileName = "traffic_volume_nn.model";
+        String modelFileName;
+        UiApplication app;
+        String mode = "nn";
+        boolean loadModel = true;
+        if(mode.equals("nn")){
+            modelFileName = "traffic_volume_nn.model";
+            NeuralNetworkML nn = new NeuralNetworkML();
+            if(loadModel){
+                nn.loadModel(modelFileName);
+            }
+            else{
+                nn.trainAndTest(trainingFile, testingFile, clsIdx);
+                nn.saveModel(modelFileName);
+            }
+            app = new UiApplication(nn, clsIdx);
+        }
+        else{
+            modelFileName = "traffic_volume_lr.model";
+            LinearRegressionML lr = new LinearRegressionML();
+            if(loadModel){
+                lr.loadModel(modelFileName);
+            }
+            else{
+                lr.trainAndTest(trainingFile, testingFile, clsIdx);
+                lr.saveModel(modelFileName);
+            }
+            app = new UiApplication(lr, clsIdx);
+        }
         
-//        LinearRegressionML lr = new LinearRegressionML();
-        NeuralNetworkML nn = new NeuralNetworkML();
-        
-//        lr.loadModel(modelFileName);
-//        lr.trainAndTest(trainingFile, testingFile, clsIdx);
-//        lr.saveModel(modelFileName);
-//        nn.loadModel(modelFileName);
-        
-        nn.trainAndTest(trainingFile, testingFile, clsIdx);
-//        nn.saveModel(modelFileName);
-        
-        UiApplication app = new UiApplication(nn, clsIdx);
         app.setPreferredSize(new Dimension(540,565));
         app.pack();
         app.setLocationRelativeTo(null);
