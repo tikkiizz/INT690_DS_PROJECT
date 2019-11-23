@@ -105,7 +105,13 @@ public class UiApplication extends javax.swing.JFrame {
         list.add(cloudMap);
         list.add(weatherDescMap);
         list.add(dayTimeMap);
-        double ans = this.nn.predictOneInstance("predict.arff", this.clsIdx, list);
+        double ans = 0;
+        if(this.lr != null){
+            ans = this.lr.predictOneInstance("predict.arff", this.clsIdx, list);
+        }
+        else{
+            ans = this.nn.predictOneInstance("predict.arff", this.clsIdx, list);
+        }
         return ans;
     }
 
@@ -285,7 +291,12 @@ public class UiApplication extends javax.swing.JFrame {
         // TODO add your handling code here:
         double ans = this.predictInstance();
         System.out.println("ans = " + ans);
-        this.predictTxtArea.setText(Double.toString(ans));
+        if(ans < 0.0){
+            this.predictTxtArea.setText("0");
+        }
+        else{
+            this.predictTxtArea.setText(Double.toString(ans));
+        }
     }//GEN-LAST:event_predictBtnMouseClicked
 
     private void timeCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timeCBActionPerformed
