@@ -5,9 +5,7 @@
  */
 package trafficvolume;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.awt.Dimension;
 
 /**
  *
@@ -29,10 +27,14 @@ public class Main {
 //        lr.trainAndTest(trainingFile, testingFile, clsIdx);
 //        lr.saveModel(modelFileName);
         
-        nn.trainAndTest(trainingFile, testingFile, clsIdx);
-        nn.saveModel(modelFileName);
+//        nn.trainAndTest(trainingFile, testingFile, clsIdx);
+//        nn.saveModel(modelFileName);
         
         UiApplication app = new UiApplication(nn, clsIdx);
+        app.setPreferredSize(new Dimension(540,565));
+        app.pack();
+        app.setLocationRelativeTo(null);
+        app.setResizable(false);
         app.setVisible(true);
 //
 //        lr.predictDataSet(predictingFile, clsIdx);

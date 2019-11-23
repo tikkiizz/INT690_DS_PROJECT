@@ -39,12 +39,16 @@ public class UiApplication extends javax.swing.JFrame {
         
         String holiday = (String) this.holidayCB.getSelectedItem();
         HashMap<String, Object> holidayMap = new HashMap<>();
-        holidayMap.put("value", holiday);
-        holidayMap.put("type", "String");
+        double hol = 0;
+        if (!holiday.equals("None")){
+            hol = 1; 
+        }
+        holidayMap.put("value", hol);
+        holidayMap.put("type", "double");
         
         double temp = Double.parseDouble(this.tempTF.getText());
         HashMap<String, Object> tempMap = new HashMap<>();
-        tempMap.put("value", temp);
+        tempMap.put("value", temp + 273.15);
         tempMap.put("type", "double");
         
         double rain1Hr = Double.parseDouble(this.rainTF.getText());
@@ -69,8 +73,26 @@ public class UiApplication extends javax.swing.JFrame {
         
         String day = (String) this.dayCB.getSelectedItem();
         String time = (String) this.timeCB.getSelectedItem();
+        time = time.replace(":00", "");
+        int newT = Integer.parseInt(time);
+        String rangeT = "";
+        if(newT >0 && newT <= 6){
+            rangeT = "00-06";
+        }else if (newT >6 && newT <= 10){
+            rangeT = "06-10";
+        }else if (newT >10 && newT <= 12){
+            rangeT = "10-12";
+        }else if (newT >12 && newT <= 14){
+            rangeT = "12-14";
+        }else if (newT >14 && newT <= 17){
+            rangeT = "14-17";
+        }else if (newT >17 && newT <= 20){
+            rangeT = "17-20";
+        }else if (newT >20 && newT <= 00){
+            rangeT = "20-00";
+        }
         
-        String dayTime = day + " " + time;
+        String dayTime = day + " " + rangeT;
         HashMap<String, Object> dayTimeMap = new HashMap<>();
         dayTimeMap.put("value", dayTime);
         dayTimeMap.put("type", "String");
@@ -96,6 +118,7 @@ public class UiApplication extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jSpinner1 = new javax.swing.JSpinner();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -115,146 +138,141 @@ public class UiApplication extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         timeCB = new javax.swing.JComboBox<>();
+        bg = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setAutoRequestFocus(false);
+        getContentPane().setLayout(null);
 
-        jLabel1.setText("Temperature: ");
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel1.setText("Temperature (°C): ");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(310, 220, 140, 15);
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel2.setText("Rain Amount (mm): ");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(300, 270, 150, 15);
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel3.setText("Snow Amount (mm): ");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(290, 320, 150, 20);
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setText("Holiday: ");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(100, 220, 60, 15);
 
-        jLabel5.setText("Clouds Percent (mm): ");
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel5.setText("Clouds Cover (%): ");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(310, 370, 116, 15);
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setText("Weather Description: ");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(20, 370, 133, 15);
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel7.setText("Day: ");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(120, 270, 31, 15);
 
+        tempTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        tempTF.setText("27");
         tempTF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tempTFActionPerformed(evt);
             }
         });
+        getContentPane().add(tempTF);
+        tempTF.setBounds(430, 220, 90, 21);
 
+        rainTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        rainTF.setText("0");
+        getContentPane().add(rainTF);
+        rainTF.setBounds(430, 270, 90, 21);
+
+        snowTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        snowTF.setText("0");
+        snowTF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                snowTFActionPerformed(evt);
+            }
+        });
+        getContentPane().add(snowTF);
+        snowTF.setBounds(430, 320, 90, 21);
+
+        cloudTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        cloudTF.setText("1");
+        getContentPane().add(cloudTF);
+        cloudTF.setBounds(430, 370, 90, 21);
+
+        holidayCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         holidayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None", "Christmas Day", "Columbus Day", "Independence Day", "Labor Day", "Memorial Day", "Thanksgiving Day", "Veterans Day", "Washingtons Birthday" }));
+        getContentPane().add(holidayCB);
+        holidayCB.setBounds(160, 220, 93, 21);
 
+        weatherDescCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         weatherDescCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SQUALLS", "broken clouds", "drizzle", "few clouds", "fog", "haze", "heavy intensity drizzle", "heavy intensity rain", "heavy snow", "light intensity drizzle", "light intensity shower rain", "light rain", "light shower snow", "light snow", "mist", "moderate rain", "overcast clouds", "proximity shower rain", "proximity thunderstorm", "proximity thunderstorm with drizzle", "proximity thunderstorm with rain", "scattered clouds", "shower snow", "sky is clear", "smoke", "snow", "thunderstorm", "thunderstorm with heavy rain", "thunderstorm with light drizzle", "thunderstorm with light rain", "thunderstorm with rain", "very heavy rain" }));
+        weatherDescCB.setSelectedIndex(23);
+        weatherDescCB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                weatherDescCBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(weatherDescCB);
+        weatherDescCB.setBounds(160, 370, 119, 20);
 
+        dayCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         dayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" }));
+        dayCB.setSelectedIndex(6);
         dayCB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dayCBActionPerformed(evt);
             }
         });
+        getContentPane().add(dayCB);
+        dayCB.setBounds(160, 270, 119, 21);
 
+        predictBtn.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         predictBtn.setText("Predict");
         predictBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 predictBtnMouseClicked(evt);
             }
         });
+        getContentPane().add(predictBtn);
+        predictBtn.setBounds(240, 420, 90, 25);
+        getContentPane().add(predictTxtArea);
+        predictTxtArea.setBounds(150, 460, 252, 49);
 
-        jLabel8.setText("Traffic Volume Application 1.0");
+        jLabel8.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
+        jLabel8.setText("Traffic Volume Prediction");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(150, 160, 250, 43);
 
-        jLabel9.setText("Time");
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel9.setText("Time:");
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(110, 320, 40, 15);
 
+        timeCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         timeCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0:00", "1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00" }));
+        timeCB.setSelectedIndex(9);
         timeCB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 timeCBActionPerformed(evt);
             }
         });
+        getContentPane().add(timeCB);
+        timeCB.setBounds(160, 320, 60, 21);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel9)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel5))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                        .addGap(2, 2, 2)
-                                        .addComponent(jLabel7)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(jLabel2)
-                                            .addComponent(jLabel3)
-                                            .addComponent(jLabel1)))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(0, 0, Short.MAX_VALUE)
-                                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(18, 18, 18))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                        .addComponent(jLabel4)
-                                        .addGap(93, 93, 93)
-                                        .addComponent(holidayCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                        .addComponent(jLabel6)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(dayCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(weatherDescCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(timeCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                                .addGap(206, 206, 206)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(rainTF)
-                            .addComponent(tempTF, javax.swing.GroupLayout.DEFAULT_SIZE, 259, Short.MAX_VALUE)
-                            .addComponent(snowTF)
-                            .addComponent(cloudTF)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(predictTxtArea, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(predictBtn))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(44, 44, 44)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel1)
-                    .addComponent(tempTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(holidayCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(41, 41, 41)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel6)
-                    .addComponent(rainTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(weatherDescCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(53, 53, 53)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel7)
-                    .addComponent(snowTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(dayCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(58, 58, 58)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cloudTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel9)
-                    .addComponent(timeCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(52, 52, 52)
-                .addComponent(predictBtn)
-                .addGap(18, 18, 18)
-                .addComponent(predictTxtArea, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(86, Short.MAX_VALUE))
-        );
+        bg.setIcon(new javax.swing.ImageIcon("D:\\2562-1\\INT690\\Project\\INT690_DS_PROJECT\\TrafficVolume\\background.jpg")); // NOI18N
+        bg.setText("jLabel11");
+        getContentPane().add(bg);
+        bg.setBounds(0, 0, 540, 550);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -276,6 +294,14 @@ public class UiApplication extends javax.swing.JFrame {
     private void dayCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dayCBActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_dayCBActionPerformed
+
+    private void weatherDescCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weatherDescCBActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weatherDescCBActionPerformed
+
+    private void snowTFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_snowTFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_snowTFActionPerformed
 
     /**
      * @param args the command line arguments
@@ -313,6 +339,7 @@ public class UiApplication extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel bg;
     private javax.swing.JTextField cloudTF;
     private javax.swing.JComboBox<String> dayCB;
     private javax.swing.JComboBox<String> holidayCB;
@@ -325,6 +352,7 @@ public class UiApplication extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JSpinner jSpinner1;
     private javax.swing.JButton predictBtn;
     private javax.swing.JTextField predictTxtArea;
     private javax.swing.JTextField rainTF;
