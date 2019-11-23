@@ -88,7 +88,7 @@ public class UiApplication extends javax.swing.JFrame {
             rangeT = "14-17";
         }else if (newT >17 && newT <= 20){
             rangeT = "17-20";
-        }else if (newT >20 && newT <= 00){
+        }else {
             rangeT = "20-00";
         }
         
@@ -269,7 +269,7 @@ public class UiApplication extends javax.swing.JFrame {
         getContentPane().add(timeCB);
         timeCB.setBounds(160, 320, 60, 21);
 
-        bg.setIcon(new javax.swing.ImageIcon("D:\\2562-1\\INT690\\Project\\INT690_DS_PROJECT\\TrafficVolume\\background.jpg")); // NOI18N
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/trafficvolume/background.jpg"))); // NOI18N
         bg.setText("jLabel11");
         getContentPane().add(bg);
         bg.setBounds(0, 0, 540, 550);
@@ -284,6 +284,7 @@ public class UiApplication extends javax.swing.JFrame {
     private void predictBtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_predictBtnMouseClicked
         // TODO add your handling code here:
         double ans = this.predictInstance();
+        System.out.println("ans = " + ans);
         this.predictTxtArea.setText(Double.toString(ans));
     }//GEN-LAST:event_predictBtnMouseClicked
 

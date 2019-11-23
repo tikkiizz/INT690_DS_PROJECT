@@ -26,8 +26,9 @@ public class Main {
 //        lr.loadModel(modelFileName);
 //        lr.trainAndTest(trainingFile, testingFile, clsIdx);
 //        lr.saveModel(modelFileName);
+//        nn.loadModel(modelFileName);
         
-//        nn.trainAndTest(trainingFile, testingFile, clsIdx);
+        nn.trainAndTest(trainingFile, testingFile, clsIdx);
 //        nn.saveModel(modelFileName);
         
         UiApplication app = new UiApplication(nn, clsIdx);

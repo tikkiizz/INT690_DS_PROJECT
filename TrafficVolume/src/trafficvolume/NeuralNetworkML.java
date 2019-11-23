@@ -23,6 +23,7 @@ import weka.core.SerializationHelper;
  */
 public class NeuralNetworkML {
     private MultilayerPerceptron classifier;
+    private Instance instance;
 
     public NeuralNetworkML() {
     }
@@ -33,8 +34,8 @@ public class NeuralNetworkML {
             Instances testingDataSet = Utils.getDataSet(testingFileName, classIndex);
             this.classifier = new MultilayerPerceptron();
             
-            //this.classifier.setLearningRate(0.3);
-            //this.classifier.setMomentum(0.2);
+            this.classifier.setLearningRate(0.0025);
+            this.classifier.setMomentum(0.15);
             this.classifier.setTrainingTime(100);
             //this.classifier.setHiddenLayers("3");
             this.classifier.buildClassifier(trainingDataSet);
@@ -88,19 +89,21 @@ public class NeuralNetworkML {
     public double predictOneInstance(String predictingFileName, int classIndex, ArrayList<HashMap<String, Object>> list){
         
         try {
-            Instance instance = Utils.getDataSet(predictingFileName, classIndex).instance(0);
+            if(this.instance == null){
+                this.instance = Utils.getDataSet(predictingFileName, classIndex).instance(0);
+            }
             for (int i = 0; i < list.size(); i++) {
                 HashMap<String, Object> map = list.get(i);
                 String type = (String)map.get("type");
                 if(type.equals("String")){
-                    instance.setValue(i, (String)map.get("value"));
+                    this.instance.setValue(i, (String)map.get("value"));
                 }
                 else{
-                    instance.setValue(i, (double)map.get("value"));
+                    this.instance.setValue(i, (double)map.get("value"));
                 }
             }
-            double answerValue = (int)this.classifier.classifyInstance(instance);
-            Utils.printAttribute(instance);
+            double answerValue = (int)this.classifier.classifyInstance(this.instance);
+            Utils.printAttribute(this.instance);
             
             return answerValue;
             
