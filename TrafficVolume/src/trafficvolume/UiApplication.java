@@ -245,6 +245,9 @@ public class UiApplication extends javax.swing.JFrame {
         });
         getContentPane().add(predictBtn);
         predictBtn.setBounds(240, 420, 90, 25);
+
+        predictTxtArea.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        predictTxtArea.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(predictTxtArea);
         predictTxtArea.setBounds(150, 460, 252, 49);
 
@@ -285,7 +288,7 @@ public class UiApplication extends javax.swing.JFrame {
         // TODO add your handling code here:
         double ans = this.predictInstance();
         System.out.println("ans = " + ans);
-        this.predictTxtArea.setText(Double.toString(ans));
+        this.predictTxtArea.setText(Double.toString(ans)+" units/area");
     }//GEN-LAST:event_predictBtnMouseClicked
 
     private void timeCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timeCBActionPerformed
