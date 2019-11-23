@@ -47,7 +47,7 @@ public class Main {
             app = new UiApplication(lr, clsIdx);
         }
         
-        app.setPreferredSize(new Dimension(540,565));
+        app.setPreferredSize(new Dimension(700,560));
         app.pack();
         app.setLocationRelativeTo(null);
         app.setResizable(false);

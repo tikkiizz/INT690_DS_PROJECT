@@ -144,7 +144,7 @@ public class UiApplication extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         timeCB = new javax.swing.JComboBox<>();
-        bg = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
@@ -153,37 +153,37 @@ public class UiApplication extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setText("Temperature (°C): ");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(310, 220, 140, 15);
+        jLabel1.setBounds(490, 230, 140, 15);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel2.setText("Rain Amount (mm): ");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(300, 270, 150, 15);
+        jLabel2.setBounds(480, 280, 150, 15);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel3.setText("Snow Amount (mm): ");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(290, 320, 150, 20);
+        jLabel3.setBounds(470, 330, 150, 20);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setText("Holiday: ");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(100, 220, 60, 15);
+        jLabel4.setBounds(120, 230, 60, 15);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel5.setText("Clouds Cover (%): ");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(310, 370, 116, 15);
+        jLabel5.setBounds(490, 380, 116, 15);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setText("Weather Description: ");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(20, 370, 133, 15);
+        jLabel6.setBounds(30, 380, 150, 15);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel7.setText("Day: ");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(120, 270, 31, 15);
+        jLabel7.setBounds(140, 280, 31, 15);
 
         tempTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         tempTF.setText("27");
@@ -193,12 +193,12 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
         getContentPane().add(tempTF);
-        tempTF.setBounds(430, 220, 90, 21);
+        tempTF.setBounds(610, 230, 50, 21);
 
         rainTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         rainTF.setText("0");
         getContentPane().add(rainTF);
-        rainTF.setBounds(430, 270, 90, 21);
+        rainTF.setBounds(610, 280, 50, 21);
 
         snowTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         snowTF.setText("0");
@@ -208,17 +208,17 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
         getContentPane().add(snowTF);
-        snowTF.setBounds(430, 320, 90, 21);
+        snowTF.setBounds(610, 330, 50, 21);
 
         cloudTF.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         cloudTF.setText("1");
         getContentPane().add(cloudTF);
-        cloudTF.setBounds(430, 370, 90, 21);
+        cloudTF.setBounds(610, 380, 50, 21);
 
         holidayCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         holidayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None", "Christmas Day", "Columbus Day", "Independence Day", "Labor Day", "Memorial Day", "Thanksgiving Day", "Veterans Day", "Washingtons Birthday" }));
         getContentPane().add(holidayCB);
-        holidayCB.setBounds(160, 220, 93, 21);
+        holidayCB.setBounds(180, 230, 93, 21);
 
         weatherDescCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         weatherDescCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SQUALLS", "broken clouds", "drizzle", "few clouds", "fog", "haze", "heavy intensity drizzle", "heavy intensity rain", "heavy snow", "light intensity drizzle", "light intensity shower rain", "light rain", "light shower snow", "light snow", "mist", "moderate rain", "overcast clouds", "proximity shower rain", "proximity thunderstorm", "proximity thunderstorm with drizzle", "proximity thunderstorm with rain", "scattered clouds", "shower snow", "sky is clear", "smoke", "snow", "thunderstorm", "thunderstorm with heavy rain", "thunderstorm with light drizzle", "thunderstorm with light rain", "thunderstorm with rain", "very heavy rain" }));
@@ -229,7 +229,7 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
         getContentPane().add(weatherDescCB);
-        weatherDescCB.setBounds(160, 370, 119, 20);
+        weatherDescCB.setBounds(180, 380, 280, 20);
 
         dayCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         dayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" }));
@@ -240,7 +240,7 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
         getContentPane().add(dayCB);
-        dayCB.setBounds(160, 270, 119, 21);
+        dayCB.setBounds(180, 280, 119, 21);
 
         predictBtn.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         predictBtn.setText("Predict");
@@ -250,22 +250,22 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
         getContentPane().add(predictBtn);
-        predictBtn.setBounds(240, 420, 90, 25);
+        predictBtn.setBounds(300, 420, 90, 25);
 
         predictTxtArea.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         predictTxtArea.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(predictTxtArea);
-        predictTxtArea.setBounds(150, 460, 252, 49);
+        predictTxtArea.setBounds(220, 460, 252, 49);
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel8.setText("Traffic Volume Prediction");
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(150, 160, 250, 43);
+        jLabel8.setBounds(240, 190, 250, 43);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel9.setText("Time:");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(110, 320, 40, 15);
+        jLabel9.setBounds(130, 330, 40, 15);
 
         timeCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         timeCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0:00", "1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00" }));
@@ -276,12 +276,12 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
         getContentPane().add(timeCB);
-        timeCB.setBounds(160, 320, 60, 21);
+        timeCB.setBounds(180, 330, 60, 21);
 
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/trafficvolume/background.jpg"))); // NOI18N
-        bg.setText("jLabel11");
-        getContentPane().add(bg);
-        bg.setBounds(0, 0, 540, 550);
+        jLabel11.setIcon(new javax.swing.ImageIcon("D:\\2562-1\\INT690\\Project\\INT690_DS_PROJECT\\TrafficVolume\\background2.jpg")); // NOI18N
+        jLabel11.setText("jLabel11");
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(0, 0, 700, 530);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -354,11 +354,11 @@ public class UiApplication extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel bg;
     private javax.swing.JTextField cloudTF;
     private javax.swing.JComboBox<String> dayCB;
     private javax.swing.JComboBox<String> holidayCB;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
