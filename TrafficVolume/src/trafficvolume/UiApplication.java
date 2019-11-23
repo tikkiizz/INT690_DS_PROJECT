@@ -14,6 +14,7 @@ import java.util.HashMap;
  */
 public class UiApplication extends javax.swing.JFrame {
     private LinearRegressionML lr;
+    private NeuralNetworkML nn;
     private int clsIdx;
     /**
      * Creates new form UiApplication
@@ -21,11 +22,18 @@ public class UiApplication extends javax.swing.JFrame {
     public UiApplication() {
         initComponents();
     }
-    public UiApplication(LinearRegressionML lr, int classIndex) {
+    public UiApplication(LinearRegressionML lr, int clsIdx) {
         this.lr = lr;
-        this.clsIdx = classIndex;
+        this.clsIdx = clsIdx;
         initComponents();
     }
+
+    public UiApplication(NeuralNetworkML nn, int clsIdx) {
+        this.nn = nn;
+        this.clsIdx = clsIdx;
+        initComponents();
+    }
+    
     
     private double predictInstance(){
         
@@ -59,7 +67,10 @@ public class UiApplication extends javax.swing.JFrame {
         weatherDescMap.put("value", weatherDescription);
         weatherDescMap.put("type", "String");
         
-        String dayTime = (String) this.dayTimeCB.getSelectedItem();
+        String day = (String) this.dayCB.getSelectedItem();
+        String time = (String) this.timeCB.getSelectedItem();
+        
+        String dayTime = day + " " + time;
         HashMap<String, Object> dayTimeMap = new HashMap<>();
         dayTimeMap.put("value", dayTime);
         dayTimeMap.put("type", "String");
@@ -72,7 +83,7 @@ public class UiApplication extends javax.swing.JFrame {
         list.add(cloudMap);
         list.add(weatherDescMap);
         list.add(dayTimeMap);
-        double ans = this.lr.predictOneInstance("predict.arff", this.clsIdx, list);
+        double ans = this.nn.predictOneInstance("predict.arff", this.clsIdx, list);
         return ans;
     }
 
@@ -98,10 +109,12 @@ public class UiApplication extends javax.swing.JFrame {
         cloudTF = new javax.swing.JTextField();
         holidayCB = new javax.swing.JComboBox<>();
         weatherDescCB = new javax.swing.JComboBox<>();
-        dayTimeCB = new javax.swing.JComboBox<>();
+        dayCB = new javax.swing.JComboBox<>();
         predictBtn = new javax.swing.JButton();
         predictTxtArea = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        timeCB = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -117,7 +130,7 @@ public class UiApplication extends javax.swing.JFrame {
 
         jLabel6.setText("Weather Description: ");
 
-        jLabel7.setText("Day Time: ");
+        jLabel7.setText("Day: ");
 
         tempTF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,11 +138,16 @@ public class UiApplication extends javax.swing.JFrame {
             }
         });
 
-        holidayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None", "Columbus Day", "Labor Day", "Washingtons Birthday", "Independence Day", "Christmas Day", "Thanksgiving Day", "Memorial Day", "Veterans Day" }));
+        holidayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None", "Christmas Day", "Columbus Day", "Independence Day", "Labor Day", "Memorial Day", "Thanksgiving Day", "Veterans Day", "Washingtons Birthday" }));
 
-        weatherDescCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "light rain", "sky is clear", "mist", "overcast clouds", "scattered clouds", "fog", "drizzle", "thunderstorm", "moderate rain", "broken clouds", "light snow", "light intensity drizzle", "few clouds", "proximity thunderstorm", "Sky is Clear", "haze", "heavy snow", "proximity shower rain", "very heavy rain", "heavy intensity rain", "heavy intensity drizzle", "snow", "smoke", "thunderstorm with light rain", "proximity thunderstorm with rain", "thunderstorm with rain", "light shower snow", "SQUALLS", "thunderstorm with heavy rain", "light intensity shower rain", "proximity thunderstorm with drizzle", "thunderstorm with light drizzle", "shower snow" }));
+        weatherDescCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SQUALLS", "broken clouds", "drizzle", "few clouds", "fog", "haze", "heavy intensity drizzle", "heavy intensity rain", "heavy snow", "light intensity drizzle", "light intensity shower rain", "light rain", "light shower snow", "light snow", "mist", "moderate rain", "overcast clouds", "proximity shower rain", "proximity thunderstorm", "proximity thunderstorm with drizzle", "proximity thunderstorm with rain", "scattered clouds", "shower snow", "sky is clear", "smoke", "snow", "thunderstorm", "thunderstorm with heavy rain", "thunderstorm with light drizzle", "thunderstorm with light rain", "thunderstorm with rain", "very heavy rain" }));
 
-        dayTimeCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Monday 4:00", "Saturday 13:00", "Friday 4:00", "Saturday 20:00", "Monday 12:00", "Friday 3:00", "Saturday 0:00", "Thursday 4:00", "Wednesday 8:00", "Thursday 5:00", "Thursday 17:00", "Friday 9:00", "Wednesday 4:00", "Thursday 16:00", "Monday 20:00", "Friday 15:00", "Sunday 15:00", "Saturday 2:00", "Thursday 11:00", "Wednesday 21:00", "Wednesday 16:00", "Sunday 16:00", "Wednesday 22:00", "Tuesday 4:00", "Sunday 6:00", "Monday 9:00", "Monday 2:00", "Saturday 10:00", "Sunday 8:00", "Friday 0:00", "Friday 21:00", "Sunday 3:00", "Monday 3:00", "Saturday 23:00", "Wednesday 7:00", "Friday 23:00", "Tuesday 22:00", "Thursday 18:00", "Monday 11:00", "Saturday 5:00", "Sunday 17:00", "Saturday 6:00", "Thursday 1:00", "Tuesday 8:00", "Wednesday 17:00", "Tuesday 23:00", "Friday 2:00", "Wednesday 0:00", "Saturday 7:00", "Sunday 10:00", "Thursday 0:00", "Friday 11:00", "Friday 12:00", "Thursday 23:00", "Tuesday 11:00", "Tuesday 19:00", "Wednesday 9:00", "Wednesday 18:00", "Tuesday 20:00", "Saturday 11:00", "Monday 14:00", "Friday 6:00", "Tuesday 16:00", "Sunday 19:00", "Saturday 12:00", "Sunday 21:00", "Wednesday 6:00", "Monday 0:00", "Tuesday 9:00", "Monday 22:00", "Thursday 13:00", "Friday 18:00", "Thursday 15:00", "Wednesday 5:00", "Friday 5:00", "Thursday 7:00", "Tuesday 17:00", "Friday 17:00", "Thursday 8:00", "Sunday 7:00", "Tuesday 5:00", "Sunday 11:00", "Friday 8:00", "Friday 19:00", "Friday 7:00", "Saturday 21:00", "Saturday 9:00", "Saturday 15:00", "Thursday 19:00", "Sunday 12:00", "Sunday 4:00", "Tuesday 14:00", "Tuesday 2:00", "Monday 7:00", "Tuesday 7:00", "Thursday 22:00", "Thursday 2:00", "Tuesday 0:00", "Saturday 14:00", "Wednesday 1:00", "Sunday 14:00", "Wednesday 23:00", "Wednesday 20:00", "Friday 20:00", "Tuesday 21:00", "Tuesday 12:00", "Thursday 12:00", "Monday 13:00", "Thursday 6:00", "Sunday 20:00", "Sunday 2:00", "Wednesday 13:00", "Sunday 22:00", "Sunday 13:00", "Wednesday 11:00", "Monday 10:00", "Sunday 9:00", "Tuesday 1:00", "Saturday 17:00", "Saturday 18:00", "Wednesday 3:00", "Tuesday 15:00", "Thursday 10:00", "Monday 21:00", "Friday 14:00", "Sunday 5:00", "Friday 13:00", "Monday 19:00", "Wednesday 19:00", "Monday 5:00", "Tuesday 6:00", "Saturday 8:00", "Monday 8:00", "Sunday 18:00", "Saturday 19:00", "Thursday 3:00", "Tuesday 18:00", "Tuesday 13:00", "Thursday 14:00", "Friday 10:00", "Monday 16:00", "Saturday 16:00", "Wednesday 15:00", "Saturday 22:00", "Monday 6:00", "Monday 17:00", "Wednesday 2:00", "Thursday 21:00", "Saturday 4:00", "Monday 1:00", "Wednesday 10:00", "Tuesday 10:00", "Friday 22:00", "Saturday 1:00", "Friday 1:00", "Friday 16:00", "Monday 23:00", "Sunday 23:00", "Wednesday 12:00", "Sunday 1:00", "Thursday 9:00", "Tuesday 3:00", "Sunday 0:00", "Saturday 3:00", "Wednesday 14:00", "Monday 15:00", "Thursday 20:00", "Monday 18:00" }));
+        dayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" }));
+        dayCB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dayCBActionPerformed(evt);
+            }
+        });
 
         predictBtn.setText("Predict");
         predictBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -140,14 +158,19 @@ public class UiApplication extends javax.swing.JFrame {
 
         jLabel8.setText("Traffic Volume Application 1.0");
 
+        jLabel9.setText("Time");
+
+        timeCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0:00", "1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00" }));
+        timeCB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                timeCBActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(329, 329, 329))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -156,7 +179,8 @@ public class UiApplication extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGap(0, 0, Short.MAX_VALUE)
+                                        .addComponent(jLabel9)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(jLabel5))
                                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                         .addGap(2, 2, 2)
@@ -165,7 +189,10 @@ public class UiApplication extends javax.swing.JFrame {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel2)
                                             .addComponent(jLabel3)
-                                            .addComponent(jLabel1))))
+                                            .addComponent(jLabel1)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(0, 0, Short.MAX_VALUE)
+                                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(18, 18, 18))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -177,8 +204,9 @@ public class UiApplication extends javax.swing.JFrame {
                                         .addComponent(jLabel6)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(dayTimeCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(weatherDescCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                                            .addComponent(dayCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(weatherDescCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(timeCB, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                                 .addGap(206, 206, 206)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(rainTF)
@@ -214,16 +242,18 @@ public class UiApplication extends javax.swing.JFrame {
                     .addComponent(jLabel3)
                     .addComponent(jLabel7)
                     .addComponent(snowTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(dayTimeCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(dayCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(58, 58, 58)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cloudTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
-                .addGap(18, 18, 18)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel9)
+                    .addComponent(timeCB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(52, 52, 52)
                 .addComponent(predictBtn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(predictTxtArea, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(122, Short.MAX_VALUE))
+                .addContainerGap(86, Short.MAX_VALUE))
         );
 
         pack();
@@ -238,6 +268,14 @@ public class UiApplication extends javax.swing.JFrame {
         double ans = this.predictInstance();
         this.predictTxtArea.setText(Double.toString(ans));
     }//GEN-LAST:event_predictBtnMouseClicked
+
+    private void timeCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timeCBActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_timeCBActionPerformed
+
+    private void dayCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dayCBActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dayCBActionPerformed
 
     /**
      * @param args the command line arguments
@@ -276,7 +314,7 @@ public class UiApplication extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField cloudTF;
-    private javax.swing.JComboBox<String> dayTimeCB;
+    private javax.swing.JComboBox<String> dayCB;
     private javax.swing.JComboBox<String> holidayCB;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -286,14 +324,25 @@ public class UiApplication extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JButton predictBtn;
     private javax.swing.JTextField predictTxtArea;
     private javax.swing.JTextField rainTF;
     private javax.swing.JTextField snowTF;
     private javax.swing.JTextField tempTF;
+    private javax.swing.JComboBox<String> timeCB;
     private javax.swing.JComboBox<String> weatherDescCB;
     // End of variables declaration//GEN-END:variables
 
+    
+    public NeuralNetworkML getNN() {
+        return nn;
+    }
+
+    public void setNN(NeuralNetworkML nn) {
+        this.nn = nn;
+    }
+    
     public LinearRegressionML getLr() {
         return lr;
     }

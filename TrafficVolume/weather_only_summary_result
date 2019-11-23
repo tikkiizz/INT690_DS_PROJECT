@@ -1,0 +1,30 @@
+run:
+
+Linear Regression Model
+
+traffic_volume =
+
+    847.6904 * weather_description=thunderstorm with drizzle,thunderstorm with light rain,very heavy rain,fog,snow,thunderstorm with heavy rain,thunderstorm,proximity thunderstorm with rain,mist,sky is clear,heavy snow,proximity thunderstorm,drizzle,light snow,proximity thunderstorm with drizzle,heavy intensity rain,moderate rain,heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+    214.7652 * weather_description=thunderstorm,proximity thunderstorm with rain,mist,sky is clear,heavy snow,proximity thunderstorm,drizzle,light snow,proximity thunderstorm with drizzle,heavy intensity rain,moderate rain,heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     77.0083 * weather_description=sky is clear,heavy snow,proximity thunderstorm,drizzle,light snow,proximity thunderstorm with drizzle,heavy intensity rain,moderate rain,heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     46.859  * weather_description=proximity thunderstorm,drizzle,light snow,proximity thunderstorm with drizzle,heavy intensity rain,moderate rain,heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     75.2077 * weather_description=proximity thunderstorm with drizzle,heavy intensity rain,moderate rain,heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     35.159  * weather_description=moderate rain,heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+    157.2734 * weather_description=heavy intensity drizzle,light rain,overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     64.2983 * weather_description=overcast clouds,Sky is Clear,light intensity drizzle,smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     70.2683 * weather_description=smoke,thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+     73.4061 * weather_description=thunderstorm with rain,haze,shower drizzle,broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+    145.3828 * weather_description=broken clouds,few clouds,scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+    218.3572 * weather_description=scattered clouds,light rain and snow,light intensity shower rain,sleet,freezing rain,light shower snow,proximity shower rain +
+    417.5244 * weather_description=sleet,freezing rain,light shower snow,proximity shower rain +
+    327.3214 * weather_description=light shower snow,proximity shower rain +
+   1870     
+
+Correlation coefficient                 -0.0503
+Mean absolute error                   1778.9591
+Root mean squared error               2043.8123
+Relative absolute error                101.6166 %
+Root relative squared error            102.3997 %
+Total Number of Instances             9638     
+
+BUILD SUCCESSFUL (total time: 4 seconds)

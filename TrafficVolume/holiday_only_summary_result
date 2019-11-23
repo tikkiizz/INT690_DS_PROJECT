@@ -1,0 +1,13 @@
+Linear Regression Model
+
+traffic_volume =
+
+   2397.8988 * holiday=None +
+    866.3654
+
+Correlation coefficient                  0.0367
+Mean absolute error                   1748.5862
+Root mean squared error               1994.5739
+Relative absolute error                 99.8817 %
+Root relative squared error             99.9327 %
+Total Number of Instances             9638     

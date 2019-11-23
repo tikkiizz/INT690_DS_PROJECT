@@ -11,8 +11,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
-import weka.classifiers.functions.LinearRegression;
-import weka.core.Attribute;
+import weka.classifiers.functions.MultilayerPerceptron;
+import weka.core.Debug.Random;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.SerializationHelper;
@@ -21,29 +21,34 @@ import weka.core.SerializationHelper;
  *
  * @author user
  */
-public class LinearRegressionML {
-    
-    private Classifier classifier;
-    
-    public LinearRegressionML() {
+public class NeuralNetworkML {
+    private MultilayerPerceptron classifier;
+
+    public NeuralNetworkML() {
     }
-    
+
     public void trainAndTest(String trainingFileName, String testingFileName, int classIndex){
         try {
             Instances trainingDataSet =  Utils.getDataSet(trainingFileName, classIndex);
             Instances testingDataSet = Utils.getDataSet(testingFileName, classIndex);
-            this.classifier = new LinearRegression();
+            this.classifier = new MultilayerPerceptron();
+            
+            //this.classifier.setLearningRate(0.3);
+            //this.classifier.setMomentum(0.2);
+            this.classifier.setTrainingTime(100);
+            //this.classifier.setHiddenLayers("3");
             this.classifier.buildClassifier(trainingDataSet);
             Evaluation eval = new Evaluation(trainingDataSet);
+            //eval.crossValidateModel(this.classifier, trainingDataSet, 10, new Random(1));
             eval.evaluateModel(this.classifier, testingDataSet);
             System.out.println(this.classifier);
             System.out.println(eval.toSummaryString());
 //            System.out.println(eval.correct());
-//            System.out.println(eval.errorRate());
+            System.out.println(eval.errorRate());
 //            System.out.println(eval.correlationCoefficient());
 //            System.out.println(eval.totalCost());
         } catch (Exception ex) {
-            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(NeuralNetworkML.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
@@ -51,15 +56,15 @@ public class LinearRegressionML {
         try {
             SerializationHelper.write(filename, this.classifier);
         } catch (Exception ex) {
-            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(NeuralNetworkML.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
     public void loadModel(String filename){
         try {
-            this.classifier = (LinearRegression) SerializationHelper.read(filename);
+            this.classifier = (MultilayerPerceptron) SerializationHelper.read(filename);
         } catch (Exception ex) {
-            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(NeuralNetworkML.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -75,7 +80,7 @@ public class LinearRegressionML {
                 Utils.printAttribute(instance);
                 System.out.println(instance.attribute(classIndex).name() + ": " + answerValue);
             } catch (Exception ex) {
-                Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(NeuralNetworkML.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
@@ -100,16 +105,16 @@ public class LinearRegressionML {
             return answerValue;
             
         } catch (Exception ex) {
-            Logger.getLogger(LinearRegressionML.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(NeuralNetworkML.class.getName()).log(Level.SEVERE, null, ex);
         }
         return 0.0;
     }
-
-    public Classifier getClassifier() {
+    
+    public MultilayerPerceptron getClassifier() {
         return classifier;
     }
 
-    public void setClassifier(Classifier classifier) {
+    public void setClassifier(MultilayerPerceptron classifier) {
         this.classifier = classifier;
     }
     

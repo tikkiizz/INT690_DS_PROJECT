@@ -5,7 +5,7 @@
 @attribute rain_1h numeric
 @attribute snow_1h numeric
 @attribute clouds_all numeric
-@attribute weather_description {'light rain','sky is clear',mist,'overcast clouds','scattered clouds',fog,drizzle,thunderstorm,'moderate rain','broken clouds','light snow','light intensity drizzle','few clouds','proximity thunderstorm','Sky is Clear',haze,'heavy snow','proximity shower rain','very heavy rain','heavy intensity rain','heavy intensity drizzle',snow,smoke,'thunderstorm with light rain','proximity thunderstorm with rain','thunderstorm with rain','light shower snow',SQUALLS,'thunderstorm with heavy rain','light intensity shower rain','proximity thunderstorm with drizzle','thunderstorm with light drizzle','shower snow'}
+@attribute weather_description {'light rain','sky is clear',mist,'overcast clouds','scattered clouds',fog,drizzle,thunderstorm,'moderate rain','broken clouds','light snow','light intensity drizzle','few clouds','proximity thunderstorm',haze,'heavy snow','proximity shower rain','very heavy rain','heavy intensity rain','heavy intensity drizzle',snow,smoke,'thunderstorm with light rain','proximity thunderstorm with rain','thunderstorm with rain','light shower snow',SQUALLS,'thunderstorm with heavy rain','light intensity shower rain','proximity thunderstorm with drizzle','thunderstorm with light drizzle','shower snow'}
 @attribute day_time {'Monday 4:00','Saturday 13:00','Friday 4:00','Saturday 20:00','Monday 12:00','Friday 3:00','Saturday 0:00','Thursday 4:00','Wednesday 8:00','Thursday 5:00','Thursday 17:00','Friday 9:00','Wednesday 4:00','Thursday 16:00','Monday 20:00','Friday 15:00','Sunday 15:00','Saturday 2:00','Thursday 11:00','Wednesday 21:00','Wednesday 16:00','Sunday 16:00','Wednesday 22:00','Tuesday 4:00','Sunday 6:00','Monday 9:00','Monday 2:00','Saturday 10:00','Sunday 8:00','Friday 0:00','Friday 21:00','Sunday 3:00','Monday 3:00','Saturday 23:00','Wednesday 7:00','Friday 23:00','Tuesday 22:00','Thursday 18:00','Monday 11:00','Saturday 5:00','Sunday 17:00','Saturday 6:00','Thursday 1:00','Tuesday 8:00','Wednesday 17:00','Tuesday 23:00','Friday 2:00','Wednesday 0:00','Saturday 7:00','Sunday 10:00','Thursday 0:00','Friday 11:00','Friday 12:00','Thursday 23:00','Tuesday 11:00','Tuesday 19:00','Wednesday 9:00','Wednesday 18:00','Tuesday 20:00','Saturday 11:00','Monday 14:00','Friday 6:00','Tuesday 16:00','Sunday 19:00','Saturday 12:00','Sunday 21:00','Wednesday 6:00','Monday 0:00','Tuesday 9:00','Monday 22:00','Thursday 13:00','Friday 18:00','Thursday 15:00','Wednesday 5:00','Friday 5:00','Thursday 7:00','Tuesday 17:00','Friday 17:00','Thursday 8:00','Sunday 7:00','Tuesday 5:00','Sunday 11:00','Friday 8:00','Friday 19:00','Friday 7:00','Saturday 21:00','Saturday 9:00','Saturday 15:00','Thursday 19:00','Sunday 12:00','Sunday 4:00','Tuesday 14:00','Tuesday 2:00','Monday 7:00','Tuesday 7:00','Thursday 22:00','Thursday 2:00','Tuesday 0:00','Saturday 14:00','Wednesday 1:00','Sunday 14:00','Wednesday 23:00','Wednesday 20:00','Friday 20:00','Tuesday 21:00','Tuesday 12:00','Thursday 12:00','Monday 13:00','Thursday 6:00','Sunday 20:00','Sunday 2:00','Wednesday 13:00','Sunday 22:00','Sunday 13:00','Wednesday 11:00','Monday 10:00','Sunday 9:00','Tuesday 1:00','Saturday 17:00','Saturday 18:00','Wednesday 3:00','Tuesday 15:00','Thursday 10:00','Monday 21:00','Friday 14:00','Sunday 5:00','Friday 13:00','Monday 19:00','Wednesday 19:00','Monday 5:00','Tuesday 6:00','Saturday 8:00','Monday 8:00','Sunday 18:00','Saturday 19:00','Thursday 3:00','Tuesday 18:00','Tuesday 13:00','Thursday 14:00','Friday 10:00','Monday 16:00','Saturday 16:00','Wednesday 15:00','Saturday 22:00','Monday 6:00','Monday 17:00','Wednesday 2:00','Thursday 21:00','Saturday 4:00','Monday 1:00','Wednesday 10:00','Tuesday 10:00','Friday 22:00','Saturday 1:00','Friday 1:00','Friday 16:00','Monday 23:00','Sunday 23:00','Wednesday 12:00','Sunday 1:00','Thursday 9:00','Tuesday 3:00','Sunday 0:00','Saturday 3:00','Wednesday 14:00','Monday 15:00','Thursday 20:00','Monday 18:00'}
 @attribute traffic_volume numeric
 
@@ -56,7 +56,7 @@ None,260.07,0,0,75,'light snow','Thursday 18:00',3130
 None,287.95,0,0,1,'sky is clear','Monday 11:00',4623
 None,269.55,0,0,90,'overcast clouds','Saturday 5:00',912
 None,279.57,0,0,90,mist,'Sunday 17:00',3994
-None,286.74,0,0,0,'Sky is Clear','Sunday 6:00',951
+None,286.74,0,0,0,'sky is clear','Sunday 6:00',951
 None,255.43,0,0,1,'sky is clear','Saturday 6:00',1164
 None,292.16,0,0,1,'sky is clear','Thursday 1:00',495
 None,291.44,0,0,56,'broken clouds','Saturday 6:00',1818
@@ -73,7 +73,7 @@ None,271.25,0,0,90,'heavy snow','Friday 11:00',5373
 None,275.86,0,0,90,haze,'Friday 12:00',5308
 None,267.02,0,0,1,haze,'Thursday 23:00',1179
 None,275.01,0,0,90,'light rain','Tuesday 11:00',4793
-None,285.584,0,0,0,'Sky is Clear','Tuesday 19:00',3093
+None,285.584,0,0,0,'sky is clear','Tuesday 19:00',3093
 None,269.29,0,0,90,'light snow','Wednesday 9:00',5356
 None,268.42,0,0,90,'overcast clouds','Wednesday 18:00',4739
 None,293.66,2.6,0,90,'light intensity drizzle','Tuesday 20:00',2385
@@ -82,7 +82,7 @@ None,291.872,0,0,88,'overcast clouds','Sunday 15:00',4520
 None,287.94,0,0,1,'sky is clear','Wednesday 21:00',2719
 None,287.61,0,0,75,'broken clouds','Monday 14:00',4997
 None,285.49,0,0,40,'scattered clouds','Wednesday 21:00',2763
-None,269.979,0,0,0,'Sky is Clear','Friday 6:00',5465
+None,269.979,0,0,0,'sky is clear','Friday 6:00',5465
 None,287.53,0,0,1,fog,'Tuesday 4:00',918
 None,294.82,0,0,24,'few clouds','Tuesday 20:00',3015
 None,288.28,0,0,1,'sky is clear','Thursday 0:00',675
@@ -95,7 +95,7 @@ None,277.68,0,0,5,'sky is clear','Tuesday 20:00',2676
 None,285.122,0,0,64,'broken clouds','Monday 4:00',737
 None,290.99,0,0,90,thunderstorm,'Saturday 2:00',557
 None,294.49,25.46,0,90,'very heavy rain','Sunday 21:00',2118
-None,288.07,0,0,0,'Sky is Clear','Sunday 10:00',3336
+None,288.07,0,0,0,'sky is clear','Sunday 10:00',3336
 None,263.49,0,0,64,'light snow','Thursday 4:00',583
 None,289.55,0,0,90,'moderate rain','Wednesday 6:00',5768
 None,298.37,0,0,56,'moderate rain','Monday 0:00',659
@@ -115,7 +115,7 @@ None,285.35,0,0,5,mist,'Thursday 7:00',6581
 None,288.18,0,0,75,'broken clouds','Wednesday 4:00',788
 None,289.42,0,0,90,'moderate rain','Tuesday 17:00',6092
 None,276.7,0,0,90,'overcast clouds','Friday 17:00',5955
-None,286.77,0,0,0,'Sky is Clear','Thursday 8:00',5454
+None,286.77,0,0,0,'sky is clear','Thursday 8:00',5454
 None,289.1,0,0,1,'sky is clear','Wednesday 7:00',5656
 None,253.02,0,0,90,'overcast clouds','Sunday 7:00',1296
 None,249.15,0,0,20,'light snow','Tuesday 5:00',1342
@@ -133,10 +133,10 @@ None,271.76,0,0,90,mist,'Saturday 9:00',3766
 None,283.96,0,0,1,'sky is clear','Saturday 15:00',4483
 None,292.44,0,0,90,drizzle,'Thursday 19:00',3419
 None,270.88,0,0,90,'light snow','Sunday 12:00',2037
-None,283.808,0,0,0,'Sky is Clear','Friday 18:00',5000
+None,283.808,0,0,0,'sky is clear','Friday 18:00',5000
 None,270.22,0,0,75,'broken clouds','Tuesday 20:00',2794
 None,289.64,0.25,0,40,mist,'Sunday 4:00',303
-None,304.02,0,0,0,'Sky is Clear','Wednesday 17:00',5818
+None,304.02,0,0,0,'sky is clear','Wednesday 17:00',5818
 None,297.15,0,0,90,'overcast clouds','Tuesday 14:00',5185
 None,277.86,0,0,90,'light rain','Tuesday 4:00',737
 None,290.23,0,0,1,'sky is clear','Friday 23:00',2102
@@ -183,8 +183,8 @@ None,282.86,0.25,0,40,'light rain','Sunday 8:00',1712
 None,299.48,0,0,1,'sky is clear','Monday 13:00',4494
 None,287.84,0.8,0,90,'moderate rain','Thursday 6:00',5417
 None,286.56,0,0,1,mist,'Thursday 6:00',5907
-None,279.525,0,0,0,'Sky is Clear','Wednesday 5:00',3235
-None,300.63,0,0,0,'Sky is Clear','Sunday 20:00',3183
+None,279.525,0,0,0,'sky is clear','Wednesday 5:00',3235
+None,300.63,0,0,0,'sky is clear','Sunday 20:00',3183
 None,274.94,0,0,90,mist,'Sunday 7:00',1150
 None,278.64,0,0,90,'overcast clouds','Thursday 19:00',3398
 None,281.58,0,0,90,'light intensity drizzle','Saturday 21:00',3065
@@ -258,7 +258,7 @@ None,283.2,0,0,1,'sky is clear','Sunday 2:00',615
 None,272.22,0,0,90,'overcast clouds','Monday 0:00',511
 None,290.82,0.76,0,90,mist,'Friday 12:00',5181
 None,274.29,0,0,90,'light snow','Monday 10:00',4216
-None,297.888,0,0,0,'Sky is Clear','Tuesday 11:00',3917
+None,297.888,0,0,0,'sky is clear','Tuesday 11:00',3917
 None,292.79,0,0,40,'light rain','Tuesday 2:00',282
 None,290.37,0,0,1,'light rain','Wednesday 23:00',1157
 None,298.52,0,0,40,'scattered clouds','Tuesday 19:00',3382
@@ -269,7 +269,7 @@ None,286.64,0,0,90,'heavy intensity drizzle','Saturday 8:00',3452
 None,255.69,0,0,20,'light snow','Tuesday 8:00',5489
 None,269.58,0,0,90,mist,'Thursday 16:00',6713
 None,292.09,0,0,1,'sky is clear','Tuesday 0:00',686
-None,291.59,0,0,0,'Sky is Clear','Monday 8:00',5284
+None,291.59,0,0,0,'sky is clear','Monday 8:00',5284
 None,276.73,2.67,0,90,'moderate rain','Sunday 10:00',2665
 None,271.65,0,0,90,fog,'Sunday 18:00',3224
 None,295.39,0,0,20,'few clouds','Sunday 20:00',3097
@@ -323,7 +323,7 @@ None,275.15,0,0,90,mist,'Thursday 17:00',2825
 None,272.15,0,0,90,snow,'Tuesday 12:00',3822
 None,299.08,0,0,1,'sky is clear','Sunday 14:00',4458
 None,300.15,0,0,1,'sky is clear','Monday 16:00',4791
-None,290.15,0,0,0,'Sky is Clear','Monday 12:00',4998
+None,290.15,0,0,0,'sky is clear','Monday 12:00',4998
 None,270.58,0,0,75,'broken clouds','Saturday 16:00',5013
 None,264.15,0,0,40,'light snow','Thursday 6:00',5808
 None,275.01,0,0,75,'broken clouds','Wednesday 5:00',2751
@@ -333,7 +333,7 @@ None,277.46,0,0,90,mist,'Saturday 22:00',2651
 None,262.88,0,0,1,haze,'Monday 6:00',4524
 None,261.44,0,0,90,'overcast clouds','Friday 13:00',4973
 None,278.78,0,0,90,'overcast clouds','Friday 11:00',5330
-None,298.034,0,0,0,'Sky is Clear','Monday 17:00',5358
+None,298.034,0,0,0,'sky is clear','Monday 17:00',5358
 None,275.92,0,0,1,'sky is clear','Friday 3:00',375
 None,292.22,0,0,90,drizzle,'Friday 10:00',4592
 None,258.94,0,0,75,'broken clouds','Friday 3:00',394
@@ -370,7 +370,7 @@ None,288.41,0,0,5,'sky is clear','Sunday 15:00',3933
 None,305.02,0,0,20,'few clouds','Wednesday 18:00',4202
 None,265.68,0,0,1,mist,'Monday 1:00',415
 None,280.686,0,0,64,'broken clouds','Thursday 23:00',1981
-None,289.2,0,0,0,'Sky is Clear','Thursday 5:00',2969
+None,289.2,0,0,0,'sky is clear','Thursday 5:00',2969
 None,259.34,0,0,90,'light snow','Monday 5:00',2183
 None,297.98,0,0,1,'sky is clear','Tuesday 10:00',3866
 None,282.55,0,0,90,mist,'Monday 17:00',5912
@@ -525,7 +525,7 @@ None,276.55,0,0,90,'moderate rain','Thursday 19:00',3448
 None,288.75,0,0,90,'heavy intensity rain','Monday 7:00',6386
 None,287.32,0,0,90,'light rain','Sunday 11:00',4016
 None,270.14,0,0,1,mist,'Monday 5:00',2663
-None,298.29,0,0,0,'Sky is Clear','Wednesday 23:00',1214
+None,298.29,0,0,0,'sky is clear','Wednesday 23:00',1214
 None,287,0,0,1,'sky is clear','Tuesday 15:00',5919
 None,290.7,0,0,1,'sky is clear','Friday 3:00',440
 None,277.35,0,0,20,'few clouds','Friday 16:00',6730
@@ -537,7 +537,7 @@ None,287.12,0,0,90,'light intensity drizzle','Wednesday 17:00',6244
 None,283.09,0,0,90,drizzle,'Sunday 4:00',333
 None,259.37,0,0,90,'light snow','Saturday 6:00',944
 None,270.65,0,0,90,'overcast clouds','Monday 14:00',3721
-None,285.85,0,0,0,'Sky is Clear','Friday 5:00',2769
+None,285.85,0,0,0,'sky is clear','Friday 5:00',2769
 None,296.88,0,0,1,'sky is clear','Sunday 21:00',2322
 None,263.79,0,0,1,mist,'Monday 3:00',336
 None,261.79,0,0,64,'broken clouds','Tuesday 21:00',2955
@@ -564,7 +564,7 @@ None,289.65,0,0,90,mist,'Saturday 1:00',758
 None,275.3,0,0,90,'light intensity drizzle','Monday 16:00',6402
 None,271.43,0,0,75,'broken clouds','Thursday 11:00',4906
 None,292.68,0,0,90,'overcast clouds','Monday 4:00',873
-None,291.22,0,0,0,'Sky is Clear','Thursday 6:00',5171
+None,291.22,0,0,0,'sky is clear','Thursday 6:00',5171
 None,279.73,0,0,5,'sky is clear','Tuesday 20:00',2952
 None,268.31,0,0,90,'light snow','Sunday 3:00',329
 None,272.15,0,0,1,'sky is clear','Sunday 1:00',1252
@@ -579,7 +579,7 @@ None,287.3,0,0,1,'light intensity drizzle','Sunday 5:00',629
 None,295.12,0,0,40,mist,'Thursday 2:00',260
 None,272.65,0,0,90,haze,'Wednesday 0:00',619
 None,288.19,0,0,20,'few clouds','Sunday 19:00',3027
-None,291.48,0,0,0,'Sky is Clear','Thursday 9:00',5562
+None,291.48,0,0,0,'sky is clear','Thursday 9:00',5562
 None,274.83,0,0,90,'overcast clouds','Wednesday 14:00',5379
 None,266.15,0,0,90,'light snow','Thursday 11:00',4881
 None,263.01,0,0,1,'sky is clear','Sunday 22:00',1433
@@ -633,7 +633,7 @@ None,296.15,0,0,40,'scattered clouds','Thursday 13:00',5066
 None,262.44,0,0,90,mist,'Saturday 21:00',2454
 None,281.4,0,0,90,'light rain','Thursday 0:00',3075
 None,277.22,0,0,90,'overcast clouds','Saturday 14:00',5775
-None,297.888,0,0,0,'Sky is Clear','Tuesday 16:00',5919
+None,297.888,0,0,0,'sky is clear','Tuesday 16:00',5919
 None,266.73,0,0,1,haze,'Friday 7:00',6242
 None,275.21,0,0,90,mist,'Thursday 16:00',2933
 None,291.28,0,0,1,'sky is clear','Sunday 21:00',2760
@@ -650,7 +650,7 @@ None,297.91,0,0,92,'light rain','Wednesday 20:00',3028
 None,256.19,0,0,75,'broken clouds','Thursday 18:00',4357
 None,290.88,0,0,1,'sky is clear','Thursday 15:00',5604
 None,289.8,0.51,0,90,'light rain','Sunday 7:00',1170
-None,287.464,0,0,0,'Sky is Clear','Sunday 15:00',4100
+None,287.464,0,0,0,'sky is clear','Sunday 15:00',4100
 None,275.22,0,0,90,'light rain','Thursday 4:00',887
 None,288.02,0,0,1,'sky is clear','Tuesday 20:00',2865
 None,274.79,0,0,90,snow,'Thursday 22:00',1532
@@ -699,7 +699,7 @@ None,297.78,5.89,0,90,'proximity thunderstorm','Wednesday 13:00',4336
 None,293.244,0,0,92,'overcast clouds','Tuesday 19:00',2948
 None,273.86,0,0.32,90,'light snow','Wednesday 16:00',5222
 None,291.79,0,0,90,'heavy intensity rain','Thursday 7:00',6601
-None,296.38,0,0,0,'Sky is Clear','Friday 18:00',4865
+None,296.38,0,0,0,'sky is clear','Friday 18:00',4865
 None,298.27,0,0,36,'scattered clouds','Sunday 0:00',1202
 None,290.32,0.7,0,40,'light rain','Friday 22:00',2685
 None,287.007,0,0,92,'light rain','Monday 15:00',5500
@@ -713,7 +713,7 @@ None,261.01,0,0,75,'broken clouds','Thursday 10:00',4486
 None,296.44,0,0,1,'proximity thunderstorm','Thursday 4:00',876
 None,288.62,0,0,40,'scattered clouds','Wednesday 7:00',6200
 None,265.98,0,0,90,'heavy snow','Friday 18:00',4134
-None,291.12,0,0,0,'Sky is Clear','Monday 2:00',291
+None,291.12,0,0,0,'sky is clear','Monday 2:00',291
 None,299.36,0,0,90,'light rain','Monday 20:00',2896
 None,268.79,0,0,90,haze,'Monday 0:00',407
 None,287.07,0,0,20,'few clouds','Sunday 6:00',829
@@ -758,9 +758,9 @@ None,275.34,0,0,90,haze,'Thursday 15:00',2915
 None,293.92,0,0,90,'light rain','Tuesday 14:00',5383
 None,275.75,0,0,90,'overcast clouds','Thursday 5:00',2707
 None,299.69,0,0,64,'broken clouds','Tuesday 18:00',4911
-None,290.28,0,0,0,'Sky is Clear','Monday 7:00',6298
+None,290.28,0,0,0,'sky is clear','Monday 7:00',6298
 None,282.75,0,0,90,'heavy intensity rain','Tuesday 6:00',5414
-None,296.5,0,0,0,'Sky is Clear','Wednesday 16:00',6708
+None,296.5,0,0,0,'sky is clear','Wednesday 16:00',6708
 None,293.92,0,0,1,'sky is clear','Monday 0:00',1969
 None,290.97,1.52,0,90,'moderate rain','Thursday 2:00',301
 None,279.66,0,0,1,'sky is clear','Sunday 0:00',2052
@@ -775,7 +775,7 @@ None,273.96,0,0,90,'heavy snow','Saturday 15:00',4905
 None,285.55,0,0,90,'light rain','Wednesday 8:00',5607
 None,285.55,0,0,5,'sky is clear','Wednesday 8:00',6180
 None,288.35,0,0,75,'broken clouds','Sunday 12:00',4950
-None,301.95,0,0,0,'Sky is Clear','Sunday 11:00',5131
+None,301.95,0,0,0,'sky is clear','Sunday 11:00',5131
 None,278.73,0,0,90,mist,'Thursday 7:00',6818
 None,277.81,0,0,90,drizzle,'Saturday 19:00',3421
 None,291.03,0,0,20,'few clouds','Saturday 23:00',2205
@@ -793,7 +793,7 @@ None,273.29,0,0,1,'sky is clear','Thursday 0:00',577
 None,265.02,0,0,90,'light snow','Wednesday 17:00',5196
 None,271.12,0.25,0,64,mist,'Wednesday 17:00',4132
 None,265.38,0,0,90,mist,'Sunday 6:00',723
-None,299.48,0,0,0,'Sky is Clear','Sunday 13:00',3874
+None,299.48,0,0,0,'sky is clear','Sunday 13:00',3874
 None,268.93,0,0,1,'sky is clear','Tuesday 15:00',5895
 None,247.65,0,0,1,mist,'Saturday 1:00',673
 None,262.88,0,0,90,mist,'Thursday 8:00',5383
@@ -810,7 +810,7 @@ None,262.6,0,0,90,'overcast clouds','Monday 3:00',250
 None,280.14,0,0,40,'scattered clouds','Tuesday 14:00',5136
 None,257.11,0,0,0,'sky is clear','Thursday 20:00',2461
 None,293.32,1.78,0,90,mist,'Saturday 11:00',4647
-None,297.26,0,0,0,'Sky is Clear','Tuesday 16:00',7070
+None,297.26,0,0,0,'sky is clear','Tuesday 16:00',7070
 None,291.94,0,0,90,mist,'Monday 20:00',2680
 None,278.48,0,0,1,'sky is clear','Friday 4:00',870
 None,259.17,0,0,20,'few clouds','Tuesday 17:00',2606
@@ -827,7 +827,7 @@ None,287.77,0,0,1,'sky is clear','Friday 7:00',6583
 None,283.34,0,0,90,'overcast clouds','Monday 10:00',4457
 None,263.87,0,0,40,'heavy snow','Sunday 15:00',3717
 None,295.35,0,0,90,'moderate rain','Wednesday 16:00',7042
-None,298.15,0,0,0,'Sky is Clear','Sunday 17:00',4133
+None,298.15,0,0,0,'sky is clear','Sunday 17:00',4133
 None,301.08,0,0,1,'sky is clear','Saturday 17:00',4517
 None,290.14,1.78,0,90,'thunderstorm with rain','Thursday 4:00',1050
 None,284.263,0,0,68,'broken clouds','Friday 15:00',5257
@@ -835,13 +835,13 @@ None,295.79,0,0,90,'light rain','Wednesday 16:00',6446
 None,297.33,0,0,32,'scattered clouds','Thursday 2:00',492
 None,285.91,0,0,75,'light rain','Wednesday 22:00',1596
 None,279.95,0,0,1,'sky is clear','Tuesday 20:00',2635
-None,295.65,0,0,0,'Sky is Clear','Saturday 22:00',2781
+None,295.65,0,0,0,'sky is clear','Saturday 22:00',2781
 None,292.473,0,0,64,'light rain','Monday 16:00',5961
 None,293.54,0,0,90,fog,'Thursday 8:00',5905
 None,273.72,0,0,1,'sky is clear','Sunday 23:00',1009
 None,256.54,0,0,75,'broken clouds','Sunday 17:00',3254
 None,276.08,0,0,90,'moderate rain','Friday 14:00',5488
-None,290.95,0,0,0,'Sky is Clear','Friday 3:00',334
+None,290.95,0,0,0,'sky is clear','Friday 3:00',334
 None,293.01,0,0,90,'light intensity drizzle','Friday 13:00',5104
 None,288.1,0,0,40,'scattered clouds','Thursday 7:00',6642
 None,294.97,0,0,1,'sky is clear','Friday 22:00',1688
@@ -858,7 +858,7 @@ None,286.51,0,0,1,'sky is clear','Wednesday 6:00',5767
 None,299.19,0,0,1,'sky is clear','Monday 16:00',6271
 None,295.26,0,0,90,'overcast clouds','Wednesday 19:00',3356
 None,289.96,0,0,90,mist,'Monday 14:00',4506
-None,302.35,0,0,0,'Sky is Clear','Saturday 19:00',3478
+None,302.35,0,0,0,'sky is clear','Saturday 19:00',3478
 None,281.8,0,0,40,'scattered clouds','Friday 15:00',6539
 None,291.07,0,0,90,'heavy intensity rain','Monday 20:00',2208
 None,294.18,0,0,1,'sky is clear','Tuesday 10:00',4257
@@ -872,7 +872,7 @@ None,286.62,1.7,0,92,'moderate rain','Monday 8:00',6013
 None,271.85,0,0,90,snow,'Wednesday 4:00',822
 None,276.22,0,0,90,'overcast clouds','Monday 13:00',4712
 None,279.29,0,0,40,'scattered clouds','Tuesday 13:00',4957
-None,289.71,0,0,0,'Sky is Clear','Saturday 5:00',508
+None,289.71,0,0,0,'sky is clear','Saturday 5:00',508
 None,273.48,0,0,90,'light rain','Thursday 7:00',6302
 None,262.87,0,0,90,mist,'Sunday 11:00',3508
 None,282.42,0,0,20,'few clouds','Tuesday 5:00',2669
@@ -886,9 +886,9 @@ None,287.8,0,0,1,'sky is clear','Tuesday 9:00',4995
 None,265.52,0,0,90,mist,'Saturday 3:00',357
 None,292.97,0,0,75,'broken clouds','Saturday 14:00',4956
 None,299.18,0,0,75,'broken clouds','Monday 11:00',4592
-None,298.88,0,0,0,'Sky is Clear','Saturday 18:00',4175
+None,298.88,0,0,0,'sky is clear','Saturday 18:00',4175
 None,274.35,0,0,90,drizzle,'Wednesday 18:00',4297
-None,298.24,0,0,0,'Sky is Clear','Thursday 14:00',5694
+None,298.24,0,0,0,'sky is clear','Thursday 14:00',5694
 None,278.01,0,0,90,mist,'Sunday 18:00',3599
 None,279.51,0,0,1,'sky is clear','Tuesday 12:00',5015
 None,274.15,0,0,90,'light snow','Wednesday 12:00',4908
@@ -911,7 +911,7 @@ None,271.79,0,0,90,snow,'Tuesday 17:00',4207
 None,287.56,0,0,1,'sky is clear','Wednesday 20:00',3216
 None,289.41,0.25,0,90,'light rain','Sunday 5:00',547
 None,292.88,0,0,90,drizzle,'Monday 10:00',4161
-None,283.979,0,0,0,'Sky is Clear','Thursday 10:00',4341
+None,283.979,0,0,0,'sky is clear','Thursday 10:00',4341
 None,280.69,0,0,90,'light rain','Friday 4:00',833
 None,290.99,0.25,0,12,'light rain','Wednesday 9:00',4962
 None,271.3,0,0,1,'sky is clear','Friday 1:00',431
@@ -931,7 +931,7 @@ None,261.13,0,0,90,'heavy snow','Wednesday 14:00',4661
 None,300.28,0,0,1,'sky is clear','Saturday 19:00',3385
 None,286.3,0,0,90,'overcast clouds','Wednesday 23:00',1863
 None,279.87,0,0,90,mist,'Tuesday 15:00',5730
-None,283.585,0,0,0,'Sky is Clear','Tuesday 11:00',4285
+None,283.585,0,0,0,'sky is clear','Tuesday 11:00',4285
 None,276.35,0,0,90,haze,'Friday 2:00',313
 None,260.53,0,0,1,'sky is clear','Thursday 13:00',5206
 None,279.18,0,0,8,mist,'Monday 5:00',2622
@@ -989,7 +989,7 @@ None,289.29,0,0,75,'broken clouds','Tuesday 10:00',4406
 None,276.02,0,0,90,drizzle,'Sunday 11:00',3701
 None,294.57,0.25,0,1,'light rain','Sunday 4:00',316
 None,275.82,0,0,1,'sky is clear','Saturday 5:00',776
-None,282.69,0,0,0,'Sky is Clear','Monday 6:00',5886
+None,282.69,0,0,0,'sky is clear','Monday 6:00',5886
 None,268.71,0,0,64,'broken clouds','Thursday 0:00',513
 None,289.29,0,0,1,'sky is clear','Tuesday 14:00',4743
 None,284.84,0,0,90,haze,'Monday 13:00',4820
@@ -1004,7 +1004,7 @@ None,287.14,0,0,1,haze,'Tuesday 23:00',994
 None,267.29,0,0,90,'overcast clouds','Friday 21:00',3096
 None,258.2,0,0,1,'sky is clear','Sunday 7:00',1039
 None,296.89,0,0,75,'broken clouds','Wednesday 22:00',2028
-None,284.01,0,0,0,'Sky is Clear','Monday 20:00',2825
+None,284.01,0,0,0,'sky is clear','Monday 20:00',2825
 None,258.36,0,0,75,haze,'Monday 16:00',4800
 None,274.99,0,0,1,'sky is clear','Sunday 7:00',1391
 None,268.36,0,0,90,mist,'Tuesday 23:00',1295
@@ -1105,15 +1105,15 @@ None,271.62,0,0,64,mist,'Friday 6:00',5776
 None,254.15,0,0,1,'sky is clear','Tuesday 13:00',4487
 None,291.22,0,0,90,'overcast clouds','Monday 20:00',2773
 None,293.69,0,0,90,'overcast clouds','Tuesday 21:00',2636
-None,276.173,0,0,0,'Sky is Clear','Thursday 1:00',486
+None,276.173,0,0,0,'sky is clear','Thursday 1:00',486
 None,270.34,0,0,90,'light snow','Monday 2:00',264
 None,290.49,0,0,92,'overcast clouds','Friday 23:00',1604
 None,276.62,0,0,1,'sky is clear','Monday 3:00',314
 None,273.84,0,0,1,'light snow','Tuesday 9:00',5252
-None,281.54,0,0,0,'Sky is Clear','Wednesday 10:00',4187
+None,281.54,0,0,0,'sky is clear','Wednesday 10:00',4187
 None,282.057,0,0,20,'few clouds','Wednesday 15:00',4757
 None,264.17,0,0,64,'light snow','Friday 2:00',364
-None,291.35,0,0,0,'Sky is Clear','Sunday 23:00',1311
+None,291.35,0,0,0,'sky is clear','Sunday 23:00',1311
 None,288.51,0,0,1,'sky is clear','Saturday 1:00',884
 None,268.02,0,0,1,'sky is clear','Thursday 5:00',423
 None,291.84,0,0,40,'scattered clouds','Sunday 5:00',631
@@ -1140,7 +1140,7 @@ None,282.09,0,0,75,fog,'Wednesday 19:00',3289
 None,290.32,0,0,1,'sky is clear','Sunday 22:00',2288
 None,299.76,0,0,1,'sky is clear','Sunday 21:00',3527
 None,260.44,0,0,75,'light snow','Sunday 0:00',1536
-None,298.55,0,0,0,'Sky is Clear','Monday 17:00',5951
+None,298.55,0,0,0,'sky is clear','Monday 17:00',5951
 None,294.37,0,0,1,'sky is clear','Monday 6:00',5574
 None,275.69,0,0,90,'moderate rain','Monday 4:00',792
 None,250.16,0,0,1,'sky is clear','Friday 8:00',5149
@@ -1148,7 +1148,7 @@ None,289.35,0,0,1,'sky is clear','Saturday 11:00',2817
 None,273.22,0,0,90,'overcast clouds','Monday 21:00',2070
 None,265.32,0,0,90,'light snow','Thursday 19:00',3576
 None,263.76,0,0,40,'scattered clouds','Tuesday 19:00',3012
-None,301.1,0,0,0,'Sky is Clear','Sunday 20:00',3202
+None,301.1,0,0,0,'sky is clear','Sunday 20:00',3202
 None,285.72,0,0,90,'moderate rain','Sunday 0:00',1208
 None,273.71,0,0,75,'broken clouds','Monday 19:00',2939
 None,258.67,0,0,1,'sky is clear','Monday 0:00',516
@@ -1177,7 +1177,7 @@ None,272.15,0,0,1,'sky is clear','Sunday 18:00',3122
 None,273.89,0,0,90,mist,'Friday 3:00',313
 None,292.78,0,0,90,drizzle,'Sunday 16:00',4373
 None,259.08,0,0,1,'sky is clear','Wednesday 12:00',4825
-None,294.03,0,0,0,'Sky is Clear','Thursday 8:00',5386
+None,294.03,0,0,0,'sky is clear','Thursday 8:00',5386
 None,289.06,0,0,40,'scattered clouds','Wednesday 17:00',5954
 None,263.42,0,0,40,'scattered clouds','Sunday 3:00',313
 None,264.97,0,0,75,'broken clouds','Tuesday 20:00',2279
@@ -1201,7 +1201,7 @@ None,285.7,0.25,0,92,'light rain','Thursday 1:00',372
 None,281.84,0,0,90,'heavy intensity rain','Wednesday 16:00',6544
 None,290.44,0,0,0,mist,'Monday 8:00',5653
 None,281.89,0,0,1,'sky is clear','Tuesday 0:00',596
-None,299.84,0,0,0,'Sky is Clear','Saturday 18:00',3494
+None,299.84,0,0,0,'sky is clear','Saturday 18:00',3494
 None,260.42,0,0,40,mist,'Wednesday 8:00',5586
 None,285.95,0,0,1,'sky is clear','Saturday 8:00',3141
 None,296.72,0,0,1,'sky is clear','Friday 15:00',4831
@@ -1234,7 +1234,7 @@ None,292.06,0,0,90,mist,'Saturday 17:00',3969
 None,272.35,0,0,75,'broken clouds','Tuesday 1:00',405
 None,269.47,0,0,90,'overcast clouds','Friday 21:00',2861
 None,274.62,0,0,90,fog,'Sunday 1:00',657
-None,299.6,0,0,0,'Sky is Clear','Thursday 18:00',4243
+None,299.6,0,0,0,'sky is clear','Thursday 18:00',4243
 None,279.07,0,0,1,'sky is clear','Friday 0:00',680
 None,296.02,0,0,75,'broken clouds','Saturday 0:00',1869
 None,271.62,0,0,90,'light snow','Tuesday 6:00',5966
@@ -1283,9 +1283,9 @@ None,295.48,0,0,75,'broken clouds','Saturday 5:00',850
 None,267.12,0,0,90,'overcast clouds','Wednesday 2:00',271
 None,276.793,0,0,64,'broken clouds','Friday 1:00',386
 None,290.39,0.25,0,40,'light rain','Monday 5:00',2850
-None,294.39,0,0,0,'Sky is Clear','Friday 21:00',3121
+None,294.39,0,0,0,'sky is clear','Friday 21:00',3121
 None,290.75,0,0,90,mist,'Tuesday 11:00',4346
-None,299,0,0,0,'Sky is Clear','Sunday 16:00',4543
+None,299,0,0,0,'sky is clear','Sunday 16:00',4543
 None,292.65,0,0,40,mist,'Friday 7:00',6031
 None,260.74,0,0,99,'overcast clouds','Monday 20:00',2519
 None,292.54,0,0,1,'sky is clear','Saturday 17:00',4825
@@ -1308,7 +1308,7 @@ None,280.025,0,0,48,'scattered clouds','Tuesday 11:00',4245
 None,284.94,0,0,40,'scattered clouds','Sunday 12:00',4014
 None,291.45,0,0,40,'scattered clouds','Monday 8:00',5821
 None,296.21,0,0,75,'broken clouds','Friday 14:00',5163
-None,287.06,0,0,0,'Sky is Clear','Thursday 2:00',270
+None,287.06,0,0,0,'sky is clear','Thursday 2:00',270
 None,299.15,0,0,20,'few clouds','Tuesday 17:00',5698
 None,284.51,0,0,90,mist,'Monday 5:00',2836
 None,291.76,0,0,90,mist,'Friday 6:00',5187
@@ -1334,11 +1334,11 @@ None,254.8,0,0,64,'broken clouds','Sunday 11:00',3970
 None,274.82,0,0,90,'heavy snow','Saturday 15:00',4823
 None,298.46,0.25,0,1,'light rain','Friday 20:00',3233
 None,284.18,0,0,1,'sky is clear','Tuesday 7:00',6435
-None,303.76,0,0,0,'Sky is Clear','Friday 16:00',4713
-None,288.01,0,0,0,'Sky is Clear','Tuesday 5:00',2914
+None,303.76,0,0,0,'sky is clear','Friday 16:00',4713
+None,288.01,0,0,0,'sky is clear','Tuesday 5:00',2914
 None,276.86,0,0,90,mist,'Sunday 14:00',4132
 None,260.69,0,0,64,mist,'Sunday 23:00',840
-None,307.09,0,0,0,'Sky is Clear','Monday 16:00',6298
+None,307.09,0,0,0,'sky is clear','Monday 16:00',6298
 None,252.95,0,0,1,'sky is clear','Saturday 9:00',3628
 None,275.61,0,0,90,'light rain','Saturday 17:00',4614
 None,274.36,0.51,0,64,mist,'Tuesday 7:00',6020
@@ -1358,17 +1358,17 @@ None,278.97,0,0,1,'sky is clear','Tuesday 21:00',2360
 None,274.65,0,0,90,mist,'Friday 6:00',5356
 None,274.94,0,0,90,snow,'Monday 9:00',4783
 None,279.55,0,0,90,mist,'Thursday 12:00',5099
-None,295.6,0,0,0,'Sky is Clear','Wednesday 20:00',3169
+None,295.6,0,0,0,'sky is clear','Wednesday 20:00',3169
 None,278.01,0,0,1,'sky is clear','Sunday 9:00',3219
 None,276.87,0,0,1,'sky is clear','Friday 19:00',3638
 None,266.83,0,0,1,'sky is clear','Saturday 5:00',753
 None,294.02,0,0,1,'sky is clear','Thursday 16:00',6413
-None,291.48,0,0,0,'Sky is Clear','Monday 20:00',2159
+None,291.48,0,0,0,'sky is clear','Monday 20:00',2159
 None,297.71,0,0,40,'scattered clouds','Friday 19:00',4037
 None,269.94,0,0,40,'scattered clouds','Thursday 11:00',5078
 None,286.77,2.03,0,92,'proximity thunderstorm','Thursday 12:00',5339
 None,275.55,0,0,90,'overcast clouds','Wednesday 0:00',656
-None,288.41,0,0,0,'Sky is Clear','Saturday 3:00',422
+None,288.41,0,0,0,'sky is clear','Saturday 3:00',422
 None,274.4,0,0,90,drizzle,'Monday 22:00',1530
 None,268.68,0,0,90,'overcast clouds','Sunday 19:00',3424
 None,283.01,0,0,90,drizzle,'Friday 21:00',3120
@@ -1401,7 +1401,7 @@ None,282.67,0,0,90,'moderate rain','Monday 16:00',6139
 None,289.28,0,0,40,'scattered clouds','Thursday 21:00',2891
 None,273.65,0,0,75,'broken clouds','Friday 8:00',3460
 None,296.68,0,0,75,'light rain','Tuesday 13:00',4719
-None,295.63,0,0,0,'Sky is Clear','Saturday 20:00',3544
+None,295.63,0,0,0,'sky is clear','Saturday 20:00',3544
 None,266.43,0,0,90,'overcast clouds','Thursday 20:00',2995
 None,297.22,0,0,75,'broken clouds','Saturday 20:00',3261
 None,291.15,0,0,75,'broken clouds','Friday 10:00',4526
@@ -1419,7 +1419,7 @@ None,281.82,0,0,1,mist,'Sunday 3:00',194
 None,294.09,0,0,1,'sky is clear','Friday 21:00',3191
 None,277.98,0.53,0,44,'light intensity drizzle','Friday 3:00',396
 None,260.22,0,0,1,'sky is clear','Saturday 6:00',1191
-None,279.832,0,0,0,'Sky is Clear','Sunday 7:00',1641
+None,279.832,0,0,0,'sky is clear','Sunday 7:00',1641
 None,273.31,0,0,90,'overcast clouds','Thursday 7:00',6833
 None,291.75,0,0,1,mist,'Sunday 1:00',1259
 None,292,0,0,5,mist,'Friday 8:00',5211
@@ -1431,15 +1431,15 @@ None,292.03,0,0,20,'few clouds','Monday 15:00',5955
 None,299.06,0,0,1,'sky is clear','Wednesday 20:00',2703
 None,271.48,0,0,90,'overcast clouds','Saturday 14:00',4794
 None,297.15,0,0,1,'sky is clear','Friday 15:00',5521
-None,285.676,0,0,0,'Sky is Clear','Sunday 13:00',4631
+None,285.676,0,0,0,'sky is clear','Sunday 13:00',4631
 None,296.43,0,0,40,'scattered clouds','Wednesday 17:00',6483
-None,297.888,0,0,0,'Sky is Clear','Wednesday 10:00',4145
+None,297.888,0,0,0,'sky is clear','Wednesday 10:00',4145
 None,290.53,0,0,75,'broken clouds','Sunday 13:00',4184
 None,288.69,0,0,40,'light intensity drizzle','Wednesday 13:00',4933
 None,282.37,0,0,1,'sky is clear','Friday 4:00',814
 None,274.33,0.98,0.51,90,mist,'Wednesday 12:00',5167
 None,279.1,0,0,90,'overcast clouds','Wednesday 16:00',6383
-None,302.59,0,0,0,'Sky is Clear','Friday 16:00',6277
+None,302.59,0,0,0,'sky is clear','Friday 16:00',6277
 None,274.22,0,0,90,haze,'Saturday 11:00',3530
 None,254.53,0,0,1,'sky is clear','Sunday 12:00',3838
 None,275.21,0,0,75,mist,'Tuesday 3:00',326
@@ -1468,7 +1468,7 @@ None,266.6,0,0,40,'scattered clouds','Saturday 17:00',4390
 None,281.22,0,0,90,'overcast clouds','Tuesday 13:00',5268
 None,268.72,0,0,75,'light snow','Monday 6:00',4364
 None,288.85,0,0,90,'heavy intensity drizzle','Saturday 13:00',4741
-None,301.26,0,0,0,'Sky is Clear','Tuesday 23:00',1185
+None,301.26,0,0,0,'sky is clear','Tuesday 23:00',1185
 None,258.14,0,0,90,haze,'Wednesday 10:00',4222
 None,295.95,0,0,1,'sky is clear','Saturday 5:00',672
 None,266.92,0,0,90,'light snow','Friday 6:00',5211
@@ -1481,7 +1481,7 @@ None,289.62,0,0,75,mist,'Friday 5:00',2707
 None,271.22,0,0,90,mist,'Tuesday 5:00',2555
 None,291.93,0,0,75,'broken clouds','Thursday 14:00',5104
 None,294.41,0.25,0,90,'light rain','Sunday 8:00',2334
-None,289.47,0,0,0,'Sky is Clear','Sunday 1:00',1023
+None,289.47,0,0,0,'sky is clear','Sunday 1:00',1023
 None,280.15,0,0,1,'sky is clear','Tuesday 0:00',486
 None,253.86,0,0,40,'scattered clouds','Thursday 3:00',325
 None,294.23,11.78,0,90,mist,'Monday 4:00',760
@@ -1489,7 +1489,7 @@ None,301.34,0,0,1,'sky is clear','Tuesday 17:00',6021
 None,290.15,0,0,90,'overcast clouds','Friday 0:00',774
 None,267.46,0,0,1,'sky is clear','Saturday 1:00',747
 None,266.64,0,0,1,'sky is clear','Saturday 20:00',3231
-'Labor Day',288.78,0,0,0,'Sky is Clear','Monday 0:00',1041
+'Labor Day',288.78,0,0,0,'sky is clear','Monday 0:00',1041
 None,277.93,0,0,90,'moderate rain','Tuesday 3:00',305
 None,289.15,0,0,75,'broken clouds','Tuesday 15:00',5813
 None,273.88,0,0,75,'broken clouds','Saturday 6:00',1366
@@ -1502,7 +1502,7 @@ None,271.87,0,0,5,'sky is clear','Saturday 20:00',2694
 None,290.81,0,0,1,'sky is clear','Tuesday 14:00',4928
 None,287.04,0,0,1,'sky is clear','Thursday 18:00',4815
 None,293.996,0,0,100,'light rain','Wednesday 13:00',4499
-None,285.19,0,0,0,'Sky is Clear','Monday 9:00',5222
+None,285.19,0,0,0,'sky is clear','Monday 9:00',5222
 None,279.12,0,0,90,'overcast clouds','Tuesday 13:00',5130
 None,284.09,0,0,1,'sky is clear','Friday 7:00',6587
 None,276.1,0,0,90,'overcast clouds','Thursday 23:00',1181
@@ -1594,7 +1594,7 @@ None,273.46,0,0,90,'overcast clouds','Wednesday 9:00',5378
 None,296.01,0,0,5,'sky is clear','Wednesday 17:00',6107
 None,260.48,0,0,1,'sky is clear','Tuesday 10:00',4253
 None,283.71,0,0,1,'sky is clear','Thursday 19:00',3543
-None,289.33,0,0,0,'Sky is Clear','Thursday 6:00',6033
+None,289.33,0,0,0,'sky is clear','Thursday 6:00',6033
 None,270.9,0,0,90,'overcast clouds','Thursday 18:00',4279
 None,247.9,0,0,1,'sky is clear','Tuesday 9:00',4003
 None,288.82,0,0,90,'light intensity drizzle','Wednesday 16:00',6844
@@ -1654,7 +1654,7 @@ None,261.86,0,0,1,'sky is clear','Wednesday 5:00',2686
 None,302.65,0,0,75,'broken clouds','Sunday 14:00',4129
 None,257.46,0,0,75,'broken clouds','Wednesday 20:00',2327
 None,281.14,0,0,1,'sky is clear','Saturday 22:00',3806
-None,285.38,0,0,0,'Sky is Clear','Thursday 2:00',334
+None,285.38,0,0,0,'sky is clear','Thursday 2:00',334
 None,300,0.25,0,40,'light rain','Sunday 17:00',3833
 None,279.61,0,0,90,fog,'Tuesday 23:00',1462
 None,277.15,0,0,90,drizzle,'Tuesday 5:00',2858
@@ -1668,7 +1668,7 @@ None,300.96,0,0,24,'few clouds','Friday 16:00',6637
 None,272.9,0,0,1,'sky is clear','Tuesday 17:00',5845
 None,286.48,0,0,20,'few clouds','Friday 11:00',5142
 None,288.43,0.44,0,90,mist,'Tuesday 8:00',5873
-None,282.3,0,0,0,'Sky is Clear','Sunday 7:00',1324
+None,282.3,0,0,0,'sky is clear','Sunday 7:00',1324
 None,271.02,0,0,90,fog,'Saturday 19:00',2338
 None,271.89,0,0,1,mist,'Wednesday 6:00',5670
 None,267.49,0,0,1,'sky is clear','Saturday 22:00',3358
@@ -1686,9 +1686,9 @@ None,252.46,0,0,90,'overcast clouds','Tuesday 11:00',4103
 None,281.93,0,0,1,'sky is clear','Wednesday 6:00',6013
 None,282.65,0,0,40,'scattered clouds','Friday 12:00',5640
 None,299.47,0,0,75,'broken clouds','Friday 13:00',5101
-None,301.28,0,0,0,'Sky is Clear','Tuesday 11:00',4996
+None,301.28,0,0,0,'sky is clear','Tuesday 11:00',4996
 None,276.18,0,0,1,'sky is clear','Tuesday 4:00',755
-None,288.19,0,0,0,'Sky is Clear','Saturday 7:00',2409
+None,288.19,0,0,0,'sky is clear','Saturday 7:00',2409
 None,285.07,0,0,90,fog,'Monday 16:00',6533
 None,289.44,0,0,75,'broken clouds','Sunday 16:00',4557
 None,295.24,0,0,20,haze,'Thursday 12:00',5013
@@ -1733,7 +1733,7 @@ None,255.75,0,0,90,mist,'Monday 7:00',942
 None,272.08,0,0,90,mist,'Tuesday 6:00',5107
 None,266.51,0,0,90,'overcast clouds','Thursday 7:00',6920
 None,288.73,0,0,1,'sky is clear','Tuesday 6:00',5970
-None,282.565,0,0,0,'Sky is Clear','Monday 6:00',5360
+None,282.565,0,0,0,'sky is clear','Monday 6:00',5360
 None,281.53,0,0,75,'broken clouds','Wednesday 21:00',2139
 None,280.81,0,0,90,'light rain','Saturday 17:00',4418
 None,272.55,0,0,1,haze,'Thursday 0:00',759
@@ -1771,12 +1771,12 @@ None,276,0,0,90,'light snow','Friday 15:00',5936
 None,292.67,0,0,1,fog,'Thursday 4:00',870
 None,277.75,0,0,90,mist,'Wednesday 0:00',559
 None,295.25,0,0,1,'sky is clear','Sunday 18:00',4067
-None,292.25,0,0,0,'Sky is Clear','Monday 1:00',499
+None,292.25,0,0,0,'sky is clear','Monday 1:00',499
 None,290.01,0,0,90,mist,'Wednesday 16:00',5812
 None,290.95,0,0,1,'light rain','Thursday 7:00',6557
 None,274,0,0,90,mist,'Tuesday 4:00',879
 None,264.48,0,0,1,'sky is clear','Wednesday 20:00',3080
-None,287.271,0,0,0,'Sky is Clear','Thursday 13:00',4562
+None,287.271,0,0,0,'sky is clear','Thursday 13:00',4562
 None,263.75,0,0,1,'sky is clear','Saturday 12:00',4300
 None,283.32,0.25,0,76,'light rain','Saturday 15:00',5351
 None,297.28,0,0,1,'sky is clear','Saturday 4:00',459
@@ -1838,7 +1838,7 @@ None,264.72,0,0,90,'light snow','Saturday 1:00',690
 None,268.94,0,0,75,haze,'Thursday 22:00',1871
 None,278.49,0,0,1,'sky is clear','Saturday 13:00',3859
 None,260.5,0,0,90,mist,'Wednesday 2:00',254
-None,295.97,0,0,0,'Sky is Clear','Monday 8:00',5766
+None,295.97,0,0,0,'sky is clear','Monday 8:00',5766
 None,287.76,0,0,90,'overcast clouds','Monday 19:00',2880
 None,275.03,0,0,90,'light intensity drizzle','Sunday 9:00',2300
 None,291.36,0,0,75,'broken clouds','Monday 19:00',3323
@@ -1862,11 +1862,11 @@ None,267.86,0,0,90,'overcast clouds','Saturday 15:00',4557
 None,250.63,0,0,42,'scattered clouds','Tuesday 1:00',275
 None,296.36,0,0,32,'scattered clouds','Sunday 12:00',4505
 None,293.54,0,0,40,'scattered clouds','Monday 7:00',5874
-None,292.02,0,0,0,'Sky is Clear','Tuesday 8:00',6541
+None,292.02,0,0,0,'sky is clear','Tuesday 8:00',6541
 None,290.38,0,0,92,'light rain','Saturday 2:00',592
 None,285.74,0,0,1,'sky is clear','Friday 7:00',5704
 None,298.15,0,0,92,'overcast clouds','Friday 19:00',3807
-None,294.94,0,0,0,'Sky is Clear','Sunday 20:00',3282
+None,294.94,0,0,0,'sky is clear','Sunday 20:00',3282
 None,285.29,0,0,90,haze,'Saturday 5:00',723
 None,294.95,0,0,40,'scattered clouds','Monday 1:00',485
 None,276.793,0,0,64,'broken clouds','Friday 0:00',619
@@ -1945,9 +1945,9 @@ None,289.22,0,0,20,'few clouds','Sunday 14:00',4445
 None,277.73,0,0,48,'scattered clouds','Saturday 11:00',4723
 None,288.86,0,0,90,'light intensity drizzle','Saturday 6:00',1531
 None,256.35,0,0,40,mist,'Thursday 9:00',5192
-None,290.52,0,0,0,'Sky is Clear','Monday 18:00',4769
-None,285.52,0,0,0,'Sky is Clear','Tuesday 21:00',2670
-None,296.58,0,0,0,'Sky is Clear','Wednesday 15:00',6410
+None,290.52,0,0,0,'sky is clear','Monday 18:00',4769
+None,285.52,0,0,0,'sky is clear','Tuesday 21:00',2670
+None,296.58,0,0,0,'sky is clear','Wednesday 15:00',6410
 None,271.41,0,0,90,'overcast clouds','Sunday 2:00',975
 None,290.36,0.88,0,90,thunderstorm,'Sunday 5:00',489
 None,270.07,0,0,64,mist,'Thursday 22:00',2006
@@ -2003,7 +2003,7 @@ None,280.02,0,0,75,'broken clouds','Friday 15:00',5810
 None,273.82,0,0,75,'light rain','Tuesday 0:00',521
 None,284.42,0,0,1,'sky is clear','Thursday 0:00',686
 None,296.64,0,0,80,'light rain','Wednesday 22:00',2037
-None,291.15,0,0,0,'Sky is Clear','Wednesday 20:00',3119
+None,291.15,0,0,0,'sky is clear','Wednesday 20:00',3119
 None,272.86,0,0,90,mist,'Wednesday 2:00',276
 None,296.61,0,0,75,'broken clouds','Saturday 12:00',5371
 None,271.14,0,0,40,'scattered clouds','Sunday 7:00',1240
@@ -2018,7 +2018,7 @@ None,284.82,0,0,90,'overcast clouds','Saturday 11:00',4924
 None,269.48,0,0,90,'overcast clouds','Saturday 23:00',1857
 None,282.72,0,0,1,'sky is clear','Monday 15:00',5630
 None,276.55,0,0,92,haze,'Thursday 21:00',3905
-None,288.567,0,0,0,'Sky is Clear','Friday 14:00',5474
+None,288.567,0,0,0,'sky is clear','Friday 14:00',5474
 None,273.08,0,0,90,'overcast clouds','Friday 5:00',2577
 None,281.915,0,0,56,'broken clouds','Friday 3:00',380
 None,274.42,0,0,90,'light rain','Friday 7:00',5582
@@ -2088,7 +2088,7 @@ None,274.59,0,0,90,'moderate rain','Monday 1:00',362
 None,270.02,0,0,90,mist,'Thursday 23:00',1372
 None,271.51,0,0,1,'sky is clear','Thursday 9:00',5018
 None,290.73,1.78,0,1,mist,'Sunday 0:00',1375
-None,287.37,0,0,0,'Sky is Clear','Friday 4:00',1005
+None,287.37,0,0,0,'sky is clear','Friday 4:00',1005
 None,297.15,0,0,40,'scattered clouds','Saturday 18:00',4087
 None,290.79,0,0,90,mist,'Monday 23:00',867
 None,279.14,0,0,1,mist,'Monday 2:00',237
@@ -2117,7 +2117,7 @@ None,270.86,0,0,75,'broken clouds','Monday 11:00',4488
 None,296.95,0,0,1,thunderstorm,'Friday 13:00',5263
 None,288.23,0,0,1,'sky is clear','Monday 1:00',435
 None,273.52,0,0.1,90,'light snow','Thursday 23:00',1241
-None,286.532,0,0,0,'Sky is Clear','Saturday 7:00',1879
+None,286.532,0,0,0,'sky is clear','Saturday 7:00',1879
 None,290.23,0,0,1,'sky is clear','Thursday 21:00',3252
 None,275.21,0,0,90,'light rain','Wednesday 1:00',352
 None,296.86,0,0,75,'light intensity shower rain','Tuesday 9:00',4737
@@ -2128,7 +2128,7 @@ None,296.07,0,0,75,'broken clouds','Wednesday 10:00',3872
 None,289.38,0,0,1,'sky is clear','Tuesday 20:00',2784
 None,249.17,0,0,1,'sky is clear','Thursday 0:00',544
 None,274.84,0,0,90,'overcast clouds','Thursday 4:00',852
-None,298.13,0,0,0,'Sky is Clear','Friday 19:00',4048
+None,298.13,0,0,0,'sky is clear','Friday 19:00',4048
 None,256.54,0,0,20,'few clouds','Sunday 23:00',1031
 None,278.82,0,0,75,'broken clouds','Thursday 5:00',2917
 None,282.26,0,0,72,'light rain','Friday 4:00',739
@@ -2141,7 +2141,7 @@ None,278.42,0,0,90,'overcast clouds','Sunday 15:00',4357
 None,293.15,0,0,90,'light rain','Tuesday 9:00',4883
 None,294.22,0,0,90,'moderate rain','Tuesday 7:00',5737
 None,270.01,0.25,0,75,'light rain','Monday 19:00',3001
-None,293.171,0,0,0,'Sky is Clear','Thursday 1:00',394
+None,293.171,0,0,0,'sky is clear','Thursday 1:00',394
 None,262.38,0,0,1,'sky is clear','Monday 11:00',3559
 None,291.381,0,0,64,'broken clouds','Saturday 0:00',1148
 None,272.31,0,0,40,'scattered clouds','Tuesday 21:00',2407
@@ -2178,7 +2178,7 @@ None,294.09,0.25,0,92,'light rain','Tuesday 14:00',5523
 None,286.68,0,0,20,'few clouds','Wednesday 12:00',5103
 None,277.04,0,0,90,'overcast clouds','Sunday 8:00',1623
 None,265.9,0,0,1,'sky is clear','Wednesday 6:00',5548
-None,274.941,0,0,0,'Sky is Clear','Saturday 8:00',3050
+None,274.941,0,0,0,'sky is clear','Saturday 8:00',3050
 None,292.18,0.28,0,90,'moderate rain','Wednesday 4:00',882
 None,290.57,0,0,20,fog,'Friday 7:00',5994
 None,284.08,0,0,90,'light rain','Thursday 18:00',4200
@@ -2210,7 +2210,7 @@ None,257.32,0,0,90,'overcast clouds','Thursday 4:00',625
 None,296.78,0,0,48,'scattered clouds','Saturday 15:00',4656
 None,289.02,6.35,0,80,'heavy intensity rain','Thursday 3:00',356
 None,291.26,0,0,90,'overcast clouds','Thursday 3:00',295
-None,286.53,0,0,0,'Sky is Clear','Monday 21:00',2325
+None,286.53,0,0,0,'sky is clear','Monday 21:00',2325
 None,295.61,0,0,40,'scattered clouds','Thursday 8:00',4440
 None,293.72,0,0,1,'proximity shower rain','Monday 17:00',5703
 None,277.44,0,0,90,mist,'Sunday 1:00',632
@@ -2328,7 +2328,7 @@ None,289.33,0.25,0,90,'light rain','Wednesday 0:00',617
 None,293.1,0,0,40,'scattered clouds','Thursday 4:00',685
 None,273.53,0,0,90,'light rain','Monday 17:00',6400
 None,248.9,0,0,1,'sky is clear','Monday 11:00',3314
-None,290.1,0,0,0,'Sky is Clear','Monday 14:00',5160
+None,290.1,0,0,0,'sky is clear','Monday 14:00',5160
 None,296.08,0,0,40,'scattered clouds','Thursday 9:00',4205
 None,293.37,0,0,1,'sky is clear','Wednesday 23:00',2291
 None,273.57,0,0,90,'light snow','Thursday 7:00',6731
@@ -2363,7 +2363,7 @@ None,269.15,0,0,90,'overcast clouds','Sunday 5:00',442
 None,255.94,0,0,90,'overcast clouds','Wednesday 0:00',488
 None,266.9,0,0,77,'broken clouds','Wednesday 8:00',6544
 None,293.244,0,0,92,'overcast clouds','Tuesday 20:00',2445
-None,282.715,0,0,0,'Sky is Clear','Thursday 0:00',649
+None,282.715,0,0,0,'sky is clear','Thursday 0:00',649
 None,267.57,0,0,90,mist,'Thursday 4:00',874
 None,273.95,0,0,90,'moderate rain','Wednesday 7:00',4724
 None,286.15,0,0,1,'sky is clear','Saturday 19:00',3615
@@ -2401,7 +2401,7 @@ None,265.83,0,0,5,'sky is clear','Sunday 11:00',3641
 None,296.41,0,0,1,'proximity thunderstorm','Thursday 5:00',2741
 None,281.13,0,0,96,'light intensity drizzle','Saturday 6:00',1313
 None,266.37,0,0,90,'heavy snow','Saturday 4:00',387
-None,291.94,0,0,0,'Sky is Clear','Tuesday 21:00',2178
+None,291.94,0,0,0,'sky is clear','Tuesday 21:00',2178
 None,290.03,0,0,75,'broken clouds','Monday 10:00',4351
 None,283.22,0,0,1,'sky is clear','Friday 16:00',6900
 None,273.28,0,0.17,90,mist,'Friday 1:00',359
@@ -2467,7 +2467,7 @@ None,296.35,0,0,1,'light rain','Tuesday 12:00',4935
 None,271.55,0,0,64,mist,'Friday 19:00',3355
 None,290.79,10.92,0,90,'heavy intensity rain','Thursday 3:00',356
 None,295.72,0,0,1,'sky is clear','Sunday 22:00',2334
-None,293.83,0,0,0,'Sky is Clear','Tuesday 10:00',4880
+None,293.83,0,0,0,'sky is clear','Tuesday 10:00',4880
 None,273.71,0,0,90,haze,'Tuesday 13:00',4521
 None,304.21,0,0,36,'scattered clouds','Sunday 15:00',4588
 None,291.02,0,0,1,'sky is clear','Thursday 23:00',1501
@@ -2488,7 +2488,7 @@ None,282.22,0,0,1,'sky is clear','Sunday 9:00',2638
 None,265.75,0,0,90,'light snow','Sunday 11:00',3200
 None,289.55,0,0,1,mist,'Saturday 9:00',3449
 None,297.15,0,0,1,'light rain','Monday 1:00',423
-None,290.367,0,0,0,'Sky is Clear','Saturday 17:00',4460
+None,290.367,0,0,0,'sky is clear','Saturday 17:00',4460
 None,286.19,0,0,12,'few clouds','Tuesday 11:00',4281
 None,250.24,0,0,70,'broken clouds','Friday 18:00',4053
 None,265.82,0,0,90,'light snow','Tuesday 3:00',266
@@ -2533,10 +2533,10 @@ None,283.32,0,0,1,'sky is clear','Sunday 4:00',257
 None,288.62,3.45,0,90,mist,'Monday 16:00',6354
 None,275.89,0,0,90,mist,'Sunday 11:00',4084
 None,273.35,0,0,90,'overcast clouds','Friday 0:00',689
-None,287.86,0,0,0,'Sky is Clear','Wednesday 13:00',4477
+None,287.86,0,0,0,'sky is clear','Wednesday 13:00',4477
 None,269.37,0,0,1,'sky is clear','Saturday 21:00',3003
 None,285.26,0,0,90,'overcast clouds','Friday 12:00',5084
-None,273.939,0,0,0,'Sky is Clear','Wednesday 15:00',5605
+None,273.939,0,0,0,'sky is clear','Wednesday 15:00',5605
 None,286.74,0,0,1,'sky is clear','Sunday 23:00',1144
 None,292.92,0,0,90,'moderate rain','Thursday 4:00',917
 None,267.31,0,0,90,'heavy snow','Friday 7:00',5982
@@ -2557,7 +2557,7 @@ None,264.68,0,0,75,'light snow','Friday 12:00',5280
 None,298.06,0,0,90,'light rain','Thursday 13:00',5358
 None,254.44,0,0,64,'broken clouds','Friday 17:00',5672
 None,274.29,0.25,0,90,'light rain','Tuesday 12:00',4732
-None,292.04,0,0,0,'Sky is Clear','Saturday 2:00',692
+None,292.04,0,0,0,'sky is clear','Saturday 2:00',692
 None,280.64,0,0,75,'broken clouds','Saturday 9:00',3405
 None,277.08,0,0,90,'overcast clouds','Wednesday 20:00',2594
 None,281.91,0,0,90,mist,'Thursday 1:00',381
@@ -2580,7 +2580,7 @@ None,261.98,0,0,40,'scattered clouds','Tuesday 15:00',5651
 None,288.63,0.25,0,40,'light intensity drizzle','Friday 15:00',5518
 None,284.69,0,0,90,'light rain','Sunday 3:00',364
 None,267.9,0,0,90,'overcast clouds','Saturday 5:00',661
-None,284.056,0,0,0,'Sky is Clear','Monday 16:00',6252
+None,284.056,0,0,0,'sky is clear','Monday 16:00',6252
 None,256.48,0,0,1,'sky is clear','Thursday 14:00',5421
 None,250.46,0,0,1,'sky is clear','Friday 6:00',4791
 None,274.23,0,0,1,fog,'Friday 6:00',5570
@@ -2656,7 +2656,7 @@ None,256.49,0,0,64,'broken clouds','Thursday 16:00',5415
 None,271.83,0,0,1,'sky is clear','Sunday 20:00',2658
 None,267.49,0,0,90,mist,'Sunday 2:00',381
 None,293.37,0.85,0,90,'light intensity drizzle','Friday 4:00',851
-None,292.59,0,0,0,'Sky is Clear','Monday 8:00',5886
+None,292.59,0,0,0,'sky is clear','Monday 8:00',5886
 None,261.42,0,0,1,'sky is clear','Wednesday 23:00',1013
 None,290.14,0,0,75,'light rain','Sunday 17:00',4383
 None,294.08,0,0,20,'few clouds','Monday 4:00',303
@@ -2671,7 +2671,7 @@ None,298.3,0,0,5,haze,'Monday 22:00',2071
 None,292.86,0,0,1,'light rain','Tuesday 3:00',345
 None,278.21,0,0,90,'overcast clouds','Sunday 13:00',4456
 None,299.589,0,0,12,'moderate rain','Saturday 20:00',3341
-None,285.09,0,0,0,'Sky is Clear','Saturday 9:00',3758
+None,285.09,0,0,0,'sky is clear','Saturday 9:00',3758
 None,281.03,0,0,90,mist,'Sunday 21:00',2238
 None,275.05,0,0,90,'overcast clouds','Sunday 6:00',1508
 None,273.75,0,0,1,mist,'Wednesday 2:00',263
@@ -2749,7 +2749,7 @@ None,290.45,0,0,1,'sky is clear','Thursday 5:00',3054
 None,270.86,0,0,90,mist,'Monday 10:00',4100
 None,281.53,0,0,1,'sky is clear','Saturday 19:00',3163
 None,298.167,0,0,92,'overcast clouds','Saturday 16:00',4175
-None,285.96,0,0,0,'Sky is Clear','Friday 7:00',6318
+None,285.96,0,0,0,'sky is clear','Friday 7:00',6318
 None,286.01,0,0,20,'few clouds','Friday 2:00',370
 None,303.29,0,0,1,'sky is clear','Sunday 15:00',4542
 None,263.4,0,0,20,'few clouds','Saturday 15:00',3613
@@ -2777,7 +2777,7 @@ None,272.95,0,0,90,'light snow','Tuesday 0:00',716
 None,296.744,0,0,80,'broken clouds','Wednesday 14:00',5000
 None,289.42,0,0,1,'sky is clear','Friday 9:00',5011
 None,286.27,0,0,90,'overcast clouds','Saturday 18:00',4334
-None,297.888,0,0,0,'Sky is Clear','Wednesday 3:00',337
+None,297.888,0,0,0,'sky is clear','Wednesday 3:00',337
 None,300.11,0,0,1,'sky is clear','Tuesday 18:00',5000
 None,271.57,0,0,1,'sky is clear','Friday 2:00',382
 None,282.9,0,0,90,'light intensity drizzle','Wednesday 23:00',1125
@@ -2806,7 +2806,7 @@ None,290.14,0,0,1,'sky is clear','Thursday 23:00',1371
 None,284.79,1.4,0,75,mist,'Sunday 22:00',1609
 None,287.28,0,0,40,fog,'Tuesday 7:00',6353
 None,294.29,0,0,1,'light intensity drizzle','Tuesday 3:00',344
-None,270.969,0,0,0,'Sky is Clear','Thursday 5:00',2764
+None,270.969,0,0,0,'sky is clear','Thursday 5:00',2764
 None,273.82,0,0,90,'overcast clouds','Sunday 23:00',1000
 None,286.67,0,0,40,'scattered clouds','Tuesday 12:00',5099
 None,285.42,0,0,75,'broken clouds','Tuesday 22:00',1538
@@ -2862,7 +2862,7 @@ None,267.53,0,0,1,'sky is clear','Sunday 20:00',2523
 None,273.27,0.58,0,20,'light rain','Friday 11:00',5146
 None,268.15,0,0,75,'light snow','Tuesday 10:00',4682
 None,267.01,0,0,90,'overcast clouds','Saturday 2:00',589
-None,287.464,0,0,0,'Sky is Clear','Sunday 14:00',4662
+None,287.464,0,0,0,'sky is clear','Sunday 14:00',4662
 None,289.88,0,0,1,fog,'Monday 3:00',326
 None,290.84,0,0,75,mist,'Tuesday 3:00',324
 None,250.43,0,0,75,'broken clouds','Thursday 23:00',1098
@@ -2910,9 +2910,9 @@ None,269.47,0,0,20,'few clouds','Friday 9:00',5113
 None,273.75,1.08,0,90,'moderate rain','Wednesday 17:00',5857
 None,286.62,0,0,90,haze,'Monday 11:00',4286
 None,288.26,0.25,0,68,mist,'Tuesday 5:00',2839
-None,294.61,0,0,0,'Sky is Clear','Saturday 10:00',3586
+None,294.61,0,0,0,'sky is clear','Saturday 10:00',3586
 None,286.77,0,0,1,'sky is clear','Wednesday 19:00',3656
-None,294.37,0,0,0,'Sky is Clear','Thursday 13:00',5296
+None,294.37,0,0,0,'sky is clear','Thursday 13:00',5296
 None,278.82,0,0,1,'sky is clear','Friday 22:00',2860
 None,281.33,0,0,1,'sky is clear','Monday 18:00',4356
 None,262.54,0,0,75,'broken clouds','Tuesday 4:00',800
@@ -2930,7 +2930,7 @@ None,289.68,0.3,0,90,'light rain','Saturday 8:00',3051
 None,273.02,0,0,90,'light intensity drizzle','Monday 23:00',827
 None,293.38,0,0,8,'sky is clear','Sunday 9:00',2897
 None,284.36,0,0,90,'moderate rain','Tuesday 8:00',5771
-None,296.17,0,0,0,'Sky is Clear','Monday 17:00',6015
+None,296.17,0,0,0,'sky is clear','Monday 17:00',6015
 None,275.21,0,0,90,'light intensity drizzle','Friday 11:00',4687
 None,274.55,0,0,1,'sky is clear','Wednesday 0:00',574
 None,271.08,0,0,90,'light snow','Tuesday 11:00',4427
@@ -2964,7 +2964,7 @@ None,287.66,0,0,40,'scattered clouds','Thursday 18:00',4725
 None,274.79,0,0,90,mist,'Wednesday 21:00',2204
 None,267.79,0,0,90,haze,'Thursday 12:00',4422
 None,293,0,0,90,'overcast clouds','Saturday 18:00',4247
-None,288.18,0,0,0,'Sky is Clear','Thursday 5:00',2903
+None,288.18,0,0,0,'sky is clear','Thursday 5:00',2903
 None,289.29,0,0,90,'moderate rain','Sunday 20:00',2693
 None,292.28,0,0,80,'broken clouds','Thursday 0:00',753
 None,255.95,0,0,64,'broken clouds','Thursday 21:00',3504
@@ -3051,10 +3051,10 @@ None,296.21,0,0,1,'sky is clear','Wednesday 23:00',1254
 None,270.69,0,0,64,'broken clouds','Tuesday 11:00',4612
 None,293.89,0,0,1,'sky is clear','Sunday 4:00',338
 None,292.94,0,0,1,mist,'Sunday 1:00',868
-None,274.941,0,0,0,'Sky is Clear','Saturday 9:00',3754
+None,274.941,0,0,0,'sky is clear','Saturday 9:00',3754
 None,269.05,0,0,1,'sky is clear','Sunday 12:00',4300
 None,280.49,0,0,90,mist,'Wednesday 20:00',2826
-None,296.72,0,0,0,'Sky is Clear','Monday 12:00',5116
+None,296.72,0,0,0,'sky is clear','Monday 12:00',5116
 None,270.15,0,0,90,'light snow','Friday 21:00',2506
 None,271.08,0,0,90,'light snow','Tuesday 5:00',2746
 None,281.15,0,0,1,'sky is clear','Monday 6:00',5839
@@ -3085,7 +3085,7 @@ None,301.01,0,0,75,'broken clouds','Saturday 18:00',4157
 None,271.78,0,0,1,fog,'Saturday 4:00',300
 None,280.87,0,0,64,'broken clouds','Wednesday 13:00',5039
 None,271.71,0,0,1,mist,'Saturday 3:00',332
-None,287.271,0,0,0,'Sky is Clear','Thursday 12:00',4483
+None,287.271,0,0,0,'sky is clear','Thursday 12:00',4483
 None,290.39,0,0,90,mist,'Tuesday 23:00',1016
 None,293.28,0,0,80,'light rain','Tuesday 6:00',5971
 None,271.93,0,0,90,fog,'Monday 18:00',1389
@@ -3107,7 +3107,7 @@ None,286.46,0,0,90,'overcast clouds','Sunday 15:00',4632
 None,293.95,0,0,75,'proximity thunderstorm','Monday 5:00',3005
 None,299.06,0,0,36,'proximity thunderstorm','Tuesday 15:00',6350
 None,278.58,1.12,0,90,'moderate rain','Wednesday 21:00',2308
-None,290.45,0,0,0,'Sky is Clear','Monday 2:00',307
+None,290.45,0,0,0,'sky is clear','Monday 2:00',307
 None,291.79,0,0,40,'scattered clouds','Sunday 14:00',4091
 None,272.84,0,0,90,'overcast clouds','Thursday 18:00',4860
 None,288.44,0,0,90,mist,'Wednesday 12:00',5028
@@ -3116,7 +3116,7 @@ None,283.86,0,0,1,'sky is clear','Tuesday 19:00',3313
 None,298.3,0,0,1,'sky is clear','Wednesday 21:00',2582
 None,282.6,0,0,81,'sky is clear','Wednesday 21:00',2603
 None,257.94,0,0,1,'sky is clear','Wednesday 1:00',349
-None,276.35,0,0,0,'Sky is Clear','Wednesday 22:00',1373
+None,276.35,0,0,0,'sky is clear','Wednesday 22:00',1373
 None,264.65,0,0,1,'sky is clear','Friday 15:00',6103
 None,270.72,0,0,90,mist,'Monday 18:00',1086
 None,254.53,0,0,90,'overcast clouds','Friday 8:00',3897
@@ -3133,7 +3133,7 @@ None,285.69,0,0,1,'sky is clear','Wednesday 5:00',3011
 None,270.21,0,0,90,mist,'Sunday 8:00',1426
 None,255.82,0,0,40,'scattered clouds','Friday 17:00',6185
 None,281.696,0,0,92,'overcast clouds','Monday 10:00',4002
-None,291.22,0,0,0,'Sky is Clear','Monday 9:00',4728
+None,291.22,0,0,0,'sky is clear','Monday 9:00',4728
 None,287.87,0,0,90,'overcast clouds','Tuesday 1:00',351
 None,283.97,0,0,90,'overcast clouds','Saturday 3:00',385
 None,285.29,0,0,90,'overcast clouds','Monday 8:00',5595
@@ -3160,7 +3160,7 @@ None,295.4,8.4,0,90,'heavy intensity rain','Saturday 17:00',3628
 None,282.95,0,0,1,'sky is clear','Thursday 3:00',322
 None,284.07,0,0,12,'few clouds','Wednesday 8:00',6108
 None,277.4,0,0,90,'overcast clouds','Wednesday 8:00',6485
-None,290.04,0,0,0,'Sky is Clear','Monday 4:00',859
+None,290.04,0,0,0,'sky is clear','Monday 4:00',859
 None,290.35,0,0,75,'light rain','Saturday 19:00',3460
 None,258.68,0,0,1,'sky is clear','Thursday 6:00',5568
 None,259.66,0,0,64,'broken clouds','Wednesday 3:00',396
@@ -3213,7 +3213,7 @@ None,271.45,0,0,64,'light snow','Wednesday 13:00',3880
 None,291.42,0,0,1,'sky is clear','Monday 4:00',902
 None,280.31,0,0,1,mist,'Sunday 6:00',1510
 None,292.42,0,0,1,'sky is clear','Wednesday 1:00',388
-None,288.42,0,0,0,'Sky is Clear','Tuesday 1:00',416
+None,288.42,0,0,0,'sky is clear','Tuesday 1:00',416
 None,265.87,0,0,40,'scattered clouds','Friday 9:00',2703
 None,251.23,0,0,75,'broken clouds','Saturday 21:00',2271
 None,278.04,0,0,20,'few clouds','Saturday 11:00',5191
@@ -3248,7 +3248,7 @@ None,300.28,0,0,40,'scattered clouds','Tuesday 14:00',5398
 None,250.89,0,0,90,'overcast clouds','Wednesday 3:00',559
 None,252.15,0,0,1,'sky is clear','Thursday 14:00',4766
 None,266.63,0,0,1,'sky is clear','Friday 12:00',5460
-None,291.03,0,0,0,'Sky is Clear','Friday 22:00',3274
+None,291.03,0,0,0,'sky is clear','Friday 22:00',3274
 None,292.86,0.25,0,90,'thunderstorm with rain','Sunday 17:00',4054
 None,272.75,0,0,90,snow,'Friday 10:00',4513
 None,288.5,0,0,40,'light rain','Monday 12:00',4825
@@ -3259,7 +3259,7 @@ None,271.96,0,0,1,'sky is clear','Sunday 19:00',2951
 None,258.08,0,0,5,'light snow','Wednesday 13:00',4708
 None,283.42,0,0,1,'sky is clear','Wednesday 23:00',890
 None,295.3,0,0,40,'scattered clouds','Monday 0:00',705
-None,303.01,0,0,0,'Sky is Clear','Friday 12:00',5446
+None,303.01,0,0,0,'sky is clear','Friday 12:00',5446
 None,286.81,0,0,90,'overcast clouds','Monday 13:00',3436
 None,290.3,0,0,75,'light rain','Tuesday 22:00',1438
 None,297.36,0,0,40,'scattered clouds','Friday 17:00',5292
@@ -3284,7 +3284,7 @@ None,255.41,0,0,75,'light snow','Tuesday 8:00',5066
 None,287.13,0,0,90,'light rain','Monday 8:00',6344
 None,289.29,0,0,1,mist,'Friday 1:00',431
 None,265.6,0,0,75,'heavy snow','Saturday 18:00',4732
-None,277.352,0,0,0,'Sky is Clear','Thursday 8:00',5223
+None,277.352,0,0,0,'sky is clear','Thursday 8:00',5223
 None,292.75,0,0,90,'light intensity drizzle','Wednesday 12:00',4891
 None,289.08,0,0,40,'light rain','Tuesday 8:00',6140
 None,296.01,0,0,1,'sky is clear','Friday 13:00',5332
@@ -3323,7 +3323,7 @@ None,300.77,0,0,40,'scattered clouds','Sunday 11:00',3655
 None,282.82,0,0,75,'broken clouds','Friday 2:00',331
 None,257.83,0,0,90,'overcast clouds','Thursday 6:00',4313
 None,284.35,0,0,1,'sky is clear','Wednesday 0:00',649
-None,296.68,0,0,0,'Sky is Clear','Monday 20:00',2805
+None,296.68,0,0,0,'sky is clear','Monday 20:00',2805
 None,290.8,0,0,40,'light rain','Tuesday 1:00',432
 None,290.02,0,0,90,'light rain','Monday 15:00',3908
 None,276.55,0,0,90,mist,'Sunday 1:00',894
@@ -3369,7 +3369,7 @@ None,290.22,0,0,1,mist,'Sunday 6:00',1091
 None,289.72,0,0,1,mist,'Monday 5:00',2811
 None,265.32,0,0,90,'heavy snow','Saturday 6:00',1018
 None,275.43,0,0,90,'overcast clouds','Tuesday 13:00',4793
-None,289.65,0,0,0,'Sky is Clear','Saturday 8:00',2741
+None,289.65,0,0,0,'sky is clear','Saturday 8:00',2741
 None,271.41,0,0,90,'light snow','Tuesday 10:00',3403
 None,274.42,0,0,64,fog,'Tuesday 10:00',4524
 None,295.23,0,0,1,'sky is clear','Sunday 12:00',5042
@@ -3380,9 +3380,9 @@ None,297.09,0,0,90,'overcast clouds','Friday 22:00',2756
 None,262.72,0,0,90,'overcast clouds','Tuesday 23:00',2676
 None,290.96,0,0,1,'sky is clear','Wednesday 8:00',6318
 None,284.96,0,0,1,'sky is clear','Sunday 0:00',1617
-None,292.35,0,0,0,'Sky is Clear','Thursday 1:00',387
+None,292.35,0,0,0,'sky is clear','Thursday 1:00',387
 None,295.88,0,0,40,'scattered clouds','Saturday 23:00',2319
-None,287.37,0,0,0,'Sky is Clear','Sunday 16:00',5353
+None,287.37,0,0,0,'sky is clear','Sunday 16:00',5353
 None,290.87,0,0,1,'sky is clear','Friday 3:00',388
 None,271.9,0,0,1,'sky is clear','Tuesday 14:00',5188
 None,272.35,0,0,90,'light snow','Monday 23:00',964
@@ -3422,7 +3422,7 @@ None,270.49,0,0,90,'overcast clouds','Sunday 22:00',1464
 None,259.5,0,0,90,'light snow','Tuesday 20:00',2660
 None,290.8,0,0,1,'sky is clear','Friday 22:00',2990
 None,266.15,0,0,90,mist,'Monday 6:00',4761
-None,297.888,0,0,0,'Sky is Clear','Tuesday 20:00',2705
+None,297.888,0,0,0,'sky is clear','Tuesday 20:00',2705
 None,277.21,0,0,75,'broken clouds','Thursday 14:00',5056
 None,281.03,0,0,90,'light rain','Saturday 3:00',383
 None,289.67,2.79,0,90,'moderate rain','Tuesday 6:00',5611
@@ -3433,7 +3433,7 @@ None,269.49,0,0,64,'broken clouds','Wednesday 7:00',7020
 None,289.96,0.28,0,90,'moderate rain','Tuesday 9:00',4888
 None,283.64,0,0,75,'broken clouds','Monday 2:00',217
 None,295.12,20.24,0,90,'very heavy rain','Tuesday 7:00',4302
-None,293.27,0,0,0,'Sky is Clear','Friday 1:00',385
+None,293.27,0,0,0,'sky is clear','Friday 1:00',385
 None,292.22,0,0,1,'sky is clear','Tuesday 11:00',4699
 None,284.58,1.02,0,90,'heavy intensity rain','Sunday 12:00',4349
 None,288.58,0,0,1,'sky is clear','Thursday 7:00',6256
@@ -3457,7 +3457,7 @@ None,273.77,0,0,90,'light snow','Sunday 9:00',2334
 None,295.51,0,0,40,'scattered clouds','Sunday 2:00',616
 None,272.72,0,0,90,mist,'Sunday 9:00',2559
 None,269.84,0,0,20,'few clouds','Saturday 17:00',4155
-None,296.89,0,0,0,'Sky is Clear','Saturday 0:00',1190
+None,296.89,0,0,0,'sky is clear','Saturday 0:00',1190
 None,289.74,0,0,20,'few clouds','Friday 5:00',2821
 None,280.11,0,0,20,'few clouds','Sunday 10:00',3532
 None,278.42,0,0,1,'sky is clear','Friday 5:00',2743
@@ -3482,7 +3482,7 @@ None,260.72,0,0,90,'light snow','Friday 21:00',3818
 None,279.27,0,0,75,'broken clouds','Monday 16:00',6516
 None,281.55,0,0,40,'light intensity drizzle','Sunday 7:00',1091
 None,260.39,0,0,90,mist,'Saturday 7:00',1868
-None,294.13,0,0,0,'Sky is Clear','Monday 9:00',5108
+None,294.13,0,0,0,'sky is clear','Monday 9:00',5108
 None,261.61,0,0,90,'light snow','Sunday 7:00',1198
 None,290.64,0,0,56,'broken clouds','Wednesday 9:00',5343
 None,299.82,0,0,1,'sky is clear','Friday 11:00',5314
@@ -3519,7 +3519,7 @@ None,278.38,1.52,0,75,'moderate rain','Sunday 22:00',1248
 None,282.38,0,0,1,'sky is clear','Saturday 8:00',3497
 None,299.81,0,0,40,'scattered clouds','Wednesday 12:00',5004
 None,295.74,0,0,1,'sky is clear','Sunday 0:00',1361
-None,298.79,0,0,0,'Sky is Clear','Tuesday 14:00',4451
+None,298.79,0,0,0,'sky is clear','Tuesday 14:00',4451
 None,260.85,0,0,5,'sky is clear','Sunday 12:00',4950
 None,287.84,0.8,0,90,mist,'Thursday 6:00',5417
 None,289.08,0,0,1,thunderstorm,'Saturday 4:00',424
@@ -3530,7 +3530,7 @@ None,266.08,0,0,90,mist,'Sunday 12:00',2936
 None,274.55,0,0,90,drizzle,'Thursday 8:00',1194
 None,284.05,0,0,1,'sky is clear','Friday 21:00',1932
 None,291.18,0,0,1,'sky is clear','Thursday 23:00',1290
-None,297.888,0,0,0,'Sky is Clear','Tuesday 6:00',5334
+None,297.888,0,0,0,'sky is clear','Tuesday 6:00',5334
 None,254.15,0,0,90,'overcast clouds','Wednesday 8:00',5633
 None,259.71,0,0,1,'sky is clear','Tuesday 1:00',351
 None,274.52,0,0,90,'heavy snow','Sunday 19:00',2597
@@ -3570,7 +3570,7 @@ None,280.88,0,0,90,'light intensity drizzle','Friday 2:00',346
 'Independence Day',289.2,0,0,1,'sky is clear','Friday 0:00',959
 None,264.95,0,0,90,'light snow','Tuesday 11:00',3683
 None,259.26,0,0,64,'broken clouds','Wednesday 1:00',417
-None,279.568,0,0,0,'Sky is Clear','Friday 9:00',4594
+None,279.568,0,0,0,'sky is clear','Friday 9:00',4594
 None,290.19,0,0,12,'few clouds','Wednesday 17:00',6447
 None,270.28,0,0,75,'broken clouds','Friday 8:00',5889
 None,289.37,0,0,75,'broken clouds','Sunday 22:00',1613
@@ -3642,7 +3642,7 @@ None,266.14,0,0,90,'overcast clouds','Monday 17:00',5590
 None,286.399,0,0,8,'sky is clear','Tuesday 1:00',394
 None,273.47,0,0,20,'few clouds','Tuesday 2:00',298
 None,265.34,0,0,40,'light snow','Wednesday 18:00',4447
-None,298.32,0,0,0,'Sky is Clear','Tuesday 12:00',4959
+None,298.32,0,0,0,'sky is clear','Tuesday 12:00',4959
 None,301.02,0,0,40,'scattered clouds','Sunday 21:00',2948
 None,255.93,0,0,0,'sky is clear','Thursday 22:00',1771
 None,305.47,0,0,40,'scattered clouds','Thursday 17:00',5576
@@ -3654,7 +3654,7 @@ None,287.04,0,0,90,mist,'Thursday 4:00',777
 None,294.96,0.3,0,1,'light rain','Sunday 8:00',1449
 None,270.15,0,0,40,mist,'Sunday 13:00',3977
 None,299.57,0,0,40,'scattered clouds','Thursday 14:00',4708
-None,294.46,0,0,0,'Sky is Clear','Monday 22:00',1730
+None,294.46,0,0,0,'sky is clear','Monday 22:00',1730
 None,280.15,0,0,40,'scattered clouds','Monday 21:00',2149
 None,296.69,2.54,0,56,'moderate rain','Monday 1:00',431
 None,267.9,0,0,1,'sky is clear','Sunday 8:00',1284
@@ -3693,10 +3693,10 @@ None,276.22,0,0,90,'overcast clouds','Sunday 14:00',4464
 None,287.95,0,0,1,'sky is clear','Sunday 20:00',2912
 None,298.15,0,0,1,'sky is clear','Friday 0:00',841
 None,295.27,0.44,0,90,'light rain','Monday 19:00',3006
-None,293.86,0,0,0,'Sky is Clear','Monday 22:00',1545
+None,293.86,0,0,0,'sky is clear','Monday 22:00',1545
 None,291.61,0.25,0,75,'light rain','Monday 7:00',1556
 None,283.75,0,0,93,'light rain','Sunday 13:00',4128
-None,298.17,0,0,0,'Sky is Clear','Wednesday 11:00',4449
+None,298.17,0,0,0,'sky is clear','Wednesday 11:00',4449
 None,276.93,0,0,90,mist,'Saturday 21:00',2304
 None,274.65,0,0,90,'light snow','Sunday 8:00',1840
 None,293.93,0,0,92,mist,'Tuesday 14:00',5857
@@ -3809,7 +3809,7 @@ None,254.03,0,0,1,'sky is clear','Sunday 0:00',1089
 None,259.02,0,0,20,'few clouds','Wednesday 1:00',359
 None,282.49,0,0,90,mist,'Sunday 8:00',1970
 None,292.78,1.15,0,90,drizzle,'Thursday 15:00',5511
-None,297.888,0,0,0,'Sky is Clear','Tuesday 17:00',5525
+None,297.888,0,0,0,'sky is clear','Tuesday 17:00',5525
 None,271.72,0,0,90,'heavy snow','Tuesday 14:00',3798
 None,290.48,0,0,75,'broken clouds','Thursday 16:00',6742
 None,287.15,0,0,90,drizzle,'Saturday 21:00',2894
@@ -3820,7 +3820,7 @@ None,291.81,0,0,90,'overcast clouds','Monday 9:00',4588
 None,260.01,0,0,75,'broken clouds','Monday 8:00',2174
 None,300.09,0,0,40,'scattered clouds','Monday 13:00',4994
 None,294.82,0,0,20,'few clouds','Sunday 22:00',2224
-None,293.09,0,0,0,'Sky is Clear','Friday 2:00',315
+None,293.09,0,0,0,'sky is clear','Friday 2:00',315
 None,297.26,0,0,48,'scattered clouds','Friday 15:00',5442
 None,294.08,0,0,40,'scattered clouds','Saturday 20:00',3256
 None,269.2,0,0,90,haze,'Wednesday 15:00',5912
@@ -3915,7 +3915,7 @@ None,271.76,0,0,1,'sky is clear','Thursday 19:00',3421
 None,273.35,0,0,90,'overcast clouds','Saturday 11:00',5265
 None,286.64,0,0,90,'moderate rain','Sunday 1:00',865
 None,287.48,0,0,20,'moderate rain','Tuesday 8:00',6088
-None,304.37,0,0,0,'Sky is Clear','Wednesday 16:00',6010
+None,304.37,0,0,0,'sky is clear','Wednesday 16:00',6010
 None,270.08,0,0,1,'sky is clear','Monday 10:00',4138
 None,291.22,0,0,1,'sky is clear','Saturday 1:00',997
 None,275.95,0,0,90,'overcast clouds','Tuesday 15:00',5359
@@ -3962,7 +3962,7 @@ None,265.54,0,0,1,'sky is clear','Sunday 10:00',3593
 None,252.22,0,0,1,'sky is clear','Monday 4:00',925
 None,297.08,0,0,90,'light rain','Saturday 16:00',4586
 None,281.79,0,0,1,'sky is clear','Saturday 1:00',706
-None,283.979,0,0,0,'Sky is Clear','Thursday 11:00',4431
+None,283.979,0,0,0,'sky is clear','Thursday 11:00',4431
 None,276.68,0,0,90,drizzle,'Saturday 20:00',2352
 None,275.2,0,0,1,'sky is clear','Thursday 11:00',4804
 None,283.36,0,0,1,'sky is clear','Thursday 5:00',2836
@@ -3986,7 +3986,7 @@ None,272.47,0,0,90,'heavy snow','Saturday 4:00',390
 None,252.02,0,0,20,'light snow','Wednesday 9:00',4667
 None,278.59,1.06,0,90,'moderate rain','Wednesday 15:00',5633
 None,293.2,0,0,5,'sky is clear','Wednesday 17:00',6764
-None,278.22,0,0,0,'Sky is Clear','Friday 22:00',3518
+None,278.22,0,0,0,'sky is clear','Friday 22:00',3518
 None,281.62,0,0,90,drizzle,'Saturday 20:00',2967
 None,281.55,0,0,1,'sky is clear','Friday 5:00',2640
 None,284.01,0,0,75,'broken clouds','Tuesday 18:00',4700
@@ -4033,7 +4033,7 @@ None,304.49,0,0,40,'scattered clouds','Thursday 19:00',3434
 None,275.75,0,0,90,'light intensity drizzle','Saturday 17:00',4268
 None,274.788,0,0,20,'few clouds','Thursday 7:00',6170
 None,285.4,0,0,75,'broken clouds','Wednesday 22:00',1609
-None,300.8,0,0,0,'Sky is Clear','Monday 18:00',4382
+None,300.8,0,0,0,'sky is clear','Monday 18:00',4382
 None,280.24,0,0,90,'overcast clouds','Saturday 19:00',3128
 None,256.59,0,0,90,mist,'Monday 7:00',4301
 None,266.69,0,0,90,'overcast clouds','Friday 14:00',4913
@@ -4054,7 +4054,7 @@ None,288.46,2.54,0,90,'moderate rain','Tuesday 9:00',5123
 None,290.08,0,0,90,'heavy intensity rain','Monday 5:00',2880
 None,288.39,0,0,90,haze,'Sunday 9:00',2488
 None,277.91,0,0,20,'few clouds','Tuesday 9:00',5254
-None,300.18,0,0,0,'Sky is Clear','Wednesday 18:00',4846
+None,300.18,0,0,0,'sky is clear','Wednesday 18:00',4846
 None,295.01,0,0,40,'scattered clouds','Wednesday 11:00',4808
 None,286.51,0,0,40,'scattered clouds','Thursday 7:00',6821
 None,267.51,0,0,75,'broken clouds','Saturday 16:00',5160
@@ -4126,7 +4126,7 @@ None,280.01,0,0,75,'broken clouds','Wednesday 10:00',4722
 None,302.25,0,0,1,'sky is clear','Friday 13:00',5394
 None,291.08,0,0,90,drizzle,'Wednesday 9:00',4930
 None,275.02,0,0,75,'proximity shower rain','Tuesday 17:00',5783
-None,287.8,0,0,0,'Sky is Clear','Monday 11:00',4125
+None,287.8,0,0,0,'sky is clear','Monday 11:00',4125
 None,274.44,0,0,90,mist,'Wednesday 15:00',5328
 None,259.86,0,0,1,'sky is clear','Sunday 5:00',435
 None,281.22,0,0,1,'sky is clear','Sunday 15:00',4892
@@ -4150,10 +4150,10 @@ None,302.12,0,0,76,'broken clouds','Saturday 14:00',3095
 None,278.6,0,0,90,drizzle,'Saturday 21:00',2710
 None,276.3,0,0,1,'sky is clear','Monday 2:00',227
 None,283.43,0,0,1,'sky is clear','Wednesday 13:00',5020
-None,293.54,0,0,0,'Sky is Clear','Friday 9:00',5174
+None,293.54,0,0,0,'sky is clear','Friday 9:00',5174
 None,279.02,0,0,90,mist,'Tuesday 20:00',2450
 None,275.09,0,0,90,fog,'Friday 22:00',2336
-None,295.77,0,0,0,'Sky is Clear','Thursday 21:00',3222
+None,295.77,0,0,0,'sky is clear','Thursday 21:00',3222
 None,256.72,0,0,64,'broken clouds','Friday 8:00',5191
 None,274.72,0,0,90,'light rain','Monday 21:00',1864
 None,264.39,0,0,75,'broken clouds','Thursday 13:00',5048
@@ -4162,7 +4162,7 @@ None,262.97,0,0,89,'overcast clouds','Tuesday 21:00',2372
 None,294.78,0.69,0,90,'moderate rain','Tuesday 10:00',4403
 None,291.35,0,0,90,'moderate rain','Friday 1:00',460
 None,270.09,0,0,90,mist,'Thursday 16:00',6669
-None,275.788,0,0,0,'Sky is Clear','Saturday 1:00',656
+None,275.788,0,0,0,'sky is clear','Saturday 1:00',656
 None,269.4,0,0,75,'broken clouds','Thursday 20:00',3088
 None,269.52,0,0,40,'scattered clouds','Monday 18:00',3306
 None,302.78,0,0,20,'few clouds','Sunday 16:00',4359
@@ -4235,7 +4235,7 @@ None,293.3,0,0,1,'sky is clear','Friday 13:00',4938
 None,301.49,0,0,56,'broken clouds','Sunday 15:00',4673
 None,297.15,0,0,1,'light intensity drizzle','Thursday 18:00',4858
 None,268.22,0,0,90,'overcast clouds','Friday 16:00',6630
-None,294.04,0,0,0,'Sky is Clear','Wednesday 12:00',5208
+None,294.04,0,0,0,'sky is clear','Wednesday 12:00',5208
 None,287.15,0,0,75,drizzle,'Saturday 13:00',5270
 None,264.7,0,0,90,'heavy snow','Sunday 4:00',270
 None,287.15,0,0,90,'light rain','Saturday 7:00',1984
@@ -4258,7 +4258,7 @@ None,269.89,0,0,90,'overcast clouds','Sunday 0:00',931
 None,273.39,0,0,90,'light rain','Friday 2:00',290
 None,250.54,0,0,1,'sky is clear','Friday 9:00',4694
 None,287.39,0.25,0,90,'light rain','Monday 20:00',2650
-None,306.31,0,0,0,'Sky is Clear','Monday 18:00',4520
+None,306.31,0,0,0,'sky is clear','Monday 18:00',4520
 None,273.86,0,0,90,'overcast clouds','Monday 23:00',978
 None,266.08,0,0,90,mist,'Thursday 10:00',4297
 None,255.93,0,0,40,'scattered clouds','Monday 4:00',339
@@ -4361,7 +4361,7 @@ None,276.23,0,0,90,'overcast clouds','Friday 20:00',3249
 None,286.28,0,0,1,fog,'Saturday 4:00',432
 None,269.15,0,0,1,'sky is clear','Wednesday 12:00',4885
 None,299.7,0,0,24,'few clouds','Tuesday 15:00',4928
-None,285.813,0,0,0,'Sky is Clear','Thursday 1:00',364
+None,285.813,0,0,0,'sky is clear','Thursday 1:00',364
 None,262.95,0,0,90,'overcast clouds','Thursday 18:00',4707
 None,251.07,0,0,1,'sky is clear','Saturday 2:00',487
 None,288.15,0,0,75,'broken clouds','Tuesday 21:00',2397
@@ -4408,7 +4408,7 @@ None,295.8,0.76,0,90,'moderate rain','Thursday 16:00',6550
 None,292.72,0,0,75,haze,'Monday 10:00',4273
 None,301.92,0,0,1,'sky is clear','Sunday 13:00',4211
 None,268.87,0,0,90,mist,'Friday 4:00',735
-None,294.05,0,0,0,'Sky is Clear','Saturday 6:00',1310
+None,294.05,0,0,0,'sky is clear','Saturday 6:00',1310
 None,260.91,0,0,1,'sky is clear','Tuesday 8:00',5702
 None,297.02,0,0,1,'sky is clear','Tuesday 11:00',4515
 None,267.71,0,0,20,haze,'Sunday 13:00',3840
@@ -4435,9 +4435,9 @@ None,267.18,0,0,90,mist,'Tuesday 23:00',1180
 None,278.84,0,0,5,'sky is clear','Tuesday 17:00',6277
 None,296.89,0,0,1,'sky is clear','Tuesday 13:00',4816
 None,294.56,0,0,90,'overcast clouds','Sunday 2:00',680
-None,301.67,0,0,0,'Sky is Clear','Friday 15:00',6223
+None,301.67,0,0,0,'sky is clear','Friday 15:00',6223
 None,294.04,0,0,12,'few clouds','Sunday 4:00',472
-None,298.44,0,0,0,'Sky is Clear','Monday 16:00',6412
+None,298.44,0,0,0,'sky is clear','Monday 16:00',6412
 None,275.35,0,0,90,'overcast clouds','Monday 21:00',2628
 None,276.55,0,0,90,'light intensity drizzle','Thursday 9:00',5380
 None,284.91,0,0,1,'sky is clear','Saturday 12:00',3793
@@ -4478,26 +4478,26 @@ None,272.88,0,0,90,'heavy snow','Saturday 11:00',4668
 None,258.93,0,0,1,'sky is clear','Wednesday 13:00',4699
 None,290.53,0,0,68,'broken clouds','Wednesday 1:00',396
 None,278.74,0,0,75,'broken clouds','Monday 3:00',306
-None,290.5,0,0,0,'Sky is Clear','Thursday 7:00',6637
+None,290.5,0,0,0,'sky is clear','Thursday 7:00',6637
 None,264.07,0,0,1,'sky is clear','Friday 2:00',286
 None,286.5,0,0,20,'few clouds','Friday 7:00',6385
 None,267.76,0,0,90,haze,'Saturday 1:00',611
-None,300.15,0,0,0,'Sky is Clear','Monday 10:00',4765
+None,300.15,0,0,0,'sky is clear','Monday 10:00',4765
 None,274.37,0,0,1,'sky is clear','Tuesday 16:00',6705
 None,273.9,0,0,90,mist,'Thursday 22:00',1752
 None,269.81,0,0,90,'overcast clouds','Thursday 2:00',374
 None,291.44,0,0,90,mist,'Saturday 18:00',3556
 None,261.21,0,0,20,'few clouds','Friday 16:00',6347
-None,270.365,0,0,0,'Sky is Clear','Sunday 7:00',1757
+None,270.365,0,0,0,'sky is clear','Sunday 7:00',1757
 None,274.08,0,0,90,'light snow','Thursday 23:00',1450
 None,266.42,0,0,90,mist,'Monday 9:00',3344
-None,282.99,0,0,0,'Sky is Clear','Wednesday 6:00',6154
+None,282.99,0,0,0,'sky is clear','Wednesday 6:00',6154
 None,293.73,0.56,0,48,'proximity thunderstorm','Monday 8:00',6292
 None,269.42,0,0,1,'sky is clear','Sunday 15:00',3838
 None,305.22,0,0,1,'proximity thunderstorm','Thursday 17:00',5795
 None,290.75,0,0,90,'light rain','Wednesday 15:00',5667
 None,271.62,0,0,90,'overcast clouds','Monday 4:00',771
-None,287.74,0,0,0,'Sky is Clear','Monday 1:00',436
+None,287.74,0,0,0,'sky is clear','Monday 1:00',436
 None,293.81,0,0,5,'sky is clear','Friday 11:00',4991
 None,273.82,0,0,90,mist,'Monday 7:00',6597
 None,262.78,0,0,1,'sky is clear','Sunday 9:00',2693
@@ -4515,7 +4515,7 @@ None,269.37,0,0,90,'overcast clouds','Sunday 8:00',1869
 None,273.02,0,0,1,'sky is clear','Wednesday 14:00',5642
 None,270.51,0,0,1,'sky is clear','Tuesday 19:00',3139
 None,301.55,0,0,75,'broken clouds','Sunday 18:00',4030
-None,293.39,0,0,0,'Sky is Clear','Monday 23:00',971
+None,293.39,0,0,0,'sky is clear','Monday 23:00',971
 None,296.43,0,0,40,'scattered clouds','Friday 22:00',2835
 None,260.15,0,0,5,'sky is clear','Saturday 15:00',5092
 None,290.4,0,0,1,'moderate rain','Friday 22:00',3507
@@ -4538,7 +4538,7 @@ None,276.35,0,0,90,'light rain','Friday 2:00',313
 None,289.22,0,0,40,thunderstorm,'Tuesday 5:00',2604
 None,255.57,0,0,1,mist,'Monday 3:00',295
 None,299.14,0,0,92,'light rain','Friday 16:00',6558
-None,274.666,0,0,0,'Sky is Clear','Saturday 3:00',369
+None,274.666,0,0,0,'sky is clear','Saturday 3:00',369
 None,255.28,0,0,1,'sky is clear','Wednesday 5:00',2856
 None,246.39,0,0,1,'sky is clear','Tuesday 8:00',4748
 None,291.39,0,0,36,'scattered clouds','Wednesday 0:00',708
@@ -4661,7 +4661,7 @@ None,285.79,0,0,40,'scattered clouds','Thursday 8:00',6171
 None,298.31,0,0,90,'overcast clouds','Saturday 21:00',3196
 None,294.28,0,0,75,'heavy intensity rain','Friday 19:00',3854
 None,275.9,0,0,1,'sky is clear','Sunday 3:00',543
-None,304.84,0,0,0,'Sky is Clear','Thursday 15:00',5364
+None,304.84,0,0,0,'sky is clear','Thursday 15:00',5364
 None,295.4,8.4,0,90,'light intensity drizzle','Saturday 17:00',3628
 None,277.96,0,0,1,'sky is clear','Wednesday 20:00',3115
 None,299.21,1.37,0,90,'moderate rain','Saturday 14:00',4866
@@ -4729,7 +4729,7 @@ None,291.36,0,0,90,haze,'Friday 23:00',2045
 None,289.775,0,0,56,'broken clouds','Wednesday 16:00',6395
 None,262.6,0,0,1,'sky is clear','Friday 14:00',5315
 None,264.55,0,0,1,'sky is clear','Friday 14:00',5881
-None,273.167,0,0,0,'Sky is Clear','Tuesday 10:00',4395
+None,273.167,0,0,0,'sky is clear','Tuesday 10:00',4395
 None,250.88,0,0,1,'sky is clear','Tuesday 0:00',422
 None,289.31,0,0,0,mist,'Thursday 3:00',421
 None,292.42,0,0,90,fog,'Thursday 4:00',930
@@ -4764,7 +4764,7 @@ None,292.22,0,0,75,'broken clouds','Tuesday 21:00',2526
 None,274.15,0,0,90,'overcast clouds','Wednesday 22:00',1618
 None,264.17,0,0,20,'few clouds','Saturday 13:00',4689
 None,261.58,0,0,40,'scattered clouds','Tuesday 15:00',5139
-None,288.567,0,0,0,'Sky is Clear','Friday 15:00',5955
+None,288.567,0,0,0,'sky is clear','Friday 15:00',5955
 None,285.8,0,0,1,'sky is clear','Friday 1:00',483
 None,294.55,0,0,75,'proximity thunderstorm','Thursday 1:00',514
 None,277.16,0,0,1,'sky is clear','Saturday 3:00',429
@@ -4784,7 +4784,7 @@ None,254.4,0,0,20,haze,'Sunday 5:00',604
 None,274.12,0,0,1,'sky is clear','Sunday 13:00',4604
 None,292.02,0,0,75,'broken clouds','Tuesday 12:00',5332
 None,258.3,0,0,90,haze,'Thursday 10:00',3562
-None,287,0,0,0,'Sky is Clear','Friday 6:00',5575
+None,287,0,0,0,'sky is clear','Friday 6:00',5575
 None,289.08,1.86,0,90,thunderstorm,'Wednesday 2:00',282
 None,282.94,0,0,1,'sky is clear','Thursday 1:00',329
 None,281.03,0,0,1,mist,'Friday 7:00',6125
@@ -4805,7 +4805,7 @@ None,287.67,0,0,1,'sky is clear','Monday 6:00',5620
 None,270.11,0,0,64,mist,'Friday 12:00',5073
 None,282.67,0,0,1,'sky is clear','Friday 22:00',2209
 None,284.25,0.34,0,68,'moderate rain','Monday 19:00',3093
-None,297.63,0,0,0,'Sky is Clear','Monday 11:00',4344
+None,297.63,0,0,0,'sky is clear','Monday 11:00',4344
 None,288.75,0,0,1,'moderate rain','Monday 5:00',2919
 None,268.52,0,0,75,'broken clouds','Monday 11:00',4277
 None,296.24,0,0,90,'overcast clouds','Tuesday 2:00',424
@@ -4849,7 +4849,7 @@ None,293.29,0,0,75,'broken clouds','Friday 14:00',5661
 None,294.42,0,0,1,'sky is clear','Thursday 19:00',3619
 None,296.5,0,0,75,'broken clouds','Wednesday 13:00',5137
 None,293.08,0.51,0,90,'light rain','Tuesday 16:00',6527
-None,297.888,0,0,0,'Sky is Clear','Wednesday 5:00',2944
+None,297.888,0,0,0,'sky is clear','Wednesday 5:00',2944
 None,275.55,0,0,1,haze,'Thursday 12:00',5028
 None,295.87,0,0,1,'light rain','Monday 22:00',1963
 None,286.52,0,0,88,'overcast clouds','Saturday 23:00',2031
@@ -4881,7 +4881,7 @@ None,272.02,0,0,90,'overcast clouds','Friday 15:00',5839
 None,277.38,0,0,75,'broken clouds','Wednesday 5:00',3006
 None,293.37,0,0,1,'sky is clear','Sunday 6:00',876
 None,299.72,0,0,1,'sky is clear','Sunday 10:00',3431
-None,297.57,0,0,0,'Sky is Clear','Monday 14:00',5437
+None,297.57,0,0,0,'sky is clear','Monday 14:00',5437
 None,265.36,0,0,90,'light snow','Thursday 10:00',4607
 None,300.49,0,0,90,'overcast clouds','Tuesday 17:00',6549
 None,275.72,0,0,90,mist,'Thursday 4:00',272
@@ -4912,7 +4912,7 @@ None,273.75,0,0,90,'overcast clouds','Friday 5:00',2473
 None,284.34,4.06,0,90,mist,'Sunday 9:00',2907
 None,258.05,0.25,0,64,'light rain','Sunday 10:00',2663
 None,296.37,0,0,40,'light rain','Thursday 20:00',2727
-None,297.64,0,0,0,'Sky is Clear','Monday 13:00',4931
+None,297.64,0,0,0,'sky is clear','Monday 13:00',4931
 None,294.61,0,0,75,'heavy intensity rain','Sunday 5:00',529
 None,285.69,0,0,1,'sky is clear','Saturday 1:00',1314
 None,287.6,0.81,0,90,drizzle,'Thursday 5:00',2924
@@ -5046,7 +5046,7 @@ None,279.22,0,0,1,'sky is clear','Tuesday 23:00',1079
 None,293.13,0,0,1,'sky is clear','Tuesday 21:00',2503
 None,278.94,0,0,90,'light intensity drizzle','Friday 21:00',2913
 None,295.09,0,0,1,'sky is clear','Saturday 6:00',1304
-None,254.917,0,0,0,'Sky is Clear','Tuesday 17:00',5806
+None,254.917,0,0,0,'sky is clear','Tuesday 17:00',5806
 None,279.35,0,0,91,mist,'Friday 9:00',4606
 None,258.22,0,0,1,'light snow','Saturday 13:00',3337
 None,266.75,0,0,40,'scattered clouds','Sunday 4:00',392
@@ -5108,13 +5108,13 @@ None,300.22,0,0,20,'few clouds','Tuesday 14:00',4944
 None,278.48,0,0,5,'sky is clear','Monday 12:00',4844
 None,302.7,0,0,56,'broken clouds','Sunday 13:00',4751
 None,278.95,0,0,40,'light intensity drizzle','Sunday 17:00',4492
-None,298.37,0,0,0,'Sky is Clear','Friday 11:00',5297
+None,298.37,0,0,0,'sky is clear','Friday 11:00',5297
 None,274.36,0,0,1,'sky is clear','Saturday 5:00',686
 None,269.69,0,0,20,'few clouds','Thursday 0:00',561
 None,287.74,0,0,40,'scattered clouds','Tuesday 14:00',5561
 None,261.75,0,0,90,'light snow','Tuesday 0:00',713
 None,279.45,0,0,91,mist,'Friday 7:00',5777
-None,287.25,0,0,0,'Sky is Clear','Saturday 5:00',1123
+None,287.25,0,0,0,'sky is clear','Saturday 5:00',1123
 None,284.85,0,0,1,'sky is clear','Friday 3:00',338
 None,292.63,0,0,75,'broken clouds','Saturday 13:00',4952
 None,286.49,0,0,75,'broken clouds','Tuesday 21:00',2408
@@ -5167,7 +5167,7 @@ None,270.68,0,0,90,'overcast clouds','Sunday 11:00',3286
 None,293.57,0,0,20,'few clouds','Monday 0:00',542
 None,299.69,0,0,90,'overcast clouds','Friday 14:00',5289
 None,273.09,0,0,90,mist,'Friday 6:00',5001
-None,300.78,0,0,0,'Sky is Clear','Saturday 18:00',4534
+None,300.78,0,0,0,'sky is clear','Saturday 18:00',4534
 None,296.54,0,0,40,'scattered clouds','Monday 9:00',4454
 None,291.21,0,0,90,'thunderstorm with light rain','Monday 8:00',6369
 None,279.03,0,0,90,snow,'Friday 11:00',4540
@@ -5188,9 +5188,9 @@ None,269.44,0,0,1,'sky is clear','Friday 23:00',1777
 None,272.95,0,0,1,'sky is clear','Monday 4:00',810
 None,281.08,0,0,1,'sky is clear','Monday 0:00',538
 None,292.35,0,0,1,mist,'Saturday 4:00',258
-None,290.33,0,0,0,'Sky is Clear','Wednesday 21:00',2970
+None,290.33,0,0,0,'sky is clear','Wednesday 21:00',2970
 None,302.79,0,0,40,'scattered clouds','Friday 18:00',4500
-None,295.56,0,0,0,'Sky is Clear','Saturday 23:00',2182
+None,295.56,0,0,0,'sky is clear','Saturday 23:00',2182
 None,277.01,0,0,64,'broken clouds','Wednesday 15:00',6043
 None,276.9,0,0,5,'sky is clear','Wednesday 14:00',5117
 None,293.16,0,0,40,'scattered clouds','Tuesday 0:00',1038
@@ -5199,7 +5199,7 @@ None,272.58,0,0,90,'overcast clouds','Tuesday 1:00',337
 None,290.55,0,0,20,'few clouds','Tuesday 8:00',6323
 None,285.88,0,0,20,'proximity thunderstorm','Sunday 3:00',378
 None,257.44,0,0,1,'sky is clear','Saturday 6:00',1159
-None,286.372,0,0,0,'Sky is Clear','Friday 13:00',5351
+None,286.372,0,0,0,'sky is clear','Friday 13:00',5351
 None,270.999,0,0,88,'overcast clouds','Wednesday 4:00',1049
 None,270.53,0,0,75,'broken clouds','Sunday 18:00',2955
 None,292.55,0,0,1,'sky is clear','Wednesday 19:00',2490
@@ -5207,17 +5207,17 @@ None,276.03,0,0,1,'sky is clear','Sunday 13:00',4268
 None,288.43,0,0,40,'scattered clouds','Wednesday 15:00',5693
 None,278.55,0,0,90,haze,'Saturday 20:00',3107
 None,277.22,0,0,90,'overcast clouds','Wednesday 23:00',1276
-None,306.66,0,0,0,'Sky is Clear','Friday 15:00',6180
+None,306.66,0,0,0,'sky is clear','Friday 15:00',6180
 None,298.5,0,0,40,'scattered clouds','Monday 14:00',4814
 None,269.42,0,0,75,'broken clouds','Monday 18:00',4568
 None,291.88,0,0,90,drizzle,'Tuesday 13:00',4583
-None,298.16,0,0,0,'Sky is Clear','Tuesday 10:00',4698
+None,298.16,0,0,0,'sky is clear','Tuesday 10:00',4698
 None,285.84,0,0,90,'overcast clouds','Thursday 17:00',6049
 None,277.36,0,0,90,mist,'Saturday 14:00',4942
 None,261.06,0,0,1,'sky is clear','Monday 4:00',718
 None,272.82,0,0,1,mist,'Wednesday 22:00',1662
 None,274.29,0,0,1,'sky is clear','Thursday 10:00',4492
-None,299.74,0,0,0,'Sky is Clear','Thursday 17:00',5998
+None,299.74,0,0,0,'sky is clear','Thursday 17:00',5998
 None,298.58,0,0,48,'scattered clouds','Thursday 16:00',6714
 None,307.2,0,0,20,'few clouds','Friday 17:00',4634
 None,261.42,0,0,90,'overcast clouds','Thursday 15:00',5662
@@ -5238,7 +5238,7 @@ None,294.96,0,0,76,'broken clouds','Tuesday 21:00',2519
 None,292.61,0,0,1,'sky is clear','Sunday 10:00',3958
 None,289.81,0.25,0,24,'light rain','Thursday 6:00',5886
 None,275.19,0,0,20,'few clouds','Thursday 9:00',5291
-None,301.07,0,0,0,'Sky is Clear','Thursday 17:00',6323
+None,301.07,0,0,0,'sky is clear','Thursday 17:00',6323
 None,273.95,0,0,90,'light snow','Wednesday 3:00',378
 None,284.43,0,0,40,'moderate rain','Thursday 6:00',6062
 None,277.2,0,0,64,'broken clouds','Wednesday 22:00',2288
@@ -5250,7 +5250,7 @@ None,262.42,0,0,90,mist,'Saturday 21:00',2494
 None,288.02,0,0,1,'sky is clear','Monday 2:00',389
 None,289.92,0,0,1,mist,'Tuesday 3:00',432
 None,292.04,0,0,90,'light intensity drizzle','Saturday 1:00',727
-None,275.788,0,0,0,'Sky is Clear','Saturday 0:00',1186
+None,275.788,0,0,0,'sky is clear','Saturday 0:00',1186
 None,271.58,0,0,90,'overcast clouds','Tuesday 2:00',277
 None,286.42,0,0,90,'overcast clouds','Monday 10:00',2609
 None,293.23,0,0,1,'sky is clear','Wednesday 13:00',4887
@@ -5291,7 +5291,7 @@ None,295.75,0,0,48,'scattered clouds','Saturday 22:00',2856
 None,273.02,0,0,5,mist,'Thursday 7:00',6175
 None,289.93,0,0,1,mist,'Tuesday 0:00',616
 None,291.77,0,0,1,'sky is clear','Saturday 19:00',3938
-None,283.69,0,0,0,'Sky is Clear','Monday 6:00',5951
+None,283.69,0,0,0,'sky is clear','Monday 6:00',5951
 None,293.69,0,0,90,mist,'Saturday 8:00',2714
 None,293.7,0,0,40,'scattered clouds','Sunday 10:00',3833
 None,263.35,0,0,75,'broken clouds','Thursday 13:00',4731
@@ -5310,7 +5310,7 @@ None,265.08,0,0,40,'scattered clouds','Saturday 22:00',2372
 None,265.88,0,0,75,'light snow','Tuesday 13:00',4158
 None,261.91,0,0,64,'light snow','Saturday 15:00',4441
 None,291.96,0.51,0,1,'light rain','Wednesday 20:00',3130
-None,274.666,0,0,0,'Sky is Clear','Saturday 4:00',380
+None,274.666,0,0,0,'sky is clear','Saturday 4:00',380
 None,294.63,0,0,1,'sky is clear','Monday 10:00',4277
 None,290.9,1.78,0,90,'moderate rain','Saturday 3:00',366
 None,292.48,0,0,90,'overcast clouds','Wednesday 11:00',4770
@@ -5333,7 +5333,7 @@ None,272.4,0,0,90,'overcast clouds','Saturday 18:00',4412
 None,290.48,0,0,1,'sky is clear','Thursday 10:00',4688
 None,287.82,0,0,40,'light rain','Saturday 22:00',3431
 None,294.13,0,0,88,'overcast clouds','Monday 20:00',2834
-None,301.23,0,0,0,'Sky is Clear','Friday 17:00',5884
+None,301.23,0,0,0,'sky is clear','Friday 17:00',5884
 None,293.35,0,0,1,'sky is clear','Sunday 0:00',1346
 None,291.02,8.89,0,40,'proximity thunderstorm','Sunday 2:00',626
 None,272.858,0,0,68,'broken clouds','Tuesday 18:00',4356
@@ -5353,7 +5353,7 @@ None,270.15,0,0,90,'overcast clouds','Thursday 0:00',605
 None,282.78,0,0,1,'sky is clear','Wednesday 3:00',342
 None,285.39,0,0,90,'light rain','Monday 2:00',285
 None,293.4,0,0,1,'sky is clear','Monday 2:00',354
-None,293.39,0,0,0,'Sky is Clear','Monday 12:00',5013
+None,293.39,0,0,0,'sky is clear','Monday 12:00',5013
 None,304.41,0,0,40,'scattered clouds','Sunday 14:00',3829
 None,281.08,0,0,90,'overcast clouds','Wednesday 18:00',4784
 None,292.72,0,0,75,mist,'Wednesday 1:00',351
@@ -5378,7 +5378,7 @@ None,260.12,0,0,5,'sky is clear','Saturday 20:00',2594
 None,298.59,0,0,1,'sky is clear','Tuesday 19:00',3350
 None,268.76,0,0,90,haze,'Monday 11:00',4271
 None,281.82,0,0,1,mist,'Tuesday 4:00',821
-None,299.73,0,0,0,'Sky is Clear','Saturday 10:00',4356
+None,299.73,0,0,0,'sky is clear','Saturday 10:00',4356
 None,274.21,0,0,90,'light snow','Tuesday 12:00',4593
 None,284.06,0.76,0,90,mist,'Tuesday 12:00',4580
 None,266.65,0,0,90,haze,'Friday 12:00',5346
@@ -5417,7 +5417,7 @@ None,299.59,0,0,90,'overcast clouds','Monday 10:00',4525
 None,258.17,0,0,0,'sky is clear','Sunday 11:00',3306
 None,302.75,0,0,1,'sky is clear','Sunday 14:00',4468
 None,272.06,0.76,0,90,'light rain','Tuesday 22:00',1958
-None,299.49,0,0,0,'Sky is Clear','Saturday 16:00',4482
+None,299.49,0,0,0,'sky is clear','Saturday 16:00',4482
 None,276.793,0,0,64,'broken clouds','Thursday 22:00',2663
 None,266.58,0,0,90,'heavy snow','Tuesday 2:00',290
 None,282.52,0,0,20,'few clouds','Friday 6:00',5661
@@ -5489,7 +5489,7 @@ None,258.4,0,0,97,'overcast clouds','Sunday 23:00',1068
 None,257.66,0,0,90,'heavy snow','Monday 19:00',2545
 None,293.76,0,0,90,'moderate rain','Tuesday 21:00',2154
 None,288.58,0,0,75,mist,'Monday 15:00',5388
-None,295.29,0,0,0,'Sky is Clear','Tuesday 21:00',2903
+None,295.29,0,0,0,'sky is clear','Tuesday 21:00',2903
 None,267,0,0,75,'broken clouds','Saturday 4:00',386
 None,290.46,0,0,90,drizzle,'Tuesday 12:00',4585
 None,260.64,0,0,1,'sky is clear','Sunday 6:00',745
@@ -5514,13 +5514,13 @@ None,257.44,0,0,64,'broken clouds','Wednesday 3:00',354
 None,300.01,0,0,40,'scattered clouds','Wednesday 20:00',3345
 None,294.94,0,0,40,'scattered clouds','Monday 15:00',5684
 None,280.49,0,0,1,'sky is clear','Tuesday 22:00',3512
-None,274.06,0,0,0,'Sky is Clear','Saturday 3:00',371
+None,274.06,0,0,0,'sky is clear','Saturday 3:00',371
 None,279.88,0,0,1,'sky is clear','Tuesday 0:00',634
 None,300.36,0,0,75,'broken clouds','Thursday 14:00',5407
 None,288.62,0,0,90,fog,'Saturday 7:00',1994
 None,291.61,0,0,20,'few clouds','Tuesday 8:00',5455
 None,261.27,0,0,1,'sky is clear','Saturday 0:00',705
-None,265.429,0,0,0,'Sky is Clear','Wednesday 2:00',287
+None,265.429,0,0,0,'sky is clear','Wednesday 2:00',287
 None,292.09,2.76,0,90,'light intensity drizzle','Friday 13:00',5149
 None,271.08,0,0,90,'light snow','Friday 20:00',2753
 None,289.74,0,0,1,'sky is clear','Tuesday 17:00',6207
@@ -5571,12 +5571,12 @@ None,287.15,0,0,1,mist,'Sunday 4:00',378
 None,281.43,0,0,75,'broken clouds','Friday 13:00',5967
 None,291.76,0,0,1,'sky is clear','Friday 7:00',6653
 None,282.88,0,0,90,'light rain','Wednesday 15:00',5875
-None,299.29,0,0,0,'Sky is Clear','Tuesday 17:00',6395
+None,299.29,0,0,0,'sky is clear','Tuesday 17:00',6395
 None,288.94,0,0,1,'moderate rain','Wednesday 14:00',5109
 None,273.62,0,0,90,mist,'Tuesday 1:00',300
 None,253.39,0,0,1,'sky is clear','Friday 3:00',399
 None,275.05,0,0,90,'overcast clouds','Sunday 18:00',3205
-None,278.422,0,0,0,'Sky is Clear','Tuesday 0:00',619
+None,278.422,0,0,0,'sky is clear','Tuesday 0:00',619
 None,295.01,0,0,1,haze,'Friday 23:00',1971
 None,297.46,0,0,20,'few clouds','Thursday 21:00',3031
 None,260.04,0,0,64,'broken clouds','Friday 2:00',279
@@ -5620,7 +5620,7 @@ None,275.08,0,0,1,mist,'Thursday 8:00',5808
 None,287.23,0,0,75,'broken clouds','Thursday 21:00',2684
 None,299.82,0,0,1,'sky is clear','Thursday 1:00',408
 None,263.15,0,0,20,'few clouds','Saturday 16:00',3567
-None,281.195,0,0,0,'Sky is Clear','Thursday 19:00',3512
+None,281.195,0,0,0,'sky is clear','Thursday 19:00',3512
 None,275.72,0,0,90,'overcast clouds','Thursday 0:00',585
 None,268.94,0,0,1,'sky is clear','Tuesday 14:00',4001
 None,265.95,0,0,40,'scattered clouds','Wednesday 15:00',5364
@@ -5664,9 +5664,9 @@ None,289.65,0.25,0,20,'light rain','Friday 18:00',5069
 None,274.82,0,0,90,mist,'Wednesday 6:00',5425
 None,300.1,0,0,1,'sky is clear','Friday 17:00',5537
 None,274.82,0,0,90,'light rain','Wednesday 5:00',2661
-None,297.11,0,0,0,'Sky is Clear','Tuesday 9:00',5294
+None,297.11,0,0,0,'sky is clear','Tuesday 9:00',5294
 None,267.69,0,0,64,'broken clouds','Tuesday 21:00',2411
-None,272.439,0,0,0,'Sky is Clear','Sunday 2:00',686
+None,272.439,0,0,0,'sky is clear','Sunday 2:00',686
 None,289.77,0,0,1,'sky is clear','Sunday 4:00',342
 None,293.99,0,0,56,'broken clouds','Monday 3:00',354
 None,270.65,0,0,64,mist,'Thursday 2:00',263
@@ -5674,7 +5674,7 @@ None,275.85,0,0,90,'heavy snow','Thursday 14:00',5556
 None,276.44,0,0,90,'overcast clouds','Sunday 3:00',351
 None,286.95,2.79,0,75,'moderate rain','Friday 1:00',441
 None,281.38,0,0,75,'broken clouds','Sunday 10:00',3701
-None,278.398,0,0,0,'Sky is Clear','Friday 1:00',1024
+None,278.398,0,0,0,'sky is clear','Friday 1:00',1024
 None,286.61,0,0,90,'overcast clouds','Tuesday 17:00',6210
 None,276.27,0,0,1,'sky is clear','Sunday 4:00',284
 None,298.75,0,0,75,'broken clouds','Tuesday 19:00',3360
@@ -5748,7 +5748,7 @@ None,274.95,0,0,90,fog,'Saturday 4:00',408
 None,304.56,0,0,20,'few clouds','Tuesday 15:00',5215
 None,265.04,0,0,20,'few clouds','Wednesday 17:00',5649
 None,271.45,0,0,64,'broken clouds','Monday 7:00',6964
-None,298.67,0,0,0,'Sky is Clear','Sunday 19:00',3545
+None,298.67,0,0,0,'sky is clear','Sunday 19:00',3545
 None,297.01,0,0,90,'overcast clouds','Monday 20:00',2762
 None,290.89,0.64,0,24,'light rain','Thursday 3:00',398
 None,275.89,0,0,90,fog,'Sunday 11:00',4084
@@ -5761,7 +5761,7 @@ None,269.08,0,0,40,'scattered clouds','Friday 13:00',5354
 None,275.29,0,0,1,'sky is clear','Monday 0:00',581
 None,275.58,0,0,90,'light rain','Wednesday 17:00',5848
 None,277.82,0,0,20,'few clouds','Saturday 19:00',3956
-None,288.07,0,0,0,'Sky is Clear','Friday 4:00',755
+None,288.07,0,0,0,'sky is clear','Friday 4:00',755
 None,300.08,0,0,75,'broken clouds','Thursday 17:00',6049
 None,252.14,0,0,1,'sky is clear','Thursday 6:00',5323
 None,269.78,0,0,90,'heavy snow','Monday 21:00',1983
@@ -5783,7 +5783,7 @@ None,279.24,0,0,90,'overcast clouds','Sunday 3:00',364
 None,286.41,0,0,90,'overcast clouds','Thursday 13:00',5283
 None,294.55,0,0,1,'sky is clear','Tuesday 15:00',5873
 None,274.15,0,0,90,mist,'Wednesday 9:00',4056
-None,301.09,0,0,0,'Sky is Clear','Thursday 19:00',4016
+None,301.09,0,0,0,'sky is clear','Thursday 19:00',4016
 None,271.47,0,0,75,'broken clouds','Saturday 9:00',4390
 None,271.79,0,0,90,'overcast clouds','Tuesday 6:00',5968
 None,272.76,0,0,1,mist,'Wednesday 6:00',5355
@@ -5797,7 +5797,7 @@ None,275.58,0,0,90,'overcast clouds','Monday 3:00',296
 None,299.85,0,0,8,'sky is clear','Thursday 13:00',5058
 None,292.82,0,0,90,'light rain','Tuesday 14:00',5394
 None,295.25,0,0,68,'broken clouds','Thursday 21:00',3263
-None,305.52,0,0,0,'Sky is Clear','Friday 19:00',3807
+None,305.52,0,0,0,'sky is clear','Friday 19:00',3807
 None,296.91,0,0,90,'heavy intensity drizzle','Monday 18:00',3153
 None,292.77,0,0,40,'scattered clouds','Monday 18:00',4435
 None,268.22,0,0,90,haze,'Sunday 20:00',1744
@@ -5810,7 +5810,7 @@ None,277.12,0,0,90,'light rain','Tuesday 15:00',5544
 None,274.47,0,0,90,mist,'Saturday 11:00',4881
 None,265.72,0,0,90,'overcast clouds','Sunday 23:00',1056
 None,267.99,0,0,90,'heavy snow','Friday 2:00',318
-None,294.87,0,0,0,'Sky is Clear','Friday 21:00',3342
+None,294.87,0,0,0,'sky is clear','Friday 21:00',3342
 None,289.72,0,0,75,'broken clouds','Monday 8:00',6191
 None,259.15,0,0,64,'light snow','Monday 2:00',231
 None,261.85,0,0,90,'overcast clouds','Saturday 19:00',3228
@@ -5831,7 +5831,7 @@ None,293.05,0,0,92,'moderate rain','Tuesday 3:00',344
 None,266.93,0,0,1,'sky is clear','Monday 20:00',2452
 None,271.06,0,0,90,mist,'Thursday 1:00',419
 None,287.85,0,0,40,'scattered clouds','Friday 0:00',750
-None,284.82,0,0,0,'Sky is Clear','Monday 2:00',264
+None,284.82,0,0,0,'sky is clear','Monday 2:00',264
 None,282.55,0,0,75,drizzle,'Monday 22:00',1527
 None,267.16,0,0,1,mist,'Friday 8:00',5226
 None,292.87,0,0,40,'scattered clouds','Saturday 23:00',2511
@@ -5878,14 +5878,14 @@ None,264.68,0,0,1,'sky is clear','Sunday 11:00',3299
 None,284.75,0,0,90,'moderate rain','Saturday 17:00',5086
 None,292.94,0,0,75,'broken clouds','Tuesday 8:00',5786
 None,276.38,0,0,1,'sky is clear','Wednesday 22:00',1736
-None,277.77,0,0,0,'Sky is Clear','Thursday 6:00',5762
+None,277.77,0,0,0,'sky is clear','Thursday 6:00',5762
 None,266.68,0,0,90,mist,'Sunday 14:00',3541
 None,283.09,0,0,90,mist,'Friday 16:00',6858
 None,263.91,0,0,90,'heavy snow','Tuesday 5:00',208
 None,291.35,0,0,90,drizzle,'Friday 1:00',460
 None,277.21,0,0,1,'sky is clear','Friday 9:00',4939
 None,294.47,0.25,0,40,'light rain','Friday 9:00',5328
-None,279.832,0,0,0,'Sky is Clear','Sunday 6:00',1189
+None,279.832,0,0,0,'sky is clear','Sunday 6:00',1189
 None,284.86,0,0,40,mist,'Tuesday 0:00',598
 None,265.37,0,0,90,mist,'Thursday 18:00',4129
 None,293.79,0,0,90,'proximity shower rain','Saturday 16:00',3940
@@ -5929,7 +5929,7 @@ None,300.15,0,0,1,'sky is clear','Thursday 12:00',3526
 None,269.08,0,0,90,mist,'Thursday 3:00',398
 None,287.52,0,0,92,'light intensity drizzle','Monday 5:00',2857
 None,258.14,0,0,90,'light snow','Wednesday 10:00',4222
-None,281.639,0,0,0,'Sky is Clear','Thursday 3:00',324
+None,281.639,0,0,0,'sky is clear','Thursday 3:00',324
 None,285.65,0,0,1,haze,'Tuesday 4:00',934
 None,294.67,0,0,1,'sky is clear','Sunday 3:00',359
 None,292.42,0,0,90,mist,'Thursday 4:00',930
@@ -5969,7 +5969,7 @@ None,290.48,0,0,75,'broken clouds','Sunday 10:00',3450
 None,278.88,0,0,90,'overcast clouds','Tuesday 20:00',2754
 None,285.07,0,0,90,'overcast clouds','Tuesday 0:00',511
 None,294.35,0,0,1,'sky is clear','Thursday 17:00',5783
-None,302.59,0,0,0,'Sky is Clear','Wednesday 17:00',6033
+None,302.59,0,0,0,'sky is clear','Wednesday 17:00',6033
 None,298.95,0,0,1,'sky is clear','Tuesday 20:00',2974
 None,298.73,0,0,1,'sky is clear','Saturday 20:00',3102
 None,297.79,0,0,1,'sky is clear','Thursday 10:00',2592
@@ -5977,10 +5977,10 @@ None,267.94,0,0,90,mist,'Wednesday 1:00',217
 None,297.31,0,0,20,'few clouds','Friday 19:00',3526
 None,300.15,0,0,1,'sky is clear','Saturday 16:00',4372
 None,289.55,0,0,1,'sky is clear','Sunday 9:00',3154
-None,302.99,0,0,0,'Sky is Clear','Tuesday 16:00',6523
+None,302.99,0,0,0,'sky is clear','Tuesday 16:00',6523
 None,279.22,0,0,90,'light intensity drizzle','Tuesday 6:00',6039
 None,274.71,0,0,90,mist,'Saturday 3:00',388
-None,276.894,0,0,0,'Sky is Clear','Sunday 11:00',3277
+None,276.894,0,0,0,'sky is clear','Sunday 11:00',3277
 None,286.15,0,0,90,'overcast clouds','Monday 9:00',2371
 None,259.54,0,0,90,'overcast clouds','Saturday 11:00',4314
 None,276.51,0,0,90,drizzle,'Sunday 15:00',4344
@@ -6009,7 +6009,7 @@ None,298.35,0,0,1,'light rain','Tuesday 14:00',5137
 None,274.89,0,0,90,mist,'Monday 12:00',4777
 None,292.22,0,0,1,fog,'Monday 4:00',890
 None,264.97,0,0,90,mist,'Thursday 13:00',4729
-None,305.24,0,0,0,'Sky is Clear','Saturday 16:00',4456
+None,305.24,0,0,0,'sky is clear','Saturday 16:00',4456
 None,277.1,0,0,99,'light rain','Friday 2:00',332
 None,280.39,0,0,90,'light rain','Wednesday 2:00',378
 None,297.68,0,0,40,'scattered clouds','Saturday 20:00',2962
@@ -6044,7 +6044,7 @@ None,289.29,0,0,1,'sky is clear','Sunday 9:00',2877
 None,264.15,0,0,5,'sky is clear','Wednesday 17:00',5929
 None,294.73,0,0,90,'light intensity drizzle','Sunday 17:00',4137
 None,296.65,0,0,1,'light intensity drizzle','Wednesday 3:00',355
-None,298.86,0,0,0,'Sky is Clear','Saturday 17:00',4333
+None,298.86,0,0,0,'sky is clear','Saturday 17:00',4333
 None,268.94,0,0,90,fog,'Monday 5:00',2862
 None,290.67,0,0,92,mist,'Tuesday 9:00',5139
 None,273.15,0,0,90,'overcast clouds','Saturday 15:00',4804
@@ -6093,7 +6093,7 @@ None,293.21,0,0,1,'sky is clear','Friday 4:00',866
 None,293.58,0,0,40,'scattered clouds','Saturday 9:00',3572
 None,295.39,0,0,1,'sky is clear','Saturday 10:00',3333
 None,284.77,0,0,90,'moderate rain','Thursday 17:00',6488
-None,276.453,0,0,0,'Sky is Clear','Sunday 3:00',429
+None,276.453,0,0,0,'sky is clear','Sunday 3:00',429
 None,289.48,9.53,0,90,mist,'Tuesday 4:00',852
 None,270.8,0,0,90,mist,'Tuesday 0:00',580
 None,290.88,0,0,90,'proximity thunderstorm','Friday 2:00',339
@@ -6147,7 +6147,7 @@ None,285.95,0,0,90,'overcast clouds','Wednesday 15:00',5712
 None,291.15,0,0,90,'overcast clouds','Monday 8:00',5676
 None,260.74,0,0,20,mist,'Sunday 5:00',401
 None,289.36,0,0,75,'broken clouds','Tuesday 10:00',4516
-None,286.92,0,0,0,'Sky is Clear','Thursday 5:00',2971
+None,286.92,0,0,0,'sky is clear','Thursday 5:00',2971
 None,291.58,0,0,1,'sky is clear','Wednesday 21:00',3133
 None,270.61,0,0,90,'overcast clouds','Saturday 3:00',541
 None,259.7,0,0,1,'sky is clear','Saturday 9:00',3111
@@ -6170,7 +6170,7 @@ None,295.81,0,0,40,'scattered clouds','Friday 17:00',5258
 None,292.07,0,0,90,'moderate rain','Tuesday 10:00',4452
 None,298.26,0,0,12,'few clouds','Sunday 11:00',3623
 None,269.82,0,0,90,'overcast clouds','Saturday 3:00',469
-None,300,0,0,0,'Sky is Clear','Thursday 16:00',6674
+None,300,0,0,0,'sky is clear','Thursday 16:00',6674
 None,252.22,0,0,5,'sky is clear','Saturday 20:00',2683
 None,292.54,0,0,64,'broken clouds','Thursday 22:00',2310
 None,277.15,0,0,75,'broken clouds','Tuesday 19:00',3190
@@ -6247,7 +6247,7 @@ None,283.492,0,0,8,'sky is clear','Saturday 11:00',4663
 None,289.08,0,0,5,'sky is clear','Sunday 9:00',3214
 None,292.35,0,0,90,mist,'Tuesday 3:00',353
 None,273.71,0,0,1,'sky is clear','Saturday 5:00',723
-None,297.888,0,0,0,'Sky is Clear','Tuesday 18:00',4041
+None,297.888,0,0,0,'sky is clear','Tuesday 18:00',4041
 None,259.49,0,0,0,'sky is clear','Saturday 20:00',2743
 None,294.14,0,0,20,'few clouds','Monday 1:00',500
 None,291.6,0,0,90,'overcast clouds','Tuesday 5:00',2968
@@ -6260,7 +6260,7 @@ None,276.511,0,0,92,'overcast clouds','Tuesday 6:00',5510
 None,271.32,0,0,90,mist,'Sunday 3:00',350
 None,257.84,0,0,1,'sky is clear','Tuesday 4:00',801
 None,264.22,0,0,40,mist,'Thursday 1:00',351
-None,297.888,0,0,0,'Sky is Clear','Wednesday 0:00',588
+None,297.888,0,0,0,'sky is clear','Wednesday 0:00',588
 None,277.58,0,0,40,'scattered clouds','Tuesday 7:00',7126
 None,248.77,0,0,1,'sky is clear','Monday 8:00',5556
 None,282.48,0,0,40,'scattered clouds','Wednesday 16:00',6988
@@ -6291,10 +6291,10 @@ None,281.35,0,0,90,'moderate rain','Wednesday 23:00',1424
 None,276.72,0,0,1,'sky is clear','Friday 23:00',1977
 None,290.38,3.94,0,76,'moderate rain','Friday 17:00',5173
 None,272.65,0,0,90,fog,'Friday 13:00',5361
-None,269.822,0,0,0,'Sky is Clear','Tuesday 6:00',5774
+None,269.822,0,0,0,'sky is clear','Tuesday 6:00',5774
 None,255.68,0,0,1,'sky is clear','Wednesday 19:00',3197
 None,266.29,0,0,90,mist,'Monday 21:00',1593
-None,300.83,0,0,0,'Sky is Clear','Friday 10:00',4925
+None,300.83,0,0,0,'sky is clear','Friday 10:00',4925
 None,281.07,0,0,1,'sky is clear','Sunday 14:00',4383
 None,282.75,0,0,90,'heavy intensity drizzle','Tuesday 6:00',5414
 None,272.3,0,0,90,'heavy snow','Saturday 13:00',5163
@@ -6303,7 +6303,7 @@ None,289.17,0,0,20,'few clouds','Monday 19:00',3091
 None,291.83,0,0,1,'sky is clear','Thursday 23:00',1469
 None,295.31,0,0,1,haze,'Tuesday 1:00',383
 None,273.94,0,0,90,'moderate rain','Tuesday 8:00',4740
-None,298.13,0,0,0,'Sky is Clear','Monday 19:00',3357
+None,298.13,0,0,0,'sky is clear','Monday 19:00',3357
 None,290.26,0,0,88,'overcast clouds','Thursday 3:00',366
 None,297.09,0,0,92,'overcast clouds','Friday 20:00',3140
 None,285.65,0,0,75,'light intensity drizzle','Monday 10:00',4523
@@ -6311,11 +6311,11 @@ None,279.78,0,0,40,'scattered clouds','Saturday 3:00',330
 None,276.94,0,0,90,'overcast clouds','Sunday 13:00',4548
 None,278.26,0,0,90,'overcast clouds','Friday 14:00',5477
 None,298.72,0,0,90,'proximity thunderstorm','Friday 13:00',5125
-None,291.55,0,0,0,'Sky is Clear','Sunday 22:00',2031
+None,291.55,0,0,0,'sky is clear','Sunday 22:00',2031
 None,264.75,0,0,90,'light snow','Monday 2:00',473
 None,275.22,0,0,5,'sky is clear','Wednesday 8:00',5859
 None,262.21,0,0,5,'sky is clear','Thursday 21:00',2620
-None,299.88,0,0,0,'Sky is Clear','Sunday 14:00',4243
+None,299.88,0,0,0,'sky is clear','Sunday 14:00',4243
 None,285.15,0,0,1,mist,'Monday 6:00',5792
 None,269.35,0,0,1,'sky is clear','Wednesday 8:00',5155
 None,278.05,0,0,90,'overcast clouds','Tuesday 21:00',3824
@@ -6359,7 +6359,7 @@ None,295.66,0,0,1,'sky is clear','Friday 22:00',3532
 None,292.23,0,0,1,mist,'Thursday 6:00',5862
 None,275.39,0,0,90,'light rain','Saturday 17:00',4377
 None,294.03,0,0,1,'sky is clear','Saturday 23:00',2918
-None,282.565,0,0,0,'Sky is Clear','Monday 5:00',2577
+None,282.565,0,0,0,'sky is clear','Monday 5:00',2577
 None,259.3,0,0,64,'light snow','Tuesday 6:00',4822
 None,294.76,0,0,1,'sky is clear','Sunday 11:00',4674
 None,300.52,0,0,75,haze,'Friday 20:00',3345
@@ -6388,7 +6388,7 @@ None,284.34,0,0,1,'sky is clear','Friday 2:00',396
 None,269.87,0.25,0,64,mist,'Monday 21:00',2107
 None,270.38,0,0,75,'broken clouds','Wednesday 14:00',4995
 None,294.02,0,0,90,'heavy intensity rain','Sunday 9:00',2495
-None,267.775,0,0,0,'Sky is Clear','Wednesday 21:00',2727
+None,267.775,0,0,0,'sky is clear','Wednesday 21:00',2727
 None,292.75,0,0,40,'proximity shower rain','Thursday 19:00',3707
 None,291.09,0,0,1,mist,'Tuesday 2:00',299
 None,288.93,0,0,75,'broken clouds','Sunday 0:00',1447
@@ -6431,7 +6431,7 @@ None,275.89,0,0,1,'sky is clear','Wednesday 1:00',359
 None,256.16,0,0,64,'broken clouds','Wednesday 14:00',2920
 None,259.15,0,0,90,'overcast clouds','Tuesday 16:00',6735
 None,284.02,0,0,75,'broken clouds','Wednesday 22:00',2341
-None,306.37,0,0,0,'Sky is Clear','Wednesday 17:00',5396
+None,306.37,0,0,0,'sky is clear','Wednesday 17:00',5396
 None,290.78,0,0,40,'scattered clouds','Wednesday 17:00',6184
 None,277.68,0,0,90,mist,'Thursday 7:00',6470
 None,302,0,0,20,'few clouds','Wednesday 18:00',4181
@@ -6442,7 +6442,7 @@ None,265.36,0,0,90,'light snow','Sunday 4:00',395
 None,292.42,0,0,90,'overcast clouds','Sunday 16:00',4316
 None,286.86,1.02,0,90,'moderate rain','Monday 17:00',5922
 None,275.08,0,0,90,fog,'Friday 19:00',3351
-None,298.81,0,0,0,'Sky is Clear','Wednesday 17:00',6077
+None,298.81,0,0,0,'sky is clear','Wednesday 17:00',6077
 None,268.15,0,0,90,'light snow','Thursday 18:00',4535
 None,299.61,0,0,12,'few clouds','Tuesday 18:00',4732
 None,291.81,0,0,1,'sky is clear','Friday 6:00',5868
@@ -6555,7 +6555,7 @@ None,283.9,0,0,90,mist,'Sunday 15:00',4608
 None,296.76,0.25,0,90,'light rain','Monday 13:00',4110
 None,284.09,0,0,75,'broken clouds','Sunday 17:00',4695
 None,296.36,0,0,40,'scattered clouds','Thursday 18:00',4907
-None,295.07,0,0,0,'Sky is Clear','Saturday 13:00',4411
+None,295.07,0,0,0,'sky is clear','Saturday 13:00',4411
 None,271.28,0,0,90,'light snow','Monday 0:00',461
 None,270.43,0,0,64,'broken clouds','Monday 5:00',2188
 None,289.22,0,0,1,'sky is clear','Monday 1:00',384
@@ -6577,7 +6577,7 @@ None,286.99,0,0,1,'sky is clear','Monday 5:00',2651
 None,294,0,0,40,'scattered clouds','Tuesday 1:00',407
 None,283.09,0,0,90,'heavy intensity rain','Thursday 4:00',836
 None,260.88,0,0,1,'sky is clear','Sunday 13:00',3989
-None,286.38,0,0,0,'Sky is Clear','Tuesday 6:00',6071
+None,286.38,0,0,0,'sky is clear','Tuesday 6:00',6071
 None,250.38,0,0,1,'sky is clear','Saturday 13:00',4197
 None,290.76,0,0,1,'sky is clear','Wednesday 0:00',698
 None,282.865,0,0,24,'few clouds','Tuesday 6:00',5747
@@ -6589,8 +6589,8 @@ None,297.12,0.25,0,75,mist,'Friday 13:00',5400
 None,272.16,0,0,90,'heavy snow','Saturday 5:00',743
 None,293.76,0,0,1,'sky is clear','Monday 12:00',4889
 None,281.07,0,0,90,mist,'Monday 19:00',2422
-None,289.37,0,0,0,'Sky is Clear','Tuesday 8:00',5971
-None,299.65,0,0,0,'Sky is Clear','Sunday 16:00',4489
+None,289.37,0,0,0,'sky is clear','Tuesday 8:00',5971
+None,299.65,0,0,0,'sky is clear','Sunday 16:00',4489
 None,285.83,0,0,90,'overcast clouds','Thursday 16:00',6655
 None,295.82,0,0,40,'scattered clouds','Tuesday 19:00',3157
 None,274.04,0.25,0,64,mist,'Monday 17:00',4795
@@ -6634,7 +6634,7 @@ None,293.64,0,0,1,'sky is clear','Wednesday 0:00',609
 None,301.14,0,0,20,'few clouds','Friday 12:00',5319
 None,258.53,0,0,90,mist,'Monday 4:00',1089
 None,293.51,0,0,75,'moderate rain','Saturday 1:00',855
-None,291.7,0,0,0,'Sky is Clear','Friday 1:00',584
+None,291.7,0,0,0,'sky is clear','Friday 1:00',584
 None,273.95,0,0,90,mist,'Tuesday 1:00',319
 None,272.29,0,0,75,'broken clouds','Friday 13:00',5441
 None,295.2,0,0,90,'heavy intensity rain','Friday 18:00',5015
@@ -6647,7 +6647,7 @@ None,296.79,0,0,1,'sky is clear','Thursday 22:00',2610
 None,272.814,0,0,24,'few clouds','Friday 6:00',5070
 None,286.43,0,0,1,mist,'Saturday 4:00',449
 None,290.68,7.72,0,90,'heavy intensity rain','Tuesday 13:00',4444
-None,305.25,0,0,0,'Sky is Clear','Monday 18:00',4652
+None,305.25,0,0,0,'sky is clear','Monday 18:00',4652
 None,277.58,0,0,1,'sky is clear','Wednesday 19:00',3716
 None,285.5,0,0,90,'light rain','Wednesday 7:00',5722
 None,263,0,0,90,'overcast clouds','Tuesday 9:00',5060
@@ -6671,7 +6671,7 @@ None,266.08,0,0,1,'sky is clear','Wednesday 17:00',6282
 None,282.24,2.79,0,20,'moderate rain','Thursday 7:00',6526
 None,289.72,0,0,1,fog,'Monday 5:00',2811
 None,276.426,0,0,48,'scattered clouds','Monday 2:00',255
-None,290.91,0,0,0,'Sky is Clear','Wednesday 22:00',2186
+None,290.91,0,0,0,'sky is clear','Wednesday 22:00',2186
 None,272.09,0,0,90,'overcast clouds','Saturday 6:00',1442
 None,274.08,0,0,90,mist,'Friday 7:00',1396
 None,273.91,0,0,75,'broken clouds','Tuesday 8:00',5972
@@ -6693,9 +6693,9 @@ None,265.69,0,0,75,'broken clouds','Sunday 7:00',1130
 None,270.51,0,0,1,mist,'Monday 6:00',5573
 None,276.69,0,0,75,'broken clouds','Monday 11:00',4546
 None,276.36,0,0,75,'broken clouds','Thursday 10:00',4882
-None,300.07,0,0,0,'Sky is Clear','Thursday 20:00',3325
+None,300.07,0,0,0,'sky is clear','Thursday 20:00',3325
 None,280.93,0,0,75,'broken clouds','Monday 1:00',365
-None,295.1,0,0,0,'Sky is Clear','Sunday 23:00',1264
+None,295.1,0,0,0,'sky is clear','Sunday 23:00',1264
 None,277.76,1.09,0,90,mist,'Thursday 22:00',1993
 None,269.01,0,0,90,haze,'Wednesday 23:00',1074
 None,273.53,0,0,90,'heavy snow','Friday 5:00',2339
@@ -6708,7 +6708,7 @@ None,292.22,0,0,75,'broken clouds','Saturday 13:00',4515
 None,296.19,0,0,1,'sky is clear','Saturday 22:00',3027
 None,263.07,0,0,90,'heavy snow','Tuesday 3:00',344
 None,288.62,3.45,0,90,'proximity thunderstorm with rain','Monday 16:00',6354
-None,297.19,0,0,0,'Sky is Clear','Tuesday 17:00',6760
+None,297.19,0,0,0,'sky is clear','Tuesday 17:00',6760
 None,289.62,0,0,1,'sky is clear','Monday 0:00',956
 None,285.62,0,0,1,'proximity thunderstorm','Monday 21:00',2186
 None,271.79,0,0,1,'sky is clear','Tuesday 20:00',2928
@@ -6726,7 +6726,7 @@ None,297.02,0,0,75,'broken clouds','Tuesday 20:00',2888
 None,294.16,5.59,0,1,haze,'Monday 16:00',6006
 None,258.75,0,0,99,'overcast clouds','Thursday 15:00',5679
 None,270.62,0,0,90,snow,'Sunday 17:00',1849
-None,283.649,0,0,0,'Sky is Clear','Tuesday 5:00',2707
+None,283.649,0,0,0,'sky is clear','Tuesday 5:00',2707
 None,278.55,0,0,20,'few clouds','Saturday 15:00',4780
 None,272.29,0,0,90,mist,'Tuesday 15:00',4689
 None,290.86,0,0,40,'scattered clouds','Saturday 3:00',418
@@ -6761,7 +6761,7 @@ None,295.9,0,0,90,haze,'Saturday 23:00',0
 None,297.69,0,0,75,'broken clouds','Tuesday 22:00',1908
 None,296.15,0,0,20,'few clouds','Tuesday 11:00',5117
 None,254.33,0,0,0,'sky is clear','Monday 8:00',4790
-None,296.18,0,0,0,'Sky is Clear','Saturday 15:00',4634
+None,296.18,0,0,0,'sky is clear','Saturday 15:00',4634
 None,301.62,0,0,40,'scattered clouds','Monday 14:00',5007
 None,275.34,0,0,90,'light intensity drizzle','Sunday 4:00',271
 None,277.82,0,0,90,drizzle,'Sunday 20:00',2772
@@ -6775,7 +6775,7 @@ None,268.86,0,0,90,'overcast clouds','Sunday 7:00',1034
 None,301.6,0,0,0,'light rain','Thursday 19:00',3696
 None,283.94,0,0,40,'scattered clouds','Tuesday 21:00',3119
 None,293.56,0,0,1,'sky is clear','Monday 0:00',632
-None,290.65,0,0,0,'Sky is Clear','Thursday 10:00',4727
+None,290.65,0,0,0,'sky is clear','Thursday 10:00',4727
 None,251.54,0,0,40,'scattered clouds','Saturday 17:00',4376
 None,287.48,0,0,20,fog,'Tuesday 8:00',6088
 None,299.51,0,0,90,'overcast clouds','Friday 13:00',5027
@@ -6788,7 +6788,7 @@ None,292.16,0,0,75,'broken clouds','Sunday 10:00',3307
 None,290.28,2.54,0,88,'moderate rain','Sunday 7:00',1293
 None,270.15,0,0,75,mist,'Monday 5:00',2852
 None,295.06,0,0,75,'broken clouds','Sunday 15:00',3888
-None,299.2,0,0,0,'Sky is Clear','Saturday 12:00',5154
+None,299.2,0,0,0,'sky is clear','Saturday 12:00',5154
 None,284.96,0,0,90,'overcast clouds','Monday 17:00',5827
 None,291,0,0,20,haze,'Monday 17:00',6198
 None,258.89,0,0,90,'overcast clouds','Thursday 9:00',4181
@@ -6803,7 +6803,7 @@ None,288.28,0,0,20,'few clouds','Saturday 4:00',469
 None,296.22,0,0,90,mist,'Wednesday 4:00',851
 None,292.53,0,0,90,mist,'Thursday 5:00',2950
 None,289.84,0,0,90,'overcast clouds','Thursday 0:00',608
-None,290.53,0,0,0,'Sky is Clear','Thursday 4:00',861
+None,290.53,0,0,0,'sky is clear','Thursday 4:00',861
 None,283.66,0,0,1,'sky is clear','Sunday 0:00',1369
 None,279.34,0,0,90,'overcast clouds','Thursday 1:00',297
 None,293.63,0,0,1,'proximity thunderstorm','Sunday 23:00',1471
@@ -6833,7 +6833,7 @@ None,260.03,0,0,1,'sky is clear','Monday 19:00',3098
 None,256.68,0,0,5,'sky is clear','Saturday 17:00',3374
 None,256.72,0,0,64,'broken clouds','Thursday 19:00',3172
 None,289,0,0,90,'light intensity drizzle','Saturday 14:00',4896
-None,302.11,0,0,0,'Sky is Clear','Friday 13:00',4426
+None,302.11,0,0,0,'sky is clear','Friday 13:00',4426
 None,262.08,0,0,5,'sky is clear','Tuesday 21:00',2591
 None,284.62,0,0,90,'overcast clouds','Sunday 5:00',474
 None,287.724,0,0,36,'scattered clouds','Tuesday 8:00',5998
@@ -6880,7 +6880,7 @@ None,278.31,0,0,1,'sky is clear','Monday 2:00',123
 None,289.49,0,0,90,'proximity thunderstorm','Saturday 19:00',3483
 None,284.06,0,0,48,'scattered clouds','Friday 14:00',5860
 None,302,0,0,40,'scattered clouds','Tuesday 16:00',6357
-None,302.18,0,0,0,'Sky is Clear','Monday 15:00',5848
+None,302.18,0,0,0,'sky is clear','Monday 15:00',5848
 None,275.15,0,0,90,'light intensity drizzle','Wednesday 22:00',1596
 None,275.28,0,0,90,'overcast clouds','Wednesday 11:00',4677
 None,273,0,0,90,'heavy snow','Saturday 4:00',352
@@ -6897,9 +6897,9 @@ None,275.28,0,0,90,fog,'Saturday 0:00',1222
 None,263.59,0,0,75,'light snow','Tuesday 10:00',3979
 None,260.84,0,0,75,'broken clouds','Monday 6:00',1940
 None,276.25,0,0,90,'overcast clouds','Sunday 1:00',704
-None,295.47,0,0,0,'Sky is Clear','Friday 11:00',4694
+None,295.47,0,0,0,'sky is clear','Friday 11:00',4694
 None,295.19,0,0,12,'few clouds','Friday 0:00',797
-None,289.99,0,0,0,'Sky is Clear','Saturday 1:00',792
+None,289.99,0,0,0,'sky is clear','Saturday 1:00',792
 None,301.79,0,0,20,'few clouds','Saturday 20:00',3192
 None,286.42,0,0,90,'moderate rain','Monday 22:00',1508
 None,288.62,4.74,0,90,mist,'Monday 23:00',826
@@ -6907,7 +6907,7 @@ None,279.44,0,0,90,'overcast clouds','Sunday 16:00',4329
 None,266.94,0,0,90,mist,'Tuesday 9:00',5303
 None,274.07,0,0,1,'sky is clear','Wednesday 22:00',1751
 None,291.01,0,0,20,'few clouds','Sunday 15:00',4506
-None,297.03,0,0,0,'Sky is Clear','Friday 8:00',5567
+None,297.03,0,0,0,'sky is clear','Friday 8:00',5567
 None,295.96,0,0,1,haze,'Monday 23:00',1122
 None,262.01,0,0,75,'broken clouds','Sunday 14:00',4316
 None,300.1,0,0,40,'light rain','Monday 19:00',2878
@@ -6915,7 +6915,7 @@ None,294.72,0,0,90,'moderate rain','Saturday 14:00',4379
 None,287.94,0,0,1,'sky is clear','Sunday 10:00',3389
 None,265.93,0,0,40,'scattered clouds','Friday 18:00',4605
 None,274.53,0,0,1,'sky is clear','Tuesday 4:00',836
-None,298.64,0,0,0,'Sky is Clear','Thursday 15:00',5924
+None,298.64,0,0,0,'sky is clear','Thursday 15:00',5924
 None,298.39,1.02,0,90,'moderate rain','Sunday 13:00',4494
 None,294.55,0,0,90,'light intensity drizzle','Saturday 8:00',3009
 None,285.23,0.51,0,90,mist,'Tuesday 0:00',547
@@ -6981,7 +6981,7 @@ None,276.4,0,0,90,haze,'Wednesday 19:00',3487
 None,291.75,0,0,90,mist,'Thursday 8:00',5912
 None,263.13,0,0,20,'few clouds','Monday 20:00',2229
 None,296.15,0,0,90,'light rain','Thursday 7:00',6182
-None,282.814,0,0,0,'Sky is Clear','Sunday 22:00',1613
+None,282.814,0,0,0,'sky is clear','Sunday 22:00',1613
 None,295.37,0,0,40,'scattered clouds','Tuesday 19:00',3448
 None,294.44,0,0,75,'broken clouds','Thursday 11:00',5167
 None,289.29,0,0,40,'scattered clouds','Friday 3:00',432
@@ -6998,7 +6998,7 @@ None,275.09,0,0,90,mist,'Friday 18:00',4718
 None,286.19,0,0,90,'overcast clouds','Tuesday 18:00',4673
 None,279.81,0,0,90,'overcast clouds','Thursday 12:00',5317
 None,290.79,0,0,90,'moderate rain','Friday 23:00',3047
-None,302.27,0,0,0,'Sky is Clear','Friday 20:00',3458
+None,302.27,0,0,0,'sky is clear','Friday 20:00',3458
 None,294.59,0.25,0,1,'light rain','Sunday 3:00',386
 None,272.22,0,0,90,'heavy snow','Monday 14:00',2846
 None,272.14,0,0,75,'broken clouds','Monday 14:00',4876
@@ -7023,7 +7023,7 @@ None,272.44,0,0,90,'light snow','Monday 9:00',4734
 None,281.95,0,0,93,mist,'Sunday 23:00',1002
 None,271.35,0,0,1,'sky is clear','Saturday 2:00',567
 None,286.94,0,0,1,'light rain','Wednesday 4:00',885
-None,275.153,0,0,0,'Sky is Clear','Friday 8:00',5960
+None,275.153,0,0,0,'sky is clear','Friday 8:00',5960
 None,276.01,0,0,75,'broken clouds','Friday 7:00',6085
 None,299.8,0,0,36,'scattered clouds','Wednesday 13:00',5303
 None,276.08,0,0,90,mist,'Friday 18:00',5100
@@ -7158,7 +7158,7 @@ None,296.79,0,0,40,'scattered clouds','Monday 22:00',1965
 None,282.82,0,0,1,'sky is clear','Tuesday 4:00',896
 None,297.31,0,0,75,'light rain','Tuesday 18:00',4044
 None,277.9,0,0,90,'overcast clouds','Friday 20:00',3177
-None,284.056,0,0,0,'Sky is Clear','Monday 17:00',5735
+None,284.056,0,0,0,'sky is clear','Monday 17:00',5735
 None,271.93,0,0,40,'scattered clouds','Tuesday 6:00',5857
 None,280.1,0,0,92,'light intensity drizzle','Friday 23:00',2051
 None,302.15,0,0,40,'scattered clouds','Thursday 15:00',5945
@@ -7201,7 +7201,7 @@ None,278.61,0.65,0,90,'light rain','Thursday 14:00',5432
 None,285.82,0,0,48,'scattered clouds','Friday 10:00',4324
 None,251.5,0,0,1,'sky is clear','Thursday 1:00',311
 None,288.63,0,0,75,'broken clouds','Wednesday 13:00',5065
-None,277.268,0,0,0,'Sky is Clear','Thursday 9:00',5089
+None,277.268,0,0,0,'sky is clear','Thursday 9:00',5089
 None,269.24,0,0,20,'few clouds','Saturday 7:00',2057
 None,287.36,0,0,40,'scattered clouds','Sunday 5:00',643
 None,288.59,1.09,0,44,mist,'Sunday 10:00',3225
@@ -7216,7 +7216,7 @@ None,260.55,0,0,1,'sky is clear','Tuesday 23:00',965
 None,296.55,0,0,1,'sky is clear','Saturday 11:00',4755
 None,288.86,0,0,90,mist,'Saturday 10:00',3843
 None,277.68,0,0,90,'moderate rain','Sunday 23:00',2100
-None,290.89,0,0,0,'Sky is Clear','Thursday 3:00',433
+None,290.89,0,0,0,'sky is clear','Thursday 3:00',433
 None,277.88,0,0,75,drizzle,'Thursday 2:00',255
 None,265.65,0,0,75,'broken clouds','Sunday 15:00',4175
 None,295.14,0,0,40,'scattered clouds','Friday 12:00',5252
@@ -7239,7 +7239,7 @@ None,291.55,0,0,90,'thunderstorm with heavy rain','Tuesday 4:00',887
 None,278.62,0,0,1,'sky is clear','Wednesday 15:00',5906
 None,266.42,0,0,75,'heavy snow','Tuesday 6:00',5541
 None,273.61,0,0,64,'light snow','Friday 20:00',2415
-None,289.45,0,0,0,'Sky is Clear','Monday 6:00',5843
+None,289.45,0,0,0,'sky is clear','Monday 6:00',5843
 None,300.38,0,0,5,'sky is clear','Tuesday 20:00',3053
 None,258.59,0,0,1,'sky is clear','Friday 4:00',673
 None,274.62,0,0,75,haze,'Wednesday 14:00',5199
@@ -7254,7 +7254,7 @@ None,270.85,0,0,90,'overcast clouds','Wednesday 2:00',426
 None,302.01,0,0,90,'overcast clouds','Sunday 18:00',3740
 None,284.95,0,0,90,mist,'Tuesday 20:00',2731
 None,272.58,0,0,1,'sky is clear','Wednesday 4:00',975
-None,302.54,0,0,0,'Sky is Clear','Wednesday 13:00',5398
+None,302.54,0,0,0,'sky is clear','Wednesday 13:00',5398
 None,292.68,0,0,1,mist,'Friday 2:00',374
 None,301.02,0,0,40,'scattered clouds','Sunday 15:00',4392
 None,291.78,0,0,56,'broken clouds','Wednesday 10:00',4750
@@ -7300,7 +7300,7 @@ None,271.02,0,0,1,'sky is clear','Wednesday 12:00',4841
 None,294.79,0,0,90,'light intensity drizzle','Wednesday 15:00',6062
 None,288.31,0,0,90,mist,'Wednesday 8:00',6101
 None,295.15,0,0,1,'sky is clear','Thursday 0:00',591
-None,299.92,0,0,0,'Sky is Clear','Sunday 18:00',4350
+None,299.92,0,0,0,'sky is clear','Sunday 18:00',4350
 None,286.78,0,0,1,'sky is clear','Wednesday 3:00',357
 None,290.7,0,0,5,'sky is clear','Thursday 8:00',6162
 None,287.37,3.39,0,56,mist,'Thursday 17:00',6419
@@ -7314,7 +7314,7 @@ None,257.48,0,0,40,'scattered clouds','Monday 21:00',2059
 None,289.64,0,0,90,'moderate rain','Thursday 5:00',3029
 None,267.15,0,0,90,'overcast clouds','Tuesday 17:00',5784
 None,279.37,0,0,90,'light intensity drizzle','Thursday 10:00',4611
-None,292.14,0,0,0,'Sky is Clear','Thursday 23:00',1424
+None,292.14,0,0,0,'sky is clear','Thursday 23:00',1424
 None,269.15,0,0,1,'sky is clear','Thursday 10:00',4594
 None,273.95,0,0,90,mist,'Thursday 5:00',2788
 None,280.99,0,0,75,mist,'Monday 5:00',2738
@@ -7326,7 +7326,7 @@ None,291.79,0,0,90,drizzle,'Friday 9:00',4816
 None,285.927,0,0,92,'overcast clouds','Wednesday 0:00',446
 None,273.41,0,0,1,'sky is clear','Saturday 2:00',609
 None,270.01,0,0,90,'overcast clouds','Thursday 22:00',1802
-None,305.88,0,0,0,'Sky is Clear','Thursday 16:00',6477
+None,305.88,0,0,0,'sky is clear','Thursday 16:00',6477
 None,276.09,0,0,1,'light rain','Wednesday 4:00',869
 None,273.22,0,0,1,fog,'Wednesday 4:00',849
 None,284.69,0,0,76,'broken clouds','Monday 7:00',6597
@@ -7334,7 +7334,7 @@ None,298.21,0,0,75,'broken clouds','Friday 8:00',5204
 None,274.22,0,0,90,'light intensity drizzle','Monday 3:00',339
 None,293.55,0,0,1,mist,'Sunday 4:00',366
 None,288.99,0,0,75,fog,'Thursday 5:00',2986
-None,276.173,0,0,0,'Sky is Clear','Wednesday 23:00',951
+None,276.173,0,0,0,'sky is clear','Wednesday 23:00',951
 None,275.62,0,0,90,mist,'Sunday 10:00',3584
 None,287.66,0,0,40,'scattered clouds','Thursday 10:00',4425
 None,272.49,0,0,75,haze,'Monday 15:00',5642
@@ -7392,7 +7392,7 @@ None,266.15,0,0,75,'light snow','Wednesday 11:00',4680
 None,289.01,0,0,5,'sky is clear','Monday 8:00',5927
 None,282.48,0,0,5,'sky is clear','Friday 9:00',5391
 None,296.48,0,0,44,'scattered clouds','Saturday 14:00',4715
-None,268.832,0,0,0,'Sky is Clear','Tuesday 21:00',3111
+None,268.832,0,0,0,'sky is clear','Tuesday 21:00',3111
 None,272.79,0,0,90,snow,'Friday 20:00',2827
 None,295.17,0,0,1,'sky is clear','Monday 1:00',462
 None,289.23,0,0,75,'broken clouds','Friday 13:00',5188
@@ -7435,7 +7435,7 @@ None,293.84,0,0,1,'sky is clear','Friday 15:00',6309
 None,290.52,2.05,0,90,'moderate rain','Tuesday 11:00',4677
 None,276.83,0,0,90,'overcast clouds','Monday 15:00',5894
 None,271.93,0,0,1,'sky is clear','Friday 1:00',413
-None,294.26,0,0,0,'Sky is Clear','Friday 1:00',506
+None,294.26,0,0,0,'sky is clear','Friday 1:00',506
 None,271.79,0,0,75,'broken clouds','Sunday 10:00',3695
 None,277.86,0,0,75,'broken clouds','Wednesday 4:00',921
 None,283.16,0,0,90,'overcast clouds','Friday 18:00',4508
@@ -7457,7 +7457,7 @@ None,276.27,0,0,90,drizzle,'Wednesday 15:00',5283
 None,287.65,0,0,90,'light rain','Wednesday 11:00',4693
 None,297.55,0,0,12,'few clouds','Tuesday 17:00',6261
 None,263,0,0,90,'overcast clouds','Wednesday 2:00',246
-None,301.07,0,0,0,'Sky is Clear','Friday 18:00',4758
+None,301.07,0,0,0,'sky is clear','Friday 18:00',4758
 None,287.16,0.25,0,40,'light rain','Wednesday 7:00',6868
 None,253.77,0,0,99,'overcast clouds','Thursday 22:00',2040
 None,275.22,0,0,90,'light intensity drizzle','Wednesday 21:00',2342
@@ -7465,7 +7465,7 @@ None,285.67,0.29,0,92,mist,'Thursday 9:00',5050
 None,283.7,0.25,0,68,mist,'Friday 10:00',4683
 None,276.84,0,0,90,'light rain','Wednesday 16:00',6723
 None,273.86,0,0,90,'light snow','Tuesday 5:00',2786
-None,280.423,0,0,0,'Sky is Clear','Sunday 4:00',447
+None,280.423,0,0,0,'sky is clear','Sunday 4:00',447
 None,292.02,0,0,1,fog,'Friday 4:00',813
 None,285.14,0,0,1,'sky is clear','Thursday 8:00',5820
 None,274.53,0.25,0,90,'light rain','Thursday 12:00',5062
@@ -7567,7 +7567,7 @@ None,267.72,0,0,90,'light snow','Monday 18:00',3512
 None,274.99,0,0,75,'broken clouds','Thursday 12:00',5050
 None,274.22,0,0,90,mist,'Monday 20:00',2500
 None,269.95,0,0,1,'sky is clear','Tuesday 2:00',257
-None,300.27,0,0,0,'Sky is Clear','Monday 13:00',4800
+None,300.27,0,0,0,'sky is clear','Monday 13:00',4800
 None,299.06,0,0,12,'few clouds','Wednesday 19:00',3390
 None,292.94,0,0,40,'scattered clouds','Wednesday 9:00',4716
 None,294.94,0,0,1,'sky is clear','Tuesday 22:00',1897
@@ -7578,7 +7578,7 @@ None,287.36,0,0,90,mist,'Tuesday 4:00',919
 None,274.55,0,0,40,'light snow','Tuesday 3:00',322
 None,297.36,0,0,75,'broken clouds','Tuesday 14:00',5264
 None,287.55,0,0,90,'overcast clouds','Friday 5:00',2503
-None,280.93,0,0,0,'Sky is Clear','Thursday 8:00',5836
+None,280.93,0,0,0,'sky is clear','Thursday 8:00',5836
 None,282.73,0,0,1,'sky is clear','Thursday 20:00',2920
 None,297.79,0,0,1,'sky is clear','Friday 16:00',6197
 None,274.29,0,0,75,'broken clouds','Saturday 14:00',5053
@@ -7600,14 +7600,14 @@ None,290.37,0,0,90,'overcast clouds','Tuesday 17:00',6127
 None,268.22,0,0,90,'light snow','Tuesday 22:00',1511
 None,286.28,0,0,75,'broken clouds','Sunday 23:00',1572
 None,291.88,0,0,92,'overcast clouds','Wednesday 7:00',6605
-None,282.891,0,0,0,'Sky is Clear','Sunday 3:00',413
+None,282.891,0,0,0,'sky is clear','Sunday 3:00',413
 None,278.42,0,0,90,mist,'Thursday 10:00',4667
 None,274.65,0,0,90,'light rain','Sunday 8:00',1840
 None,288.85,0,0,40,smoke,'Saturday 2:00',630
 None,287.63,0,0,1,'sky is clear','Thursday 23:00',2061
 None,281.8,0,0,20,'few clouds','Wednesday 15:00',5936
 None,295.12,0,0,1,'sky is clear','Monday 2:00',316
-None,286.47,0,0,0,'Sky is Clear','Thursday 7:00',5924
+None,286.47,0,0,0,'sky is clear','Thursday 7:00',5924
 None,290.33,0,0,1,'sky is clear','Monday 19:00',3128
 None,273.62,0,0,90,'overcast clouds','Saturday 21:00',2865
 None,271.87,0,0,90,'light snow','Tuesday 22:00',1525
@@ -7638,7 +7638,7 @@ None,260.62,0,0,90,'light snow','Friday 19:00',3790
 None,303.82,0,0,1,'sky is clear','Sunday 18:00',4331
 None,275.34,0,0,90,drizzle,'Wednesday 9:00',4853
 None,271.87,0,0,40,'scattered clouds','Sunday 5:00',440
-None,283.628,0,0,0,'Sky is Clear','Tuesday 20:00',2671
+None,283.628,0,0,0,'sky is clear','Tuesday 20:00',2671
 None,293.21,0,0,90,'heavy intensity rain','Sunday 11:00',3323
 None,272.55,0,0,90,mist,'Tuesday 6:00',5526
 None,273.68,0,0,1,haze,'Tuesday 2:00',242
@@ -7662,7 +7662,7 @@ None,250.1,0,0,40,'scattered clouds','Friday 7:00',6414
 None,272.38,0,0,90,'overcast clouds','Monday 11:00',4509
 None,296.77,0,0,75,'broken clouds','Monday 12:00',2916
 None,296.68,0,0,8,'light rain','Tuesday 20:00',2637
-None,294.82,0,0,0,'Sky is Clear','Thursday 10:00',5024
+None,294.82,0,0,0,'sky is clear','Thursday 10:00',5024
 None,278.64,0,0,75,'broken clouds','Friday 12:00',5301
 None,290.92,0,0,90,'light rain','Friday 16:00',5597
 None,288.99,0.3,0,1,'light rain','Tuesday 4:00',872
@@ -7780,9 +7780,9 @@ None,262.45,0,0,90,haze,'Tuesday 18:00',3625
 None,267.97,0,0,1,'sky is clear','Friday 0:00',921
 None,289.72,0,0,1,'sky is clear','Tuesday 10:00',4528
 None,285.29,0,0,40,'scattered clouds','Tuesday 16:00',6443
-None,294.52,0,0,0,'Sky is Clear','Sunday 12:00',3962
+None,294.52,0,0,0,'sky is clear','Sunday 12:00',3962
 None,302.96,0,0,75,'broken clouds','Wednesday 16:00',6465
-None,297.19,0,0,0,'Sky is Clear','Sunday 18:00',3733
+None,297.19,0,0,0,'sky is clear','Sunday 18:00',3733
 None,291.86,0,0,1,'sky is clear','Thursday 14:00',5000
 None,284.4,0,0,92,'light intensity drizzle','Monday 18:00',4508
 None,292.46,0,0,40,'scattered clouds','Saturday 17:00',4545
@@ -7790,10 +7790,10 @@ None,294.75,0,0,76,'broken clouds','Monday 9:00',5284
 None,273.35,0,0,90,mist,'Wednesday 8:00',5779
 None,293.38,0,0,90,'moderate rain','Thursday 3:00',311
 None,290.15,0,0,90,'overcast clouds','Saturday 15:00',4996
-None,290.36,0,0,0,'Sky is Clear','Thursday 18:00',4132
+None,290.36,0,0,0,'sky is clear','Thursday 18:00',4132
 None,274.94,0,0,1,'sky is clear','Wednesday 22:00',1810
 None,298.37,0,0,92,'overcast clouds','Friday 14:00',5790
-None,289.33,0,0,0,'Sky is Clear','Monday 5:00',2897
+None,289.33,0,0,0,'sky is clear','Monday 5:00',2897
 None,271.01,0,0,90,'overcast clouds','Tuesday 3:00',321
 None,299.77,0,0,1,'sky is clear','Thursday 12:00',5221
 None,292.21,0,0,75,'broken clouds','Saturday 21:00',2918
@@ -7826,12 +7826,12 @@ None,266.46,0,0,40,'scattered clouds','Saturday 13:00',4897
 None,263.9,0.51,0,90,'light rain','Wednesday 7:00',5312
 None,283.84,0,0,1,'sky is clear','Friday 0:00',1349
 None,279.75,0,0,90,mist,'Monday 0:00',454
-None,281.639,0,0,0,'Sky is Clear','Thursday 4:00',830
+None,281.639,0,0,0,'sky is clear','Thursday 4:00',830
 None,292.15,0,0,20,'few clouds','Tuesday 12:00',4794
 None,294.92,0,0,90,'heavy intensity rain','Monday 2:00',272
 None,279,0,0,1,'sky is clear','Thursday 11:00',5035
 None,248.28,0,0,90,haze,'Sunday 4:00',466
-None,276.955,0,0,0,'Sky is Clear','Saturday 2:00',745
+None,276.955,0,0,0,'sky is clear','Saturday 2:00',745
 None,255.75,0,0,75,'broken clouds','Saturday 5:00',636
 None,298.12,0,0,1,'sky is clear','Thursday 13:00',5120
 None,272.52,0.25,0,90,'light rain','Friday 21:00',2786
@@ -7864,7 +7864,7 @@ None,257.69,0,0,5,'sky is clear','Thursday 18:00',4723
 None,270.55,0,0,90,'light snow','Saturday 4:00',360
 None,273.79,0,0,90,'proximity thunderstorm','Friday 21:00',2158
 None,292.59,1.95,0,36,'moderate rain','Thursday 2:00',442
-None,302.99,0,0,0,'Sky is Clear','Sunday 18:00',4127
+None,302.99,0,0,0,'sky is clear','Sunday 18:00',4127
 None,275.29,0,0,1,'sky is clear','Friday 23:00',1891
 None,261.08,0,0,1,'sky is clear','Friday 3:00',419
 None,284.6,0,0,1,'sky is clear','Saturday 1:00',656
@@ -7873,7 +7873,7 @@ None,295.35,0,0,75,'broken clouds','Wednesday 19:00',2991
 None,271.08,0,0,40,haze,'Thursday 23:00',1216
 None,288.88,0,0,20,'few clouds','Sunday 13:00',4207
 None,300.84,0,0,75,'broken clouds','Saturday 14:00',4479
-None,299.47,0,0,0,'Sky is Clear','Friday 15:00',6128
+None,299.47,0,0,0,'sky is clear','Friday 15:00',6128
 None,295.72,0,0,90,mist,'Friday 2:00',350
 None,258.33,0,0,64,'light snow','Wednesday 1:00',300
 None,277.1,0,0,99,'light rain','Friday 4:00',708
@@ -7946,7 +7946,7 @@ None,271.72,0,0,40,haze,'Tuesday 22:00',2885
 None,272.55,0,0,1,'sky is clear','Wednesday 1:00',310
 None,289.11,0,0,1,'sky is clear','Thursday 8:00',5505
 None,290.87,0.89,0,90,mist,'Friday 14:00',5095
-None,292.25,0,0,0,'Sky is Clear','Friday 8:00',5913
+None,292.25,0,0,0,'sky is clear','Friday 8:00',5913
 None,275.22,0,0,90,drizzle,'Thursday 21:00',2504
 None,264.22,0,0,1,'sky is clear','Sunday 19:00',2903
 None,291.65,4.29,0,88,'heavy intensity rain','Thursday 7:00',5675
@@ -7980,7 +7980,7 @@ None,264.85,0,0,90,mist,'Friday 3:00',326
 None,271.42,0,0,75,'broken clouds','Saturday 8:00',3049
 None,258.28,0,0,40,'scattered clouds','Friday 1:00',452
 None,296.42,0,0,1,'sky is clear','Saturday 14:00',4759
-None,301.8,0,0,0,'Sky is Clear','Friday 16:00',6342
+None,301.8,0,0,0,'sky is clear','Friday 16:00',6342
 None,293.61,0,0,75,'broken clouds','Saturday 11:00',4143
 None,265.89,0,0,75,'broken clouds','Tuesday 14:00',4383
 None,289.771,0,0,44,'light rain','Saturday 22:00',2805
@@ -7989,7 +7989,7 @@ None,268.69,0,0,75,'broken clouds','Friday 7:00',6641
 None,264.42,0,0,20,'few clouds','Saturday 5:00',775
 None,261.78,0,0,40,'light snow','Friday 22:00',4459
 None,301.28,0,0,5,'sky is clear','Tuesday 15:00',6114
-None,297.44,0,0,0,'Sky is Clear','Thursday 4:00',928
+None,297.44,0,0,0,'sky is clear','Thursday 4:00',928
 None,295.86,0,0,40,'scattered clouds','Thursday 17:00',5975
 None,269.61,0,0,75,'broken clouds','Sunday 5:00',955
 None,274.15,0,0,75,'broken clouds','Friday 3:00',351
@@ -8007,7 +8007,7 @@ None,296.61,0,0,75,'broken clouds','Thursday 21:00',3090
 None,279.51,0,0,90,'moderate rain','Wednesday 10:00',4527
 None,289.72,0,0,1,'sky is clear','Thursday 22:00',2059
 None,268.15,0,0,1,mist,'Wednesday 4:00',887
-None,283.293,0,0,0,'Sky is Clear','Thursday 20:00',3511
+None,283.293,0,0,0,'sky is clear','Thursday 20:00',3511
 None,291.29,0.38,0,90,'light rain','Saturday 16:00',4354
 None,273.51,0,0,90,'overcast clouds','Tuesday 1:00',315
 None,263.58,0,0,1,'sky is clear','Sunday 4:00',294
@@ -8081,7 +8081,7 @@ None,274.17,0,0,8,'sky is clear','Sunday 0:00',1587
 None,294.14,0,0,12,'few clouds','Friday 1:00',499
 None,273.12,0,0,90,'overcast clouds','Wednesday 19:00',2952
 None,275.28,0,0,90,'light snow','Monday 14:00',4992
-None,288.66,0,0,0,'Sky is Clear','Sunday 4:00',315
+None,288.66,0,0,0,'sky is clear','Sunday 4:00',315
 None,281.4,0,0,64,fog,'Saturday 20:00',2484
 None,276.93,0,0,90,'light rain','Wednesday 22:00',1544
 None,285.03,0,0,90,'light intensity drizzle','Wednesday 4:00',757
@@ -8100,7 +8100,7 @@ None,264.72,0,0,90,haze,'Wednesday 22:00',1739
 None,271.33,0,0,1,'sky is clear','Saturday 14:00',4296
 None,274.29,0,0,90,'light snow','Saturday 20:00',3047
 None,297.26,0,0,40,mist,'Sunday 21:00',2725
-None,298.54,0,0,0,'Sky is Clear','Monday 5:00',3020
+None,298.54,0,0,0,'sky is clear','Monday 5:00',3020
 None,268.28,0,0,90,'overcast clouds','Thursday 1:00',503
 None,286.71,0,0,90,mist,'Saturday 1:00',799
 None,254.4,0,0,20,mist,'Sunday 5:00',604
@@ -8115,12 +8115,12 @@ None,275.4,0,0,1,'sky is clear','Friday 6:00',5538
 None,265,0,0,90,'overcast clouds','Sunday 9:00',2250
 None,271.46,0,0,40,'scattered clouds','Monday 7:00',6642
 None,264.44,0,0,64,mist,'Thursday 23:00',1053
-None,288.87,0,0,0,'Sky is Clear','Friday 3:00',384
+None,288.87,0,0,0,'sky is clear','Friday 3:00',384
 None,254.93,0,0,5,'sky is clear','Sunday 9:00',3358
-None,286.34,0,0,0,'Sky is Clear','Monday 8:00',2064
+None,286.34,0,0,0,'sky is clear','Monday 8:00',2064
 None,281.02,0,0,5,'sky is clear','Saturday 18:00',4595
 None,286.15,0,0,1,'sky is clear','Wednesday 19:00',3654
-None,290.98,0,0,0,'Sky is Clear','Monday 17:00',6014
+None,290.98,0,0,0,'sky is clear','Monday 17:00',6014
 None,265.44,0,0,64,mist,'Thursday 23:00',1195
 None,273.95,0,0,90,mist,'Monday 19:00',2753
 None,286.25,0,0,68,'broken clouds','Monday 5:00',2815
@@ -8129,7 +8129,7 @@ None,289.56,0,0,20,'few clouds','Monday 7:00',798
 None,271.72,0,0,90,mist,'Monday 10:00',4496
 None,293.47,0,0,90,'overcast clouds','Thursday 7:00',6133
 None,269.09,0,0,40,'scattered clouds','Thursday 8:00',5826
-None,291.93,0,0,0,'Sky is Clear','Saturday 9:00',2687
+None,291.93,0,0,0,'sky is clear','Saturday 9:00',2687
 None,268.68,0,0,90,haze,'Saturday 20:00',618
 None,291.66,0,0,90,'proximity shower rain','Monday 19:00',3168
 None,262.03,0,0,90,'overcast clouds','Friday 14:00',5191
@@ -8149,7 +8149,7 @@ None,297.53,0,0,20,'few clouds','Saturday 19:00',3137
 None,271.48,0,0,90,snow,'Saturday 21:00',1686
 None,275.08,0,0,1,'sky is clear','Friday 23:00',1966
 None,268.5,0,0,90,'overcast clouds','Saturday 17:00',4357
-None,295.06,0,0,0,'Sky is Clear','Thursday 20:00',3303
+None,295.06,0,0,0,'sky is clear','Thursday 20:00',3303
 None,276.78,0,0,1,'sky is clear','Friday 10:00',4623
 None,277.08,0,0,1,'sky is clear','Wednesday 2:00',264
 None,290.53,0,0,1,haze,'Saturday 0:00',1403
@@ -8163,7 +8163,7 @@ None,271.39,0,0,64,'broken clouds','Thursday 0:00',574
 None,288.62,0.25,0,1,mist,'Friday 3:00',417
 None,271.58,0,0,1,'sky is clear','Friday 3:00',393
 None,270.11,0,0,64,fog,'Saturday 1:00',624
-None,279.867,0,0,0,'Sky is Clear','Sunday 10:00',4872
+None,279.867,0,0,0,'sky is clear','Sunday 10:00',4872
 None,290.32,0,0,1,'sky is clear','Wednesday 2:00',283
 None,282.15,0,0,1,'moderate rain','Sunday 5:00',469
 None,292.34,1.02,0,90,'light intensity shower rain','Friday 11:00',4991
@@ -8200,8 +8200,8 @@ None,292.15,0,0,1,'sky is clear','Sunday 1:00',1016
 None,270.35,0,0,40,'scattered clouds','Wednesday 0:00',564
 None,271.43,0,0,90,'light snow','Tuesday 1:00',242
 None,290.75,0,0,1,'sky is clear','Wednesday 14:00',5211
-None,297.36,0,0,0,'Sky is Clear','Monday 20:00',2764
-None,282.429,0,0,0,'Sky is Clear','Saturday 10:00',3718
+None,297.36,0,0,0,'sky is clear','Monday 20:00',2764
+None,282.429,0,0,0,'sky is clear','Saturday 10:00',3718
 None,298.65,0,0,75,'broken clouds','Sunday 17:00',4426
 None,274.52,0,0,20,'few clouds','Monday 2:00',302
 None,297.3,0,0,1,'sky is clear','Thursday 20:00',3223
@@ -8217,7 +8217,7 @@ None,279,0,0,90,haze,'Sunday 18:00',3243
 None,270.55,0,0,90,'overcast clouds','Tuesday 21:00',2490
 None,266.58,0,0,64,'broken clouds','Friday 10:00',3397
 None,276.7,0,0,75,'broken clouds','Thursday 15:00',5698
-None,292.58,0,0,0,'Sky is Clear','Friday 4:00',853
+None,292.58,0,0,0,'sky is clear','Friday 4:00',853
 None,289.76,2.85,0,90,'light intensity drizzle','Monday 15:00',5327
 None,282.75,0,0,75,'proximity shower rain','Monday 15:00',4966
 None,270.15,0,0,75,'broken clouds','Wednesday 0:00',641
@@ -8242,9 +8242,9 @@ None,288.61,0.38,0,92,'light rain','Monday 9:00',4913
 None,271.61,0,0,1,'sky is clear','Wednesday 5:00',3108
 None,274.21,0,0,64,'light intensity drizzle','Tuesday 1:00',316
 None,293.15,1.27,0,92,'moderate rain','Tuesday 13:00',4861
-None,277.88,0,0,0,'Sky is Clear','Thursday 5:00',2781
+None,277.88,0,0,0,'sky is clear','Thursday 5:00',2781
 None,280.7,0.44,0,90,'light rain','Monday 10:00',4177
-None,291.5,0,0,0,'Sky is Clear','Sunday 9:00',2805
+None,291.5,0,0,0,'sky is clear','Sunday 9:00',2805
 None,275.79,0,0,90,'overcast clouds','Friday 6:00',5645
 None,278.39,0,0,90,drizzle,'Monday 23:00',1124
 None,277.58,0,0,90,'overcast clouds','Sunday 15:00',4211
@@ -8270,10 +8270,10 @@ None,296.44,0,0,75,'broken clouds','Sunday 17:00',4301
 None,263.48,0,0,90,'light snow','Monday 19:00',2850
 None,285.18,0,0,92,'overcast clouds','Friday 1:00',453
 None,276.56,0,0,1,'sky is clear','Wednesday 20:00',2963
-None,290.23,0,0,0,'Sky is Clear','Wednesday 1:00',530
+None,290.23,0,0,0,'sky is clear','Wednesday 1:00',530
 None,272.22,0,0,90,mist,'Wednesday 2:00',357
 None,276.23,0,0,90,'moderate rain','Wednesday 6:00',5270
-None,280.562,0,0,0,'Sky is Clear','Thursday 18:00',4634
+None,280.562,0,0,0,'sky is clear','Thursday 18:00',4634
 None,288.58,0,0,20,'few clouds','Sunday 14:00',4753
 None,276.29,0,0,90,'light rain','Friday 17:00',5668
 None,301.44,0,0,90,'thunderstorm with light rain','Saturday 17:00',4469
@@ -8315,7 +8315,7 @@ None,297.21,0,0,90,'proximity thunderstorm','Wednesday 2:00',281
 None,295.6,0,0,80,'broken clouds','Friday 17:00',5259
 None,275.4,0,0,90,'overcast clouds','Monday 14:00',5249
 None,273.948,0,0,32,'scattered clouds','Friday 4:00',854
-None,281.987,0,0,0,'Sky is Clear','Sunday 16:00',4065
+None,281.987,0,0,0,'sky is clear','Sunday 16:00',4065
 None,282.72,0,0,40,'scattered clouds','Saturday 12:00',5453
 None,274.51,0,0,90,'light snow','Sunday 17:00',3386
 None,267.72,0,0,1,'sky is clear','Sunday 18:00',2711
@@ -8325,8 +8325,8 @@ None,257.96,0,0,90,haze,'Saturday 11:00',2632
 None,273.76,0,0,90,'overcast clouds','Monday 0:00',506
 None,285.42,0,0,1,'sky is clear','Sunday 13:00',4522
 None,284.48,0,0,1,'sky is clear','Sunday 23:00',819
-None,290.51,0,0,0,'Sky is Clear','Sunday 6:00',869
-None,296.59,0,0,0,'Sky is Clear','Thursday 2:00',336
+None,290.51,0,0,0,'sky is clear','Sunday 6:00',869
+None,296.59,0,0,0,'sky is clear','Thursday 2:00',336
 None,271.34,0,0,90,'light snow','Wednesday 18:00',4347
 None,280.75,0,0,20,'few clouds','Monday 9:00',5262
 None,253.62,0,0,1,'sky is clear','Wednesday 22:00',1517
@@ -8360,7 +8360,7 @@ None,267.4,0,0,90,'overcast clouds','Monday 9:00',2778
 None,289.35,0,0,90,'moderate rain','Monday 22:00',2107
 None,276.65,0,0,90,'moderate rain','Thursday 20:00',3222
 None,294.51,0,0,75,'broken clouds','Tuesday 14:00',5197
-None,290.61,0,0,0,'Sky is Clear','Monday 20:00',2372
+None,290.61,0,0,0,'sky is clear','Monday 20:00',2372
 None,294.47,0,0,36,'scattered clouds','Saturday 10:00',4024
 None,286.48,0,0,1,'sky is clear','Wednesday 2:00',265
 None,284.87,0,0,1,'sky is clear','Sunday 5:00',541
@@ -8377,7 +8377,7 @@ None,283.42,0,0,1,'sky is clear','Friday 2:00',302
 None,277.79,0,0,90,'light rain','Monday 0:00',563
 None,295.27,0,0,75,'broken clouds','Tuesday 5:00',3009
 None,277.88,0,0,90,mist,'Saturday 20:00',2718
-None,280.13,0,0,0,'Sky is Clear','Wednesday 8:00',6228
+None,280.13,0,0,0,'sky is clear','Wednesday 8:00',6228
 None,280.02,0,0,90,'moderate rain','Monday 1:00',304
 None,277.15,0,0,90,mist,'Sunday 16:00',4193
 None,283.88,0,0,75,'broken clouds','Tuesday 2:00',253
@@ -8406,16 +8406,16 @@ None,289.13,0,0,90,'overcast clouds','Saturday 5:00',746
 None,292.03,0,0,40,'scattered clouds','Sunday 22:00',2020
 None,298.89,0,0,1,'sky is clear','Friday 11:00',5764
 None,274.51,0,0,90,mist,'Friday 20:00',2320
-None,292.28,0,0,0,'Sky is Clear','Friday 5:00',2796
+None,292.28,0,0,0,'sky is clear','Friday 5:00',2796
 None,276.22,0,0,90,mist,'Monday 3:00',358
 None,275.4,0,0,90,mist,'Friday 13:00',5118
 None,295.87,0,0,64,'broken clouds','Thursday 13:00',5334
 None,277.18,2.21,0,75,'moderate rain','Thursday 15:00',6023
-None,267.785,0,0,0,'Sky is Clear','Wednesday 23:00',1050
+None,267.785,0,0,0,'sky is clear','Wednesday 23:00',1050
 None,275.84,0,0,90,mist,'Monday 1:00',362
 None,298.43,0,0,1,'sky is clear','Monday 10:00',4216
 None,283.73,0,0,44,'scattered clouds','Thursday 15:00',6224
-None,296.4,0,0,0,'Sky is Clear','Wednesday 15:00',6000
+None,296.4,0,0,0,'sky is clear','Wednesday 15:00',6000
 None,294.2,0,0,1,'sky is clear','Monday 10:00',4260
 None,280.2,0,0,1,fog,'Saturday 7:00',1200
 None,290.15,0,0,1,'sky is clear','Wednesday 0:00',627
@@ -8424,7 +8424,7 @@ None,295.254,0,0,68,'broken clouds','Thursday 16:00',5854
 None,291.08,0,0,90,haze,'Sunday 2:00',634
 None,275.65,0,0,75,'broken clouds','Sunday 11:00',3684
 None,279.514,0,0,8,'sky is clear','Friday 20:00',3199
-None,297.39,0,0,0,'Sky is Clear','Thursday 11:00',5098
+None,297.39,0,0,0,'sky is clear','Thursday 11:00',5098
 None,284.71,0.51,0,90,'moderate rain','Wednesday 12:00',4925
 None,262.35,0,0,1,'sky is clear','Friday 23:00',3025
 None,289.82,0,0,92,'moderate rain','Saturday 5:00',747
@@ -8444,7 +8444,7 @@ None,262.67,0,0,90,mist,'Sunday 23:00',979
 None,291.75,0,0,1,'sky is clear','Monday 3:00',368
 None,286.66,0.25,0,90,mist,'Sunday 6:00',802
 None,282.43,0,0,90,'overcast clouds','Friday 17:00',5937
-None,298.59,0,0,0,'Sky is Clear','Wednesday 18:00',5037
+None,298.59,0,0,0,'sky is clear','Wednesday 18:00',5037
 None,273.08,0,0,90,'light snow','Friday 5:00',2547
 None,275.97,0,0,64,'broken clouds','Sunday 21:00',1895
 None,271.15,0,0,5,'sky is clear','Wednesday 19:00',3529
@@ -8463,7 +8463,7 @@ None,285.62,0,0,90,'moderate rain','Wednesday 15:00',5660
 None,271.39,0,0,90,mist,'Saturday 16:00',4983
 None,274.95,0,0,90,'light rain','Saturday 9:00',3631
 None,257.68,0,0,90,'light snow','Monday 8:00',3231
-None,285.69,0,0,0,'Sky is Clear','Monday 4:00',323
+None,285.69,0,0,0,'sky is clear','Monday 4:00',323
 None,292.14,0,0,1,'sky is clear','Tuesday 22:00',1883
 None,282.75,0,0,90,'proximity thunderstorm with rain','Tuesday 6:00',5414
 None,274.01,0,0,90,mist,'Sunday 1:00',659
@@ -8495,7 +8495,7 @@ None,280.5,0,0,1,'sky is clear','Friday 8:00',5568
 None,265.46,0,0,40,'scattered clouds','Saturday 11:00',4387
 None,300.74,0,0,75,'broken clouds','Friday 13:00',5232
 None,266.94,0,0,90,'light snow','Monday 7:00',5606
-None,299.43,0,0,0,'Sky is Clear','Friday 21:00',2849
+None,299.43,0,0,0,'sky is clear','Friday 21:00',2849
 None,290,0,0,12,'few clouds','Wednesday 18:00',4653
 None,276.28,0,0,90,'heavy snow','Thursday 15:00',6100
 None,276.94,0,0,90,mist,'Wednesday 18:00',4639
@@ -8542,7 +8542,7 @@ None,292.54,1.09,0,90,drizzle,'Thursday 16:00',5907
 None,292.22,0,0,75,'light rain','Thursday 14:00',5264
 None,286.98,0.76,0,24,mist,'Thursday 19:00',3557
 None,262.9,0,0,90,haze,'Tuesday 16:00',5013
-None,288.26,0,0,0,'Sky is Clear','Thursday 9:00',5246
+None,288.26,0,0,0,'sky is clear','Thursday 9:00',5246
 None,295.61,0,0,90,'heavy intensity rain','Saturday 19:00',3614
 None,271.22,0,0,90,'overcast clouds','Sunday 21:00',1912
 None,282.099,0,0,12,'few clouds','Thursday 8:00',6084
@@ -8587,7 +8587,7 @@ None,291.25,0,0,75,mist,'Wednesday 7:00',5951
 None,277.41,0,0,90,'overcast clouds','Wednesday 18:00',4715
 None,289.42,0,0,90,'heavy intensity rain','Saturday 3:00',381
 None,284.01,0,0,1,'sky is clear','Tuesday 6:00',5976
-None,285.26,0,0,0,'Sky is Clear','Thursday 1:00',441
+None,285.26,0,0,0,'sky is clear','Thursday 1:00',441
 None,258.05,0,0,64,'light snow','Monday 4:00',807
 None,271.4,0,0,90,'heavy snow','Monday 18:00',3516
 None,267.74,0,0,1,'sky is clear','Tuesday 8:00',5829
@@ -8619,7 +8619,7 @@ None,271.09,0,0,90,'light snow','Wednesday 20:00',2649
 None,275.62,0,0,90,drizzle,'Wednesday 23:00',971
 None,277.36,0,0,90,mist,'Saturday 15:00',4890
 None,263.22,0,0,1,'sky is clear','Saturday 10:00',4139
-None,291.57,0,0,0,'Sky is Clear','Tuesday 9:00',5228
+None,291.57,0,0,0,'sky is clear','Tuesday 9:00',5228
 None,258.38,0,0,1,'sky is clear','Monday 16:00',6347
 None,274.27,0,0,75,'light snow','Friday 11:00',5350
 None,291.29,0,0,90,'overcast clouds','Sunday 21:00',2394
@@ -8666,7 +8666,7 @@ None,293.74,0,0,1,'sky is clear','Monday 1:00',544
 None,278.88,0,0,1,'sky is clear','Friday 22:00',2297
 None,289.1,0,0,1,'sky is clear','Wednesday 22:00',2100
 None,274.51,0,0,90,'overcast clouds','Thursday 15:00',5844
-None,291.75,0,0,0,'Sky is Clear','Monday 11:00',4636
+None,291.75,0,0,0,'sky is clear','Monday 11:00',4636
 None,272.68,0,0,75,'light snow','Friday 10:00',4892
 None,299.28,0,0,75,'light rain','Thursday 19:00',3725
 None,284.55,0,0,1,'sky is clear','Monday 6:00',5721
@@ -8690,7 +8690,7 @@ None,274.15,0,0,90,'overcast clouds','Monday 19:00',2932
 None,275.72,0,0,90,'light rain','Friday 18:00',4167
 None,269.08,0,0,1,'sky is clear','Wednesday 3:00',378
 None,292.43,0,0,90,'light rain','Thursday 18:00',4673
-None,277.89,0,0,0,'Sky is Clear','Thursday 3:00',406
+None,277.89,0,0,0,'sky is clear','Thursday 3:00',406
 None,277.76,1.09,0,90,'moderate rain','Thursday 22:00',1993
 None,265.65,0,0,64,'light snow','Saturday 10:00',3822
 None,277.96,0,0,1,fog,'Wednesday 1:00',379
@@ -8702,7 +8702,7 @@ None,286.3,0.32,0,40,'light rain','Monday 7:00',6557
 None,297.01,0,0,48,'scattered clouds','Friday 22:00',2873
 None,298.58,0,0,1,'sky is clear','Saturday 15:00',4711
 None,271.8,0,0,40,'scattered clouds','Saturday 22:00',3096
-None,271.838,0,0,0,'Sky is Clear','Monday 8:00',5110
+None,271.838,0,0,0,'sky is clear','Monday 8:00',5110
 None,300.3,0,0,40,'scattered clouds','Friday 21:00',3118
 None,263.48,0,0,1,'sky is clear','Thursday 2:00',286
 None,287.04,0,0,90,'overcast clouds','Thursday 15:00',5887
@@ -8729,15 +8729,15 @@ None,257,0,0,1,'sky is clear','Tuesday 0:00',498
 None,268.81,0,0,1,'sky is clear','Saturday 0:00',1289
 None,298.65,0,0,1,'sky is clear','Saturday 3:00',440
 None,274.09,0,0,90,'overcast clouds','Thursday 15:00',6015
-None,285.62,0,0,0,'Sky is Clear','Monday 3:00',259
+None,285.62,0,0,0,'sky is clear','Monday 3:00',259
 None,287.53,0,0,1,'sky is clear','Wednesday 0:00',784
 None,301.61,0,0,75,'broken clouds','Sunday 13:00',4394
 None,286.15,0,0,75,'moderate rain','Friday 21:00',2904
-None,296.16,0,0,0,'Sky is Clear','Wednesday 19:00',3542
+None,296.16,0,0,0,'sky is clear','Wednesday 19:00',3542
 None,285.36,0,0,90,'overcast clouds','Tuesday 7:00',6336
 None,291.76,0,0,1,'sky is clear','Saturday 7:00',2000
 None,271.07,0,0,1,'sky is clear','Wednesday 10:00',4511
-None,300.08,0,0,0,'Sky is Clear','Friday 13:00',5913
+None,300.08,0,0,0,'sky is clear','Friday 13:00',5913
 None,282.01,0,0,90,'moderate rain','Tuesday 21:00',2458
 None,299.18,0,0,36,'scattered clouds','Saturday 23:00',2027
 None,295.3,0,0,75,'broken clouds','Sunday 6:00',850
@@ -8746,12 +8746,12 @@ None,274.23,0,0,64,'broken clouds','Sunday 15:00',4490
 None,301.44,0,0,40,'scattered clouds','Friday 17:00',6197
 None,291.45,0,0,48,'scattered clouds','Saturday 17:00',4035
 None,288.66,0,0,90,'overcast clouds','Monday 6:00',5838
-None,303.78,0,0,0,'Sky is Clear','Monday 15:00',5957
+None,303.78,0,0,0,'sky is clear','Monday 15:00',5957
 None,278.55,0,0,75,'broken clouds','Friday 23:00',1942
 None,300.79,0,0,1,'sky is clear','Thursday 12:00',4961
 None,260.29,0,0,90,'overcast clouds','Friday 12:00',4903
 None,299.34,0,0,1,'sky is clear','Thursday 13:00',5832
-None,284.81,0,0,0,'Sky is Clear','Monday 3:00',341
+None,284.81,0,0,0,'sky is clear','Monday 3:00',341
 None,268.71,0,0,0,'sky is clear','Wednesday 22:00',2171
 None,282.91,0,0,56,'broken clouds','Monday 8:00',5900
 None,302.61,0,0,40,'scattered clouds','Tuesday 15:00',5714
@@ -8788,7 +8788,7 @@ None,299.21,0,0,1,'sky is clear','Saturday 11:00',2721
 None,293.86,0,0,75,'broken clouds','Thursday 21:00',2844
 None,265.58,0,0,64,'broken clouds','Thursday 18:00',3132
 None,283.99,0,0,76,'broken clouds','Monday 4:00',846
-None,299.14,0,0,0,'Sky is Clear','Thursday 15:00',6145
+None,299.14,0,0,0,'sky is clear','Thursday 15:00',6145
 None,275.22,0,0,90,mist,'Sunday 16:00',4130
 None,260.42,0,0,40,'heavy snow','Wednesday 8:00',5586
 None,279.69,0,0,90,'overcast clouds','Sunday 15:00',4607
@@ -8813,7 +8813,7 @@ None,279.4,0,0,40,'scattered clouds','Thursday 21:00',3062
 None,273.76,0,0,90,'overcast clouds','Sunday 3:00',419
 None,286.9,0,0,90,'overcast clouds','Tuesday 21:00',2331
 None,295.41,0,0,1,'sky is clear','Monday 23:00',1051
-None,302.93,0,0,0,'Sky is Clear','Tuesday 18:00',4897
+None,302.93,0,0,0,'sky is clear','Tuesday 18:00',4897
 None,271.1,0,0,100,'overcast clouds','Saturday 21:00',2911
 None,266.41,0,0,93,'overcast clouds','Thursday 10:00',4444
 None,283.86,0,0,5,'sky is clear','Wednesday 9:00',5483
@@ -8884,7 +8884,7 @@ None,295.47,0,0,76,mist,'Saturday 9:00',3336
 None,272.96,0,0,90,snow,'Monday 22:00',1371
 None,265.08,0,0,75,mist,'Thursday 4:00',835
 None,297.25,0,0,40,'scattered clouds','Friday 14:00',5814
-None,294.56,0,0,0,'Sky is Clear','Saturday 10:00',4604
+None,294.56,0,0,0,'sky is clear','Saturday 10:00',4604
 None,270.71,0,0,90,mist,'Monday 13:00',4497
 None,287.19,0,0,1,fog,'Saturday 1:00',782
 None,270.58,0,0,90,'light snow','Sunday 23:00',992
@@ -8893,7 +8893,7 @@ None,288.03,0,0,1,mist,'Friday 3:00',636
 None,289.09,0,0,20,fog,'Friday 7:00',6208
 None,255.29,0,0,90,'light snow','Monday 12:00',3672
 None,300.08,0,0,1,'sky is clear','Thursday 17:00',5223
-'Columbus Day',277.72,0,0,0,'Sky is Clear','Monday 0:00',615
+'Columbus Day',277.72,0,0,0,'sky is clear','Monday 0:00',615
 None,288.01,0,0,1,'sky is clear','Tuesday 0:00',718
 None,273.29,0,0,1,'sky is clear','Saturday 4:00',408
 None,283.33,0,0,80,'broken clouds','Monday 6:00',5646
@@ -9055,7 +9055,7 @@ None,285.94,0,0,100,'proximity thunderstorm','Wednesday 4:00',793
 None,292.46,0,0,75,'broken clouds','Sunday 17:00',3909
 None,276.08,0,0,90,haze,'Friday 14:00',5488
 None,284.08,0,0,90,'moderate rain','Friday 19:00',3863
-None,286.77,0,0,0,'Sky is Clear','Saturday 10:00',4448
+None,286.77,0,0,0,'sky is clear','Saturday 10:00',4448
 None,265.73,0,0,1,'sky is clear','Tuesday 23:00',995
 None,295.18,7.97,0,90,'heavy intensity rain','Monday 2:00',319
 None,294.27,0,0,1,'sky is clear','Sunday 6:00',778
@@ -9068,7 +9068,7 @@ None,297.34,0,0,75,'proximity thunderstorm','Wednesday 18:00',4328
 None,256.49,0,0,1,'sky is clear','Saturday 2:00',523
 None,259.07,0,0,90,'heavy snow','Monday 13:00',4532
 None,271.22,0,0,59,'broken clouds','Friday 11:00',5263
-None,292.37,0,0,0,'Sky is Clear','Thursday 22:00',2378
+None,292.37,0,0,0,'sky is clear','Thursday 22:00',2378
 None,255.38,0,0,40,'scattered clouds','Saturday 2:00',542
 None,286.33,0,0,75,'thunderstorm with rain','Thursday 0:00',516
 None,269.94,0,0,1,'sky is clear','Thursday 7:00',6537
@@ -9108,8 +9108,8 @@ None,258.15,0,0,1,'sky is clear','Wednesday 4:00',811
 None,287.42,0,0,1,'sky is clear','Friday 7:00',2368
 None,293.81,0,0,1,'light rain','Wednesday 8:00',5821
 None,276.22,0,0,90,'overcast clouds','Saturday 19:00',3626
-None,287.296,0,0,0,'Sky is Clear','Sunday 12:00',3921
-None,294.66,0,0,0,'Sky is Clear','Wednesday 10:00',4709
+None,287.296,0,0,0,'sky is clear','Sunday 12:00',3921
+None,294.66,0,0,0,'sky is clear','Wednesday 10:00',4709
 None,268.21,0,0,1,'sky is clear','Friday 0:00',644
 None,272.95,0,0,64,'broken clouds','Sunday 9:00',2387
 None,269.08,0,0,90,fog,'Thursday 6:00',5498
@@ -9120,8 +9120,8 @@ None,286.41,0,0,1,'sky is clear','Sunday 5:00',724
 None,292.92,0,0,90,'proximity thunderstorm','Wednesday 0:00',527
 None,269.59,0,0,90,'heavy snow','Tuesday 5:00',2410
 None,296.95,0,0,1,'sky is clear','Saturday 4:00',434
-None,297.888,0,0,0,'Sky is Clear','Tuesday 21:00',2559
-None,295.96,0,0,0,'Sky is Clear','Friday 10:00',4821
+None,297.888,0,0,0,'sky is clear','Tuesday 21:00',2559
+None,295.96,0,0,0,'sky is clear','Friday 10:00',4821
 None,285.09,0,0,1,'sky is clear','Thursday 11:00',4746
 None,303.36,0,0,40,'scattered clouds','Saturday 19:00',3608
 None,265.04,0,0,75,haze,'Sunday 22:00',1384
@@ -9132,7 +9132,7 @@ None,290.28,0,0,75,'broken clouds','Tuesday 10:00',4589
 None,273.77,0,0,90,snow,'Thursday 20:00',2909
 None,287.72,0,0,90,'overcast clouds','Monday 9:00',4573
 None,288.22,1.3,0,90,'moderate rain','Thursday 9:00',5264
-None,292.08,0,0,0,'Sky is Clear','Monday 22:00',2098
+None,292.08,0,0,0,'sky is clear','Monday 22:00',2098
 None,280.42,0,0,90,drizzle,'Wednesday 21:00',2356
 None,292.57,2.79,0,40,haze,'Saturday 13:00',4968
 None,293.77,3.94,0,90,'heavy intensity rain','Sunday 10:00',3571
@@ -9157,7 +9157,7 @@ None,269.59,0,0,40,'scattered clouds','Sunday 1:00',805
 None,291,0,0,1,mist,'Monday 22:00',1680
 None,275.2,0,0,40,mist,'Tuesday 0:00',535
 None,281.09,0,0,75,'broken clouds','Friday 9:00',5307
-None,297.26,0,0,0,'Sky is Clear','Wednesday 19:00',3725
+None,297.26,0,0,0,'sky is clear','Wednesday 19:00',3725
 None,263.62,0,0,1,'sky is clear','Monday 4:00',902
 None,287.86,0,0,40,'scattered clouds','Wednesday 6:00',5661
 None,301.4,0,0,20,'few clouds','Wednesday 19:00',3217
@@ -9256,7 +9256,7 @@ None,291.52,0,0,90,drizzle,'Tuesday 10:00',4368
 None,298.22,0,0,75,'broken clouds','Monday 20:00',2946
 None,275.51,0,0,90,'overcast clouds','Sunday 18:00',2398
 None,295.88,0,0,5,'sky is clear','Wednesday 16:00',6471
-None,295.87,0,0,0,'Sky is Clear','Sunday 12:00',4577
+None,295.87,0,0,0,'sky is clear','Sunday 12:00',4577
 None,273.62,0,0,1,'sky is clear','Wednesday 0:00',552
 None,279.09,0,0,90,'light rain','Saturday 18:00',4350
 None,277.87,0,0,90,mist,'Saturday 23:00',1797
@@ -9265,7 +9265,7 @@ None,278.22,0,0,1,'sky is clear','Saturday 0:00',1371
 None,274.69,0,0,90,'light rain','Saturday 6:00',1243
 None,297.66,0,0,36,'scattered clouds','Wednesday 5:00',2899
 None,271.75,0,0,1,'sky is clear','Sunday 5:00',467
-None,297.18,0,0,0,'Sky is Clear','Friday 22:00',3000
+None,297.18,0,0,0,'sky is clear','Friday 22:00',3000
 None,274,0.68,0,64,'light snow','Tuesday 14:00',5133
 None,251.72,0,0,1,'sky is clear','Sunday 9:00',2449
 None,298.85,0,0,40,'scattered clouds','Monday 13:00',4398
@@ -9295,7 +9295,7 @@ None,269.79,0,0,1,'sky is clear','Sunday 5:00',606
 None,285.93,0,0,1,'sky is clear','Wednesday 0:00',826
 None,286.02,0,0,1,'light intensity drizzle','Monday 9:00',5171
 None,291.22,0,0,75,mist,'Friday 7:00',6584
-None,287.86,0,0,0,'Sky is Clear','Wednesday 12:00',4581
+None,287.86,0,0,0,'sky is clear','Wednesday 12:00',4581
 None,301.06,0,0,40,'scattered clouds','Tuesday 15:00',5372
 None,280.36,0,0,90,'overcast clouds','Monday 14:00',5183
 None,279.69,1.21,0,90,'moderate rain','Monday 21:00',1941
@@ -9337,7 +9337,7 @@ None,254.11,0,0,64,'broken clouds','Sunday 9:00',2788
 None,292.15,0,0,1,'sky is clear','Tuesday 11:00',4690
 None,287.02,0.25,0,90,'light rain','Tuesday 1:00',302
 None,285,0,0,12,'few clouds','Wednesday 9:00',4900
-None,299.37,0,0,0,'Sky is Clear','Friday 16:00',6342
+None,299.37,0,0,0,'sky is clear','Friday 16:00',6342
 None,273.63,0,0,1,'sky is clear','Friday 23:00',1854
 None,295.72,0,0,40,'scattered clouds','Friday 20:00',3206
 None,264.06,0,0,20,'few clouds','Monday 18:00',4169
@@ -9413,7 +9413,7 @@ None,296.65,0,0,1,'sky is clear','Sunday 13:00',4491
 None,282.89,0,0,1,'sky is clear','Friday 21:00',2698
 None,291.67,0,0,20,'few clouds','Saturday 20:00',3245
 None,288.46,0,0,40,'scattered clouds','Monday 7:00',6201
-None,297.888,0,0,0,'Sky is Clear','Monday 22:00',1955
+None,297.888,0,0,0,'sky is clear','Monday 22:00',1955
 None,276.72,0,0,1,'sky is clear','Wednesday 22:00',1726
 None,271.73,0,0,90,'heavy snow','Monday 21:00',2169
 None,267.44,0,0,1,'light snow','Thursday 13:00',5137
@@ -9424,7 +9424,7 @@ None,295.55,0,0,40,'scattered clouds','Sunday 16:00',4240
 None,293.55,0,0,1,'sky is clear','Saturday 7:00',1996
 None,277.4,0,0,75,'broken clouds','Friday 23:00',1873
 None,286.267,0,0,88,'overcast clouds','Sunday 17:00',4566
-None,277.82,0,0,0,'Sky is Clear','Wednesday 21:00',2618
+None,277.82,0,0,0,'sky is clear','Wednesday 21:00',2618
 None,290.75,0,0,90,'heavy intensity drizzle','Tuesday 11:00',4346
 None,290.87,0,0,92,'light rain','Tuesday 16:00',6701
 None,301.01,0,0,1,'sky is clear','Saturday 16:00',4850
@@ -9446,7 +9446,7 @@ None,266.53,0,0,75,'broken clouds','Wednesday 4:00',905
 None,290.15,0,0,1,mist,'Thursday 2:00',288
 None,270.1,0,0,90,'overcast clouds','Sunday 16:00',4880
 None,283.82,0,0,56,'broken clouds','Friday 15:00',5935
-None,297.37,0,0,0,'Sky is Clear','Thursday 3:00',470
+None,297.37,0,0,0,'sky is clear','Thursday 3:00',470
 None,287.42,0,0,1,'sky is clear','Friday 22:00',3133
 None,285.07,0,0,56,'broken clouds','Friday 18:00',5254
 None,275.79,0,0,1,'sky is clear','Friday 22:00',2937
@@ -9483,7 +9483,7 @@ None,286.98,0.76,0,24,'light rain','Thursday 19:00',3557
 None,275.82,0,0,64,'broken clouds','Sunday 4:00',260
 None,276.95,0,0,75,mist,'Friday 8:00',5464
 None,250.9,0,0,75,'broken clouds','Sunday 15:00',3197
-None,284.11,0,0,0,'Sky is Clear','Sunday 9:00',2734
+None,284.11,0,0,0,'sky is clear','Sunday 9:00',2734
 None,256.15,0,0,1,'sky is clear','Monday 23:00',934
 None,298.64,0,0,40,'scattered clouds','Tuesday 11:00',4779
 None,274.49,0.38,0,90,'light rain','Monday 15:00',5607
@@ -9523,10 +9523,10 @@ None,250.39,0,0,75,'broken clouds','Wednesday 1:00',1292
 None,289.59,0,0,1,'sky is clear','Sunday 5:00',500
 None,273.02,0,0,90,'light snow','Monday 17:00',3261
 None,293.47,0,0,8,'sky is clear','Monday 21:00',2564
-None,263.792,0,0,0,'Sky is Clear','Wednesday 5:00',2731
+None,263.792,0,0,0,'sky is clear','Wednesday 5:00',2731
 None,247.66,0,0,1,'sky is clear','Tuesday 20:00',3478
 None,274.65,0,0,90,'moderate rain','Thursday 23:00',889
-None,278.422,0,0,0,'Sky is Clear','Tuesday 1:00',372
+None,278.422,0,0,0,'sky is clear','Tuesday 1:00',372
 None,293.48,0,0,1,'sky is clear','Wednesday 16:00',6856
 None,290.88,0,0,90,mist,'Thursday 23:00',1171
 None,290.22,0,0,90,drizzle,'Wednesday 7:00',5320
@@ -9582,7 +9582,7 @@ None,295.62,0,0,90,'overcast clouds','Monday 2:00',291
 None,286.64,0,0,90,mist,'Wednesday 15:00',5781
 None,275.25,0,0,1,'sky is clear','Sunday 1:00',861
 None,286.05,0,0,1,'sky is clear','Friday 5:00',961
-None,278.3,0,0,0,'Sky is Clear','Saturday 4:00',385
+None,278.3,0,0,0,'sky is clear','Saturday 4:00',385
 None,291.03,1.27,0,75,'heavy intensity rain','Saturday 15:00',4143
 None,274.8,0,0,64,'broken clouds','Sunday 23:00',797
 None,271.93,0,0,90,'overcast clouds','Wednesday 6:00',5665
@@ -9594,7 +9594,7 @@ None,277.08,0,0,75,'broken clouds','Friday 11:00',5191
 None,292.04,0.51,0,12,'light rain','Thursday 9:00',5302
 None,288.98,0,0,90,'overcast clouds','Monday 17:00',6190
 None,267.15,0,0,90,'light snow','Monday 12:00',3484
-None,296.67,0,0,0,'Sky is Clear','Saturday 0:00',1252
+None,296.67,0,0,0,'sky is clear','Saturday 0:00',1252
 None,248.79,0,0,5,'sky is clear','Friday 8:00',4742
 None,291.3,0,0,75,'broken clouds','Saturday 19:00',3019
 None,271.78,0,0,40,'scattered clouds','Monday 0:00',530
