@@ -218,7 +218,7 @@ public class UiApplication extends javax.swing.JFrame {
         holidayCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         holidayCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None", "Christmas Day", "Columbus Day", "Independence Day", "Labor Day", "Memorial Day", "Thanksgiving Day", "Veterans Day", "Washingtons Birthday" }));
         getContentPane().add(holidayCB);
-        holidayCB.setBounds(180, 230, 93, 21);
+        holidayCB.setBounds(180, 230, 190, 21);
 
         weatherDescCB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         weatherDescCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SQUALLS", "broken clouds", "drizzle", "few clouds", "fog", "haze", "heavy intensity drizzle", "heavy intensity rain", "heavy snow", "light intensity drizzle", "light intensity shower rain", "light rain", "light shower snow", "light snow", "mist", "moderate rain", "overcast clouds", "proximity shower rain", "proximity thunderstorm", "proximity thunderstorm with drizzle", "proximity thunderstorm with rain", "scattered clouds", "shower snow", "sky is clear", "smoke", "snow", "thunderstorm", "thunderstorm with heavy rain", "thunderstorm with light drizzle", "thunderstorm with light rain", "thunderstorm with rain", "very heavy rain" }));
@@ -260,7 +260,7 @@ public class UiApplication extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel8.setText("Traffic Volume Prediction");
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(240, 190, 250, 43);
+        jLabel8.setBounds(240, 180, 250, 43);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel9.setText("Time:");

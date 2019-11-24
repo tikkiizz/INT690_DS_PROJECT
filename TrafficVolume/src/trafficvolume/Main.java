@@ -20,7 +20,7 @@ public class Main {
         int clsIdx = 7;
         String modelFileName;
         UiApplication app;
-        String mode = "nn";
+        String mode = "lr";
         boolean loadModel = true;
         if(mode.equals("nn")){
             modelFileName = "traffic_volume_nn.model";
